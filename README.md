@@ -1,39 +1,97 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+N/L/A/W - Newton Local Area Wargamers
 
-Welcome,
+This website was created for the 1st Milestone project (User Centric Frontend Development) for Code Institute's Full Stack Developer course. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Contents
 
-## Codeanywhere Reminders
+User Experience. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+N/L/A/W is is a local tabletop wargames group that started life as a small afterschool club in a local autism collge. 
 
-`python3 -m http.server`
+The club would like to have a presence online outsied of standard social media to allow other hobbiests and wargame enthusiasts to find out more about the club and what they do, as such they opted to commission someone to develop a website to allow them to do this. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+User Stories. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+As a hobby Club: 
 
-`http_server`
+I want to Inform other hobbiests in the Newton-le-Willows area that their is a club space available for like minded hobbiests so that we grow our membership. 
+I would like to provide essential information on the club such as meeting times and location so that other hobbiests know when and where to find us. 
+I want to show off some of the clubs hobby projects and hobby space to allow ohobbiests in the area to see what we can offer
+I would like to have a simple and easy to navigate structure that reacts to the type of device its being viewed on so that users can experience a troublefree experience regardless of the device they're visiting the site on. 
+I want visitors to be able to contact the club to be able to enquire about joining us, as well as ask any questions they may have before first visiting. 
+I would like to signpost any social media channels that we have to help drive community engagement. 
+I want the site to be accessability friendly so that visitors who may have accessibility needs are able to use the site with minimal issues. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+As a visitor of the website. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+I want to find when and where the club meets so that I know where they are and when to visit. 
+I would like to see what the club is like via pictures of miniatures, gameplay and other club activities to allow me to understand what the club may be like and be able to offer without visiting in person. 
+I want to find out what the club offers, such as table space for gaming, scenery, hobby space and supplies, food, drinks, etc so I know what I do and don't need to bring. 
+I would like to be able to get in touch with the club to allow me to ask questions that I may have that the site doesnt cover, or reach out to club owners about issues or concerns. 
+I want to understand what games the club currently plays so I know if I can join in with the miniatures and game systems I currently collect. 
+I would like to be able to easily navigate the site irrespective of device so that I do not need to use my desktop or laptop to get the best experience and be able to find out all I need to know. 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Design 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The design process needed to factor in the clubs history, since many of its members were autistic, thanks to its roots in a local autism college. 
 
----
+The following sites were used to help research requirements for autism friendly design elements. https://www.horlix.com/making-your-autism-friendly-website/ https://overlayfacts.org/blog/digital-accessibility-web-design-for-autism/ https://uxdesign.cc/designing-for-autistic-people-overview-of-existing-research-d6f6dc20710e
 
-Happy coding!
+Due to this, several iterations of the site were wireframed before a look was settled on with attempts to work to the UK Department of Health guidlines for ASM freindly design as outlined here - https://file.scirp.org/pdf/JSEA_2014022510055814.pdf
+
+While the final design breaks some of the Department of Health recommendations, specifically rules 2 5 and 10, steps have been taken to assist where confusion may occur, such as the inclusion of bounding boxes as several other websites that have been lauded for ASM focused design also use similar techniques. (https://autisticadvocacy.org/ and https://sesameworkshop.org/topics/autism/) overall this finds a balance between a clean design and an autistic friendly one. 
+
+Wireframes: 
+
+Wireframes were created with Balsamiq software. 
+
+<insert wireframes here>
+
+
+Colour Palette. 
+
+The colours were selected to be sympathetic to the user base, using canva.com to help generate a four colour palette that would suit the requirements. 
+
+Typography. 
+
+As with the other design elements, some care was needed around font usage, specifically using san-serif fonts. 
+
+Future features that would allow for better levels of support include the ability to pick and choose fonts, font background and  colour options, font size and other similar customisation options. 
+
+Images
+
+
+Icons
+
+
+Features
+
+Header
+
+Footer
+
+Modal contact form
+
+
+About page
+
+The space page
+
+Gallery
+
+Contact
+Response
+
+404
+
+Future features
+
+Technologies
+
+
+
+Validation and testing
+
