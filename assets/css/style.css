@@ -1,0 +1,50 @@
+/*------------------------------------------------------------ Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@400..800&display=swap');
+
+
+/*------------------------------------------------------------ Nav */
+
+.site-navbar-light {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #e7f1fb;
+}
+
+.site-brand {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #1c2127;
+}
+
+.site-brand:hover {
+    color: #1c2127;
+}
+
+.site-brand p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.site-nav {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: #1c2127;
+}
+
+.nav-link:hover {
+    color: #3373b0;
+}
+
+/*------------------------------------------------------------ Global */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
