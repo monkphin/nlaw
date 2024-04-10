@@ -28,44 +28,63 @@
         <!--collapsable navbar-->
         <div class="collapse navbar-collapse site-nav uppercase" id="navToggle">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="site-nav-item nav-item active">
+              <a class="site-nav-link nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+            <li class="nav-item site-nav-item">
+              <a class="site-nav-link nav-link" href="find.html">Find Us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="images.html">Images</a>
+            <li class="nav-item site-nav-item">
+              <a class="site-nav-link nav-link" href="images.html">Images</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+            <li class="nav-item site-nav-item">
+              <a class="site-nav-link nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
-
     </header>
+
+    <!--Main Body Content using bootstraps templating with some custom CSS denoted with "site-" prefixes-->
     <main>
 
       <div class="container-fluid">
+        <!--Info Panel Row-->
         <div class="row">
           <div class="col-md-2 site-md-2">
             <h2>Games We Love</h2>
-            <ul>
+            <ul class="site-list">
               <li>
-                <img src="assets\images\games\warhammer-logo.png" class="site-games" alt="Wearhammer 40,000">
+                <img src="assets\images\games\40k.png" class="site-games" alt="Wearhammer 40,000">
               </li>
               <li>
-                <img src="assets\images\games\aos-logo.png" class="site-games" alt="Age of Sigmar">
+                <img src="assets\images\games\aos.png" class="site-games" alt="Age of Sigmar">
               </li>
               <li>
-                <img src="assets\images\games\necromunda-logo.png" class="site-games" alt="Necromunda">              
+                <img src="assets\images\games\necro.jpg" class="site-games" alt="Necromunda">              
               </li>
               <li>
-                <img src="assets\images\games\warcry-logo.png" class="site-games" alt="Warcry">
+                <img src="assets\images\games\warcry.png" class="site-games" alt="Warcry"><br>
+              </li>
+              <li>
+                <img src="assets\images\games\killteam.png" class="site-games" alt="Warhammer 40,000: Kill Team">
+              </li>
+              <li>
+                <img src="assets\images\games\heresy.jpg" class="site-games" alt="Horus Heresy: Age of Darkness">
+              </li>
+              <li>
+                <img src="assets\images\games\walkingdead.webp" class="site-games" alt="The Walking Dead: All out War">
+              </li>
+              <li>
+                <img src="assets\images\games\bolt-logo.png" class="site-games" alt="Bolt Action">              
+              </li>
+              <li>
+                <img src="assets\images\games\legion.webp" class="site-games" alt="Star Wars: Legion">              
               </li>
             </ul>
           </div>
+
+          <!--Hero Image Row-->
           <div class="col-md-10 site-md-10">
             <div class="row">
               <div class="col-md-12">
@@ -78,6 +97,8 @@
               </section>
               </div>
             </div>
+
+            <!--Main Content Row-->
             <div class="row">
               <div class="col">
                 <section class="site-content-col">
@@ -87,13 +108,13 @@
               </div>
               <div class="col">
                 <section class="site-content-col">
-                  <img src="https://picsum.photos/300/200?random=2" class="center" alt="Text here">
+                  <img src="https://picsum.photos/300/200?random=2" class="center" alt="Second Text here">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>
                 </section>
               </div>
-              <div class="col site-content col">
+              <div class="col">
                 <section class="site-content-col">
-                  <img src="https://picsum.photos/300/200?random=3" class="center" alt="Text here">
+                  <img src="https://picsum.photos/300/200?random=3" class="center" alt="Third Text here">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>              
                 </section>
               </div>
@@ -102,14 +123,31 @@
         </div>
       </div>
     </main>
-<!--Footer-->
-<footer>
 
-</footer>
+    <!--Footer-->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <h4><a href="*" class="site-footer uppercase">Find Us</a></h4>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <h4 class="site-footer uppercase">Socials</h4>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="site-footer-link" href="https://facebook.com" target=""_blank"><i class="fa-brands fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></span></a></li>
+              <li class="list-inline-item"><a class="site-footer-link" href="https://twitter.com" target=""_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span class="sr-only">Twitter</span></span></a></li>
+              <li class="list-inline-item"><a class="site-footer-link" href="https://instagram.com" target=""_blank"><i class="fa-brands fa-twitter" aria-hidden="true"></i><span class="sr-only">Instagram</span></span></a></li>
+              <li class="list-inline-item"><a class="site-footer-link" href="https://youtube.com" target=""_blank"><i class="fa-brands fa-youtube" aria-hidden="true"></i><span class="sr-only">Youtube</span></span></a></li>
+              <li class="list-inline-item"><a class="site-footer-link" href="https://tiktok.com" target=""_blank"><i class="fa-brands fa-tiktok" aria-hidden="true"></i><span class="sr-only">TikTok</span></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!--Bootstrap Java-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>

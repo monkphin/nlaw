@@ -33,13 +33,15 @@
     font-size: 20px;
 }
 
-.nav-link {
-    color: #1c2127;
+.site-nav-link {
+    color: #1c2127 !important; /* Custom link color */
+}
+.site-nav-link:hover {
+    color: #3373b0 !important;
 }
 
-.nav-link:hover {
-    color: #3373b0;
-}
+
+
 
 /*------------------------------------------------------------ Footer */
 footer {
@@ -53,28 +55,21 @@ footer {
     color: #1c2127;
 }
 
-.site-footer:hover {
-    text-decoration: none;
-    color: #1c2127;
+.site-footer-link {
+    color: #1c2127 !important; /* Custom link color */
+}
+.site-footer-link:hover {
+    color: #3373b0 !important;
 }
 
-.site-fa-facebook {
-    color: #1c2127;
-}
-
-.site-fa-facebook:before {
-    color: #1c2127;
-}
-
-.site-fa-facebook:hover {
-    color: #3373b0;
-}
 
 /*------------------------------------------------------------ Home */
 
 .site-games {
-    max-width: 70%;
-    max-height: 700%;
+    width: 100%;  /* Default relative width for smaller devices */
+    height: auto;  /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
 }
 
 /*------------------------------------------------------------ About */
@@ -86,19 +81,22 @@ footer {
 
 /*------------------------------------------------------------ Global */
 
+
 img {
     max-width: 100%;
     height: auto;
 }
 
+.site-list {
+    list-style-type: none;
+}
+
+
+
 #hero-image{
-    height:600px;
+    height:500px;
     width: 100%;
     background: url("../images/club.jpg") no-repeat center center;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 #hero-text, #hero-text h2 {
@@ -120,6 +118,16 @@ img {
     position: absolute;
 }
 
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    #hero-text {
+        font-size: 4vw; /* Increase font size for better readability on small devices */
+        padding: 4vw; /* Increase padding */
+        width: 70vw; /* Increase width for smaller screens */
+        top: 10vh; /* Adjust positioning for smaller screens */
+        left: 15vw; /* Center it more on smaller screens */
+    }
+}
 
 .uppercase {
     text-transform: uppercase;
