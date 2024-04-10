@@ -20,25 +20,25 @@
       <!-- Bootstrap navbar with custom CSS denotes by the prefix "site-" also including elements that hide on screen size via bootstrap CSS-->
       <nav class="navbar navbar-expand-lg navbar-light site-navbar-light">
         <!--logo-->
-        <a class="navbar-brand site-brand" href="#">N/L/A/W <p class="d-none d-lg-block">Newton Local Area Wargamers</p></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand site-brand" href="#"><h1>N/L/A/W</h1><h2 class="d-none d-lg-block">Newton Local Area Wargamers</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         
         <!--collapsable navbar-->
-        <div class="collapse navbar-collapse site-nav" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse site-nav uppercase" id="navToggle">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Images</a>
+              <a class="nav-link" href="images.html">Images</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -47,10 +47,65 @@
     </header>
     <main>
 
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 site-md-2">
+            <h2>Games We Love</h2>
+            <ul>
+              <li>
+                <img src="assets\images\games\warhammer-logo.png" class="site-games" alt="Wearhammer 40,000">
+              </li>
+              <li>
+                <img src="assets\images\games\aos-logo.png" class="site-games" alt="Age of Sigmar">
+              </li>
+              <li>
+                <img src="assets\images\games\necromunda-logo.png" class="site-games" alt="Necromunda">              
+              </li>
+              <li>
+                <img src="assets\images\games\warcry-logo.png" class="site-games" alt="Warcry">
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-10 site-md-10">
+            <div class="row">
+              <div class="col-md-12">
+                <section id="hero-outer">
+                  <div id="hero-image"></div>
+                  <div id="hero-text">
+                      <h2>N/L/A/W</h2>
+                      <h3>Newton Local Area Wargamers</h3>
+                  </div>
+              </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section class="site-content-col">
+                  <img src="https://picsum.photos/300/200?random=1" class="center" alt="Text here">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>
+                </section>
+              </div>
+              <div class="col">
+                <section class="site-content-col">
+                  <img src="https://picsum.photos/300/200?random=2" class="center" alt="Text here">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>
+                </section>
+              </div>
+              <div class="col site-content col">
+                <section class="site-content-col">
+                  <img src="https://picsum.photos/300/200?random=3" class="center" alt="Text here">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>              
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer>
+<!--Footer-->
+<footer>
 
-    </footer>
+</footer>
 
     <!--Bootstrap Java-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
