@@ -18,7 +18,7 @@
     <!--header-->
     <header>
       <!-- Bootstrap navbar with custom CSS denotes by the prefix "site-" also including elements that hide on screen size via bootstrap CSS-->
-      <nav class="navbar navbar-expand-lg navbar-light site-navbar-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light site-navbar-light">
         <!--logo-->
         <a class="navbar-brand site-brand" href="#"><h1>N/L/A/W</h1><h2 class="d-none d-lg-block">Newton Local Area Wargamers</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
     <!--Main Body Content using bootstraps templating with some custom CSS denoted with "site-" prefixes-->
     <main>
 
-      <div class="container-fluid">
+      <div class="container-fluid site-content">
         <!--Info Panel Row-->
         <div class="row">
           <div class="col-md-2 site-md-2">
@@ -64,7 +64,7 @@
                 <img src="assets\images\games\necro.jpg" class="site-games" alt="Necromunda">              
               </li>
               <li>
-                <img src="assets\images\games\warcry.png" class="site-games" alt="Warcry"><br>
+                <img src="assets\images\games\warcry.png" class="site-games" alt="Warcry">
               </li>
               <li>
                 <img src="assets\images\games\killteam.png" class="site-games" alt="Warhammer 40,000: Kill Team">
@@ -80,6 +80,9 @@
               </li>
               <li>
                 <img src="assets\images\games\legion.webp" class="site-games" alt="Star Wars: Legion">              
+              </li>
+              <li>
+                <img src="assets\images\games\dnd.webp" class="site-games" alt="Dungeons and Dragons">              
               </li>
             </ul>
           </div>
@@ -100,19 +103,19 @@
 
             <!--Main Content Row-->
             <div class="row">
-              <div class="col">
+              <div class="col-12 col-md">
                 <section class="site-content-col">
                   <img src="https://picsum.photos/300/200?random=1" class="center" alt="Text here">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>
                 </section>
               </div>
-              <div class="col">
+              <div class="col-12 col-md">
                 <section class="site-content-col">
                   <img src="https://picsum.photos/300/200?random=2" class="center" alt="Second Text here">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>
                 </section>
               </div>
-              <div class="col">
+              <div class="col-12 col-md">
                 <section class="site-content-col">
                   <img src="https://picsum.photos/300/200?random=3" class="center" alt="Third Text here">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>              
@@ -126,14 +129,38 @@
 
     <!--Footer-->
     <footer>
-      <div class="container-fluid">
+
+      <!-- Bootstrap Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Stick address here</p>
+              <p>Stick times here</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer main content -->
+      <div class="container-fluid site-footer">
         <div class="row">
           <div class="col-md-8">
-            <h4><a href="*" class="site-footer uppercase">Find Us</a></h4>
+            <button type="button" class="btn btn-primary site-footer-modal" data-toggle="modal" data-target="#exampleModal">
+              Find Us
+          </button>
           </div>
-          <div class="col-md-4 text-md-right">
-            <h4 class="site-footer uppercase">Socials</h4>
-            <ul class="list-inline">
+          <div class="col-md-4">
+            <ul class="list-inline site-socials  text-md-right">
               <li class="list-inline-item"><a class="site-footer-link" href="https://facebook.com" target=""_blank"><i class="fa-brands fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></span></a></li>
               <li class="list-inline-item"><a class="site-footer-link" href="https://twitter.com" target=""_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span class="sr-only">Twitter</span></span></a></li>
               <li class="list-inline-item"><a class="site-footer-link" href="https://instagram.com" target=""_blank"><i class="fa-brands fa-twitter" aria-hidden="true"></i><span class="sr-only">Instagram</span></span></a></li>
