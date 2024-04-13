@@ -9,8 +9,9 @@
     <!--fontawesome kit-->
     <script src="https://kit.fontawesome.com/f862737888.js" crossorigin="anonymous"></script>
     <!-- local stylesheet -->
-    <link href="assets/css/style.css" rel="stylesheet" type=""text/css" />
-    <meta name=""description" content="A tabletop hobbygroup for the Newton-le-Willows area.">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!--meta tags for search engines-->
+    <meta name="description" content="A tabletop wargame and RPG hobbygroup for the Newton-le-Willows area.">
     <title>N/L/A/W</title>
 </head>
 
@@ -32,10 +33,7 @@
               <a class="site-nav-link nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item site-nav-item">
-              <a class="site-nav-link nav-link" href="find.html">Find Us</a>
-            </li>
-            <li class="nav-item site-nav-item">
-              <a class="site-nav-link nav-link" href="images.html">Images</a>
+              <a class="site-nav-link nav-link" href="club.html">The Club</a>
             </li>
             <li class="nav-item site-nav-item">
               <a class="site-nav-link nav-link" href="contact.html">Contact</a>
@@ -45,15 +43,17 @@
       </nav>
     </header>
 
-    <!--Main Body Content using bootstraps templating with some custom CSS denoted with "site-" prefixes-->
+    <!--Main Body Content using bootstraps templating with custom CSS denoted with "site-" prefix-->
     <main>
 
       <div class="container-fluid site-content">
         <!--Info Panel Row-->
         <div class="row">
-          <div class="col-md-2 site-md-2">
+          <div class="col-lg-2 order-2 order-lg-1">
             <h2>Games We Love</h2>
-            <ul class="site-list">
+
+            <!--UL will auto hide on smaller screens (sub 1024px) and be replaced by a Bootstrap carousel to prevent over long scrolling to hit the footer.-->
+            <ul class="site-list d-none d-lg-block">
               <li>
                 <img src="assets\images\games\40k.png" class="site-games" alt="Wearhammer 40,000">
               </li>
@@ -85,10 +85,55 @@
                 <img src="assets\images\games\dnd.webp" class="site-games" alt="Dungeons and Dragons">              
               </li>
             </ul>
+
+            <!--Bootstrap Carousel displayed instead of the above UL for screens below 1024px wide to limit scroll distance while still allowing the full list to be viewed-->
+            <div id="gamesCarousel" class="site-games-carousel carousel slide d-lg-none" data-ride="carousel" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets\images\games\40k.png" class="d-block w-100" alt="Warhammer 40,000">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\aos.png" class="d-block w-100" alt="Age of Sigmar">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\necro.jpg" class="d-block w-100" alt="Necromunda">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\warcry.png" class="d-block w-100" alt="Warcry">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\killteam.png" class="d-block w-100" alt="Warhammer 40,000: Kill Team">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\heresy.jpg" class="d-block w-100" alt="Horus Heresy: Age of Darkness">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\walkingdead.webp" class="d-block w-100" alt="The Walking Dead: All out War">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\bolt-logo.png" class="d-block w-100" alt="Bolt Action">              
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\legion.webp" class="d-block w-100" alt="Star Wars: Legion">              
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\images\games\dnd.webp" class="d-block w-100" alt="Dungeons and Dragons">              
+                </div>
+              </div>
+              <!--Carousel controls, default bootstrap buttons replaced with Font awesome buttoms to allow custom styling to be applied.-->
+              <a class="carousel-control-prev" href="#gamesCarousel" role="button" data-slide="prev">
+                <i class="fa-solid fa-angle-left site-fa-angle-left"></i>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#gamesCarousel" role="button" data-slide="next">
+                <i class="fa-solid fa-angle-right site-fa-angle-right"></i>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
 
           <!--Hero Image Row-->
-          <div class="col-md-10 site-md-10">
+          <div class="col-lg-10 site-md-10 order-1 order-lg-2">
             <div class="row">
               <div class="col-md-12">
                 <section id="hero-outer">
@@ -103,22 +148,22 @@
 
             <!--Main Content Row-->
             <div class="row">
-              <div class="col-12 col-md">
+              <div class="col-12 col-lg">
                 <section class="site-content-col">
                   <img src="https://picsum.photos/300/200?random=1" class="center" alt="Text here">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>
+                  <p>N/L/A/W came about from a recognition that getting together around a table to play games can have a huge range of social benefits. It was first founded in 2022 as part of Ascent Collages efforts to expand on its students education beyond just the basic curriculum, however after changes made to how DofE clubs could operate and adjustments to the collages operating times caused us to have to stop hosting on campus meetings we decided to form a dedicated hobby club, since its members felt they were beneffiting greatly from participating. The club felt that they all benefit in many ways from getting together weekly and wanted to not only continue this, but increase their interacctions as well as share those benefits with the wider community.</p>
                 </section>
               </div>
-              <div class="col-12 col-md">
-                <section class="site-content-col">
-                  <img src="https://picsum.photos/300/200?random=2" class="center" alt="Second Text here">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>
-                </section>
-              </div>
-              <div class="col-12 col-md">
+              <div class="col-12 col-lg">
                 <section class="site-content-col">
                   <img src="https://picsum.photos/300/200?random=3" class="center" alt="Third Text here">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Netus et malesuada fames ac turpis. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Nunc mattis enim ut tellus elementum sagittis. Suspendisse in est ante in nibh. Dignissim convallis aenean et tortor at risus viverra. Egestas integer eget aliquet nibh praesent tristique magna sit. Urna porttitor rhoncus dolor purus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.</p>              
+                  <p>Tabletop gaming and roleplaying games have many benefits to those who participate. Ranging from social interactions when actually playing games, mindfullness benefits when working on the more creative hobby aspects, such as painting minis or crafting scenery, helping stretch your creative legs via painting minis or writing stories and background for them. The games themselves can help with basic matchs skills, due to the need to add up in game costs of armies to ensure a rough balance of armies ont he tabletop, to calculating outcomes of dice roles and gauging percetange chances when playing.</p>              
+                </section>
+              </div>
+              <div class="col-12 col-lg">
+                <section class="site-content-col">
+                  <img src="https://picsum.photos/300/200?random=2" class="center" alt="Second Text here">
+                  <p>We're a not for profit organisation run and staffed by volunteers who historically helped run clubs at the collage. The club has a relaxed atmophere, with a mix of people from 16 and upwards who enjoy playing a veriety of tabletop games, ranging from wargames; such as Warhammer 40,000, RPG's such as Dungeons and Dragons and more classic boardgames. Though at our heart we're more focused on RPGs and tabletop wargaming. We aim to provide the local community of game enthusiasts to meet and collectivly enjoy their hobby together, we're always welcome to curious members of the community coming along and hopefully even returning to visit in the future. </p>
                 </section>
               </div>
             </div>
@@ -131,21 +176,66 @@
     <footer>
 
       <!-- Bootstrap Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="AddressModal" tabindex="-1" role="dialog" aria-labelledby="AddressModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h4 class="modal-title" id="AddressModal">Come Visit Us</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <p>Stick address here</p>
-              <p>Stick times here</p>
+              <div>
+                <p>Site address:</p>
+                <p>Community Centre, <br />Park Rd S, <br />Newton-le-Willows <br />WA12 8EX</p>
+                <a href="tel:01514961546">Call us</a>
+              </div>
+              <div>
+                <div class="row">
+                  <div class="col-sm-2">
+                    <p>Day</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <p>Monday</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <p>Wednesday</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <p>Friday</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <p>Saturday</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <p>Sunday</p>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-2">
+                  <p>Time</p>
+                </div>
+                <div class="col-sm-2">
+                  <p>18:00 - 22:00</p>
+                </div>
+                <div class="col-sm-2">
+                  <p>18:00 - 22:00</p>
+                </div>
+                <div class="col-sm-2">
+                  <p>18:00 - 22:00</p>
+                </div>
+                <div class="col-sm-2">
+                  <p>12:00 - 22:00</p>
+                </div>
+                <div class="col-sm-2">
+                  <p>12:00 - 22:00</p>
+                </div>
+            </div>
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary site-button" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -155,7 +245,7 @@
       <div class="container-fluid site-footer">
         <div class="row">
           <div class="col-md-8">
-            <button type="button" class="btn btn-primary site-footer-modal" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-primary site-button" data-toggle="modal" data-target="#AddressModal">
               Find Us
           </button>
           </div>
