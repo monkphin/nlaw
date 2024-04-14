@@ -22,6 +22,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 25px;
 }
 
 .uppercase {
@@ -88,7 +89,7 @@ img {
 }
 
 @media (max-width:500px) {
-    #site-hero-container {
+    .site-hero-container {
         display: block;
         padding: 0;
         margin-left: auto;
@@ -280,6 +281,16 @@ header {
 
 .site-p-contact:hover {
     text-decoration: underline;
+}
+ 
+.side-img {
+    border: #1c2127;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.club-row {
+    padding: 10px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------ Contact */
