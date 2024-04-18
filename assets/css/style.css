@@ -367,11 +367,17 @@ footer {
     }
 }
 
+/*------------------------------------------------------------------------------------------------------------------------ Modal */
+
+/* Make sure the modal dialog is centered and responsive */
+.modal-dialog {
+    max-width: 60%;  /* Set maximum width to prevent over-extension on larger screens */
+}
 
 .site-modal-header,
 .site-modal-body,
 .site-modal-md-6 {
-    padding: 10px !important;
+    padding: 10px;
     text-align: center;
 }
 
@@ -387,4 +393,10 @@ footer {
     margin-left: auto;
     margin-right: auto;
     text-align: center !important;
+}
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        max-width: 100%; 
+    }
 }
