@@ -7,10 +7,11 @@ Contents
 User Experience. 
 Design
 Features
+Bugs and issues
 Technologies
 Testing
 Deployment
-Creadits
+Credits
 
 N/L/A/W is is a local tabletop wargames group that started life as a small afterschool club in a local autism collage. 
 
@@ -131,6 +132,13 @@ Since the site can get potentially quite long on smaller screen sizes the navbar
 Future features
 As mentioned earlier in the document, it would be ideal to allow for a degree of personal customisation at the user level to allow for further improvements to accessability. Adding a calendar that the club can update would also be a useful feature so they could show events that they may have coming up that may be of interest to visitors, this could potentially tie into a mailing list, which would require a database to store user details. Additionally a gallery page could also be of use to show more pictures of the venue or projects the club are working on.
 Since I am using an older version of Bootstrap I have already created a development branch with the intention to migrate this over to Bootstrap 5, this will also give me a chance to refactor the HTML and CSS a little, since simply porting over to Bootstrap 5 presented a lot of rendering issues which need to be resolved.  
+
+Bugs and issues. 
+All pages have a slight horizontal scroll that I believe to be caused by the modal popup, but I havnt been able to identify how to resolve this as yet. 
+One of the sections on the club.html page has an issue with horizontal scroll, this looks to be caused by the bootstrap grid, however I cannot identify how to prevent this. Its possible that I may have a slight issue with the HTML Divs, since I also saw the same issue on the section containing the map until I tidied up its divs a little. 
+index.html - the carousel misrenders on screen widths of 913 to 991 pixels, causing it to overlap over the footer. This can easily be fixed via an additional CSS media query. 
+index.html has some minor positioning issues that dont direcly impact site functionality for the hero text on the hero image. On some smaller screens its not aligned in a way that looks neat or inline with the rest of the site layout. This should be an easy fix with media queries, but I suspect their may be a more elegant way to do this. 
+
 
 Technology. 
 
