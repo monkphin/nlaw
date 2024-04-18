@@ -207,14 +207,15 @@
     <!--Footer-->
     <footer>
 
-      <!-- Bootstrap Modal -->
-      <div class="modal fade" id="AddressModal" tabindex="-1" role="dialog" aria-labelledby="AddressModal" aria-hidden="true">
+       <!-- Bootstrap Modal -->
+       <div class="modal fade" id="address-modal" tabindex="-1" role="dialog" aria-labelledby="address-modal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header site-modal-header">
-              <h4 class="modal-title site-modal-title uppercase" id="AddressModal">Get in touch</h4>
+              <h4 class="modal-title site-modal-title uppercase" id="address-modal-heading">Get in touch</h4>
             </div>
             <div class="modal-body site-modal-body">
+              <div class="row">
               <div class="row">
                 <div class="col-sm-6">
                   <h5 class="uppercase">Visit Us</h5>
@@ -227,7 +228,6 @@
               </div>
               <div>
                 <h5 class="uppercase">Opening Hours</h5>
-                <!--horizontal opening times display for large screens-->
                   <div class="d-none d-md-block">
                     <div class="row">
                       <div class="col-sm">
@@ -271,10 +271,9 @@
                     </div>
                   </div>
 
-                  <!--vertical opening times for smaller devices-->
-                  <div class="d-md-none">  
+                  <!--Div will hide on large screens - setting this on the cols as doing it on the whole row caused oddness with rendering-->
                     <div class="row">
-                      <div class="col-6 site-modal-md-6">
+                      <div class="col-6 d-md-none site-modal-md-6">
                         <p>Day</p>
                         <p>Monday</p>
                         <p>Wednesday</p>
@@ -282,7 +281,7 @@
                         <p>Saturday</p>
                         <p>Sunday</p>
                       </div>
-                      <div class="col-6 site-modal-md-6">
+                      <div class="col-6 d-md-none site-modal-md-6">
                         <p>Time</p>
                         <p>18:00 - 22:00</p>
                         <p>18:00 - 22:00</p>
@@ -291,7 +290,6 @@
                         <p>12:00 - 22:00</p>
                       </div>
                     </div>
-                  </div>
                 
               </div>
             </div>
@@ -299,6 +297,7 @@
               <button type="button" class="btn btn-primary site-button site-modal-button" data-dismiss="modal">Close</button>
             </div>
           </div>
+        </div>
         </div>
       </div>
 
