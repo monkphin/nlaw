@@ -37,7 +37,7 @@ A website created for the first milestone project for Code Institutes full stack
 
 * [Technology](#technology)
     * [Languages](#languages)
-    * [Frameworks](#frameworks/languages/programs)
+    * [Frameworks](#frameworks-languages-programs)
 
 * [Testing](#testing)
     * [HTML Validation](#html-validation)
@@ -210,7 +210,7 @@ index.html - the carousel misrenders on screen widths of 913 to 991 pixels, caus
 ## Languages
 The site was built with HTML and CSS, any javascript in use is provided via Bootstrap, which was needed for the carousel and nav toggle. 
 
-## Framworks/Languages/Programs. 
+## Frameworks Languages Programs. 
 * Bootstrap 4.2.1
     * Used for layout and positioning, as well as the navbar, modal and carousel. 
 
