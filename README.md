@@ -4,7 +4,7 @@ A website created for the first milestone project for Code Institutes full stack
 
 [The deployed website can be found here.](https://monkphin.github.io/nlaw/)
 
-<img src="docs/readme-images/mockup.png">
+<img src="docs/mockup.png">
 
 # Contents
 
