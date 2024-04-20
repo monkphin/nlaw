@@ -10,7 +10,7 @@ A website created for the first milestone project for Code Institutes full stack
 
 * [User Experience](#user-experience)
     * [The Clubs Goals](#hobby-club-goals)
-    * [A visitors Goals](#visitor-goals)
+    * [A Visitors Goals](#visitor-goals)
 
 * [Design](#design)
     * [Wireframes](#wireframes)
