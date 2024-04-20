@@ -1,6 +1,288 @@
 /*----------------------------------------------------------------------------------------------------------------------- Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap');
 
+/*------------------------------------------------------------------------------------------------------------------------ Nav */
+
+header {
+    height: 112px;
+}
+
+.site-navbar-light {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #e7f1fb;
+}
+
+.site-brand {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #1c2127;
+}
+
+.site-brand:hover {
+    color: #1c2127;
+}
+
+.site-brand h2 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.site-nav {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.site-nav-link {
+    color: #1c2127 !important; 
+}
+.site-nav-link:hover {
+    color: #3373b0 !important;
+}
+
+.site-nav-current {
+    color: #0b385f;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------ Home */
+
+.site-games {
+    width: 100%;  
+    height: auto;  
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.site-games-carousel {
+    height: 150px;
+}
+
+/* Inverted media queries for the carousel to ensure that smaller devices pick up on the relevant entry, rather than simply targeting the largest device */
+
+/* Larger devices (still under a typical tablet width) */
+@media (max-width: 912px) {
+    .site-games-carousel {
+        height: 300px;
+    }
+}
+
+/* Medium-small devices */
+@media (max-width: 540px) {
+    .site-games-carousel {
+        height: 170px;
+    }
+}
+
+/* Slightly larger, but still small devices */
+@media (max-width: 375px) {
+    .site-games-carousel {
+        height: 115px;
+    }
+}
+
+
+/* For very small devices */
+@media (max-width: 280px) {
+    .site-games-carousel {
+        height: 100px;
+    }
+}
+
+.carousel-item img {
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 80%;
+    width: auto;
+    margin: auto;
+}
+
+.site-fa-angle-left,
+.site-fa-angle-right {
+    color: #1c2127 !important;
+    font-size: 40px;
+}
+
+.site-fa-angle-left:hover,
+.site-fa-angle-right:hover {
+    color: #3373b0 !important;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------ Club */
+
+.site-map {
+    width: 100%; 
+    height: 100%; 
+    border:0; 
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.col-sm p {
+    text-align: center;
+}
+
+.site-content-col li {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.site-col-md-4 {    
+    padding: 0 important!;
+    max-width: 90%;
+}
+
+.site-col-md-8 {    
+    padding: 0 important!;
+    max-width: 90%;
+}
+
+.site-p-contact:hover {
+    text-decoration: underline;
+}
+ 
+.side-img {
+    border: #1c2127;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.club-row {
+    padding: 0;
+    width: 100%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------ Contact */
+
+.site-contact-row {
+    width: 100%;
+}
+
+.site-form-col {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #e7f1fb;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.site-form {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------ Response */
+
+.site-response {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------ 404 */
+
+.site-404 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------ Footer */
+
+footer {
+    background-color: #e7f1fb;
+}
+
+.site-footer {
+    padding-top: 15px;
+}
+
+.site-footer-link {
+    color: #1c2127 !important; 
+    font-size: 30px;
+    color: #1c2127;
+}
+.site-footer-link:hover {
+    color: #3373b0 !important;
+}
+
+.site-socials {
+    padding-right: 20px;
+}
+
+@media (max-width:768px) {
+    .container-fluid.site-footer {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }    
+
+    .btn.btn-primary.site-button {
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }   
+    
+.site-socials {
+    padding: 0;
+        margin-top: 10px;
+    }
+}
+
+/*------------------------------------------------------------------------------------------------------------------------ Modal */
+
+/* Make sure the modal dialog is centered and responsive */
+.modal-dialog {
+    max-width: 60%;  /* Set maximum width to prevent over-extension on larger screens */
+}
+
+.site-modal-header,
+.site-modal-body,
+.site-modal-md-6 {
+    padding: 10px;
+    text-align: center;
+}
+
+.site-modal-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+}
+
+.site-modal-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+}
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        max-width: 100%; 
+    }
+}
+
+
 /*------------------------------------------------------------------------------------------------------------------------ Global */
 
 h3, h4, h5, h6 {
@@ -147,256 +429,4 @@ img {
     
 .site-tel:hover {
         color: #3373b0;
-}
-
-
-
-/*------------------------------------------------------------------------------------------------------------------------ Nav */
-
-header {
-    height: 112px;
-}
-
-.site-navbar-light {
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: #e7f1fb;
-}
-
-.site-brand {
-    font-family: "Inter", sans-serif;
-    font-weight: 800;
-    font-size: 25px;
-    color: #1c2127;
-}
-
-.site-brand:hover {
-    color: #1c2127;
-}
-
-.site-brand h2 {
-    font-weight: 800;
-    font-size: 20px;
-}
-
-.site-nav {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.site-nav-link {
-    color: #1c2127 !important; 
-}
-.site-nav-link:hover {
-    color: #3373b0 !important;
-}
-
-/*------------------------------------------------------------------------------------------------------------------------ Home */
-
-.site-games {
-    width: 100%;  
-    height: auto;  
-    display: block;
-    margin: 0 auto;
-    padding: 5px;
-}
-
-.site-games-carousel {
-    height: 150px;
-}
-
-/* Inverted media queries for the carousel to ensure that smaller devices pick up on the relevant entry, rather than simply targeting the largest device */
-
-/* Larger devices (still under a typical tablet width) */
-@media (max-width: 912px) {
-    .site-games-carousel {
-        height: 300px;
-    }
-}
-
-/* Medium-small devices */
-@media (max-width: 540px) {
-    .site-games-carousel {
-        height: 170px;
-    }
-}
-
-/* Slightly larger, but still small devices */
-@media (max-width: 375px) {
-    .site-games-carousel {
-        height: 115px;
-    }
-}
-
-
-/* For very small devices */
-@media (max-width: 280px) {
-    .site-games-carousel {
-        height: 100px;
-    }
-}
-
-.carousel-item img {
-    vertical-align: middle;
-    max-height: 100%;
-    max-width: 80%;
-    width: auto;
-    margin: auto;
-}
-
-.site-fa-angle-left,
-.site-fa-angle-right {
-    color: #1c2127 !important;
-    font-size: 40px;
-}
-
-.site-fa-angle-left:hover,
-.site-fa-angle-right:hover {
-    color: #3373b0 !important;
-}
-
-/*------------------------------------------------------------------------------------------------------------------------ Club */
-
-.site-map {
-    width: 100%; 
-    height: 100%; 
-    border:0; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.col-sm p {
-    text-align: center;
-}
-
-.site-content-col li {
-    font-family: "Barlow", sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-.site-p-contact:hover {
-    text-decoration: underline;
-}
- 
-.side-img {
-    border: #1c2127;
-    border-width: 1px;
-    border-style: solid;
-}
-
-.club-row {
-    padding: 10px;
-}
-
-/*------------------------------------------------------------------------------------------------------------------------ Contact */
-
-.site-contact-row {
-    width: 100%;
-}
-
-.site-form-col {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #e7f1fb;
-    border-radius: 25px;
-    text-align: center;
-}
-
-.site-form {
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-/*------------------------------------------------------------------------------------------------------------------------ Contact */
-
-.site-response {
-    
-}
-
-/*------------------------------------------------------------------------------------------------------------------------ Footer */
-
-footer {
-    background-color: #e7f1fb;
-}
-
-.site-footer {
-    padding-top: 15px;
-}
-
-.site-footer-link {
-    color: #1c2127 !important; 
-    font-size: 30px;
-    color: #1c2127;
-}
-.site-footer-link:hover {
-    color: #3373b0 !important;
-}
-
-.site-socials {
-    padding-right: 20px;
-}
-
-@media (max-width:768px) {
-    .container-fluid.site-footer {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }    
-
-    .btn.btn-primary.site-button {
-        display: block;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }   
-    
-.site-socials {
-    padding: 0;
-        margin-top: 10px;
-    }
-}
-
-/*------------------------------------------------------------------------------------------------------------------------ Modal */
-
-/* Make sure the modal dialog is centered and responsive */
-.modal-dialog {
-    max-width: 60%;  /* Set maximum width to prevent over-extension on larger screens */
-}
-
-.site-modal-header,
-.site-modal-body,
-.site-modal-md-6 {
-    padding: 10px;
-    text-align: center;
-}
-
-.site-modal-title {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center !important;
-}
-
-.site-modal-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center !important;
-}
-
-@media (max-width: 768px) {
-    .modal-dialog {
-        max-width: 100%; 
-    }
 }
