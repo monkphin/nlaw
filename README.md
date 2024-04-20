@@ -117,7 +117,7 @@ The colours were selected to be sympathetic to the user base, using [Paperheart 
 As with the other design elements, some care was needed around font usage, specifically using sans-serif fonts. 
 To this end, after browsing fontpair and google fonts I finally settled on Inter and Barlow, both of which fit guidelines of being clear and sans-serif while looking good. Inter is used for the header and footer, with Barlow being used for the main content. 
 
-<img src="docs/fonts.jpg">
+<img src="docs/fonts.png">
 
 Future features that would allow for better levels of support include the ability to pick and choose fonts, font background and  colour options, font size and other similar customisation options. 
 
