@@ -37,7 +37,7 @@ A website created for the first milestone project for Code Institutes full stack
 
 * [Technology](#technology)
     * [Languages](#languages)
-    * [Frameworks](#frameworks-and-programs)
+    * [Frameworks and Programs](#frameworks-and-programs)
 
 * [Testing](#testing-and-validation)
     * [HTML Validation](#html-validation)
