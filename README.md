@@ -33,7 +33,7 @@ A website created for the first milestone project for Code Institutes full stack
     * [Future Features](#future-features)
 
 * [Bugs and Issues](#bugs-and-issues)
-    * [Home Page](#index.html)
+    * [Home Page](#home-page)
 
 * [Technology](#technology)
     * [Languages](#languages)
@@ -191,7 +191,9 @@ Due to the index page becoming overly long when showing the list of games the gr
 As mentioned earlier in the document, it would be ideal to allow for a degree of personal customisation at the user level to allow for further improvements to accessability. Adding a calendar that the club can update would also be a useful feature so they could show events that they may have coming up that may be of interest to visitors, this could potentially tie into a mailing list, which would require a database to store user details. Additionally a gallery page could also be of use to show more pictures of the venue or projects the club are working on.
 Since I am using an older version of Bootstrap I have already created a development branch with the intention to migrate this over to Bootstrap 5, this will also give me a chance to refactor the HTML and CSS a little, since simply porting over to Bootstrap 5 presented a lot of rendering issues which need to be resolved.  
 
-## Bugs and issues. 
+# Bugs and issues. 
+
+## Home Page
 index.html has some issues with its three content boxes, where they don't auto size to match each others vertical lengths this is due to having to place them within divs to allow for margins to function without causing the content to overflow to a new row. 
 
 Their is also an issue with some slight side scrolling on mobile versions of this page, which is likely related to how the bootstrap layout has been nested. The content boxes are also slightly wider than expected when on mobile, resulting in them filling the horizontal space, rather than having some breathing room around the edges. These issues are being investigsated but may not be resolved by the time the project needs to be handed in. 
