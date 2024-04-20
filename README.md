@@ -33,7 +33,7 @@ A website created for the first milestone project for Code Institutes full stack
     * [Future Features](#future-features)
 
 * [Bugs and Issues](#bugs-and-issues)
-    * [Home Page](#index-page)
+    * [Index Page](#index-page)
 
 * [Technology](#technology)
     * [Languages](#languages)
