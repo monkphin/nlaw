@@ -12,7 +12,7 @@ A website created for the first milestone project for Code Institutes full stack
     * [The Clubs Goals](#hobby-lub-oals)
     * [A visitors Goals](#sisitor-goals)
 
-* [Design]{#design}
+* [Design](#design)
     * [Wireframes](#wireframes)
     * [Colour Palette](#colour-palette)
     * [Typography](#typography)
