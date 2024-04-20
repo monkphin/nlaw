@@ -134,8 +134,11 @@ As mentioned earlier in the document, it would be ideal to allow for a degree of
 Since I am using an older version of Bootstrap I have already created a development branch with the intention to migrate this over to Bootstrap 5, this will also give me a chance to refactor the HTML and CSS a little, since simply porting over to Bootstrap 5 presented a lot of rendering issues which need to be resolved.  
 
 Bugs and issues. 
-All pages have a slight horizontal scroll that I believe to be caused by the modal popup, but I havnt been able to identify how to resolve this as yet. 
+All pages have a slight horizontal scroll on mobile that I believe to be caused by the modal popup, but I havnt been able to identify how to resolve this as yet. Additionally when testing in chromes dev tools the modal appears to have some odd issues surrounding the screen fade not fully occupying the screen for mobile devices which I cannot recreate on any devices I have tried to replicate this on. 
+
 One of the sections on the club.html page has an issue with horizontal scroll, this looks to be caused by the bootstrap grid, however I cannot identify how to prevent this. Its possible that I may have a slight issue with the HTML Divs, since I also saw the same issue on the section containing the map until I tidied up its divs a little. 
+
+To be fixed. 
 index.html - the carousel misrenders on screen widths of 913 to 991 pixels, causing it to overlap over the footer. This can easily be fixed via an additional CSS media query. 
 index.html has some minor positioning issues that dont direcly impact site functionality for the hero text on the hero image. On some smaller screens its not aligned in a way that looks neat or inline with the rest of the site layout. This should be an easy fix with media queries, but I suspect their may be a more elegant way to do this. 
 
@@ -190,8 +193,8 @@ https://jigsaw.w3.org/css-validator/
 Validation and testing
 
 Accessability
-https://wave.webaim.org/
-One page (club.html) shows a redundant link warning due both the page and the modal featuring the clubs phone number. 
+https://wave.webaim.org/ was used to check to ensure the site conforms to accessability standards. Several pages show redundant links - specifically contact.html, response.html and 404.html due to both the site logo and the home link in the nav bar both linking to the hindex page. Additionally club.html shows two redundant links, one due to the aforementioned duplication on the navbar and also due to the telephone number link in the contact modal being a duplicate of the link on the contact section. Other than this, no issues are reported. 
+
 
 Performance
 
@@ -205,3 +208,13 @@ User Stories.
 Deployment. 
 
 Credits
+
+Images taken from the following locations
+hearo image - https://wargamesreading.co.uk/
+index.html - Main body section images - http://warhammer.com
+games logos - http://warhammer.com, http://warlordgames.com, https://dnd.wizards.com/, https://www.fantasyflightgames.com/
+club.html - http://warhammer.com
+404.html image taken from http://warhammer.com
+response.html - https://www.goonhammer.com/the-belated-vadinax-week-9-update/
+
+Text was adapted from copy found on https://www.explodingdicetabletop.com/
