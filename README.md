@@ -114,11 +114,11 @@ The colours were selected to be sympathetic to the user base, using [Paperheart 
 
 The website specifically calls out these colours as being present in the image above. 
 
-#e7f1fb
-#bed4e9
-#3373b0
-#0b385f
-#1c2127
+#e7f1fb<br>
+#bed4e9<br>
+#3373b0<br>
+#0b385f<br>
+#1c2127<br>
 
 ## Typography. 
 
