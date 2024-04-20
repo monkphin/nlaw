@@ -70,7 +70,7 @@ The club would like to have a presence online outsied of standard social media t
 * For social channels to be signposted 
 * To be designed in a way thats sympathetic to our user bases accessability requirements. 
 
-Visitor Goals: 
+## Visitor Goals: 
 
 * To find some information about the club such as what games are commonly played. 
 * To know when and where the club meet
@@ -84,13 +84,20 @@ Visitor Goals:
 
 The design process needed to factor in the clubs history, since many of its members are autistic, thanks to its roots in a local autism college. 
 
-The following sites were used to help research requirements for autism friendly design elements. 
-https://www.horlix.com/making-your-autism-friendly-website/ https://overlayfacts.org/blog/digital-accessibility-web-design-for-autism/ 
-https://uxdesign.cc/designing-for-autistic-people-overview-of-existing-research-d6f6dc20710e
+The following sites were used to help research requirements for autism friendly design elements: 
 
-Due to this, several iterations of the site were wireframed before a look was settled on with attempts to work to the UK Department of Health guidlines for ASM freindly design as outlined here - https://file.scirp.org/pdf/JSEA_2014022510055814.pdf
+* [https://www.horlix.com/making-your-autism-friendly-website](Horlix - Making your autism friendly website) 
+* [https://overlayfacts.org/blog/digital-accessibility-web-design-for-autism](Overlay Facts - Digital Accessibility for Autism)
+* [https://uxdesign.cc/designing-for-autistic-people-overview-of-existing-research-d6f6dc20710e](UX Design - Designing for Autistic People)
 
-While the final design breaks some of the Department of Health recommendations, steps have been taken to assist where confusion may occur such as the inclusion of bounding boxes. Examples of this method were observed from several other websites that have been lauded for ASM focused design. (https://autisticadvocacy.org/ and https://sesameworkshop.org/topics/autism/) overall this finds a balance between a clean design and an autistic friendly one. 
+Due to this, several iterations of the site were wireframed before a look was settled on with attempts to work to the UK Department of Health guidlines for ASM freindly design as outlined [https://file.scirp.org/pdf/JSEA_2014022510055814.pdf](here)
+
+While the final design breaks some of the Department of Health recommendations, steps have been taken to assist where confusion may occur such as the inclusion of bounding boxes. Examples of this method were observed from several other websites that have been lauded for ASM focused design. 
+
+* [https://autisticadvocacy.org/](Autism Advocacy) 
+* [https://sesameworkshop.org/topics/autism/](Sesemae Street) 
+
+Overall I feel this finds a balance between a clean design and an autistic friendly one. 
 
 ## Wireframes: 
 
@@ -103,7 +110,9 @@ Wireframes were created with Balsamiq software.
 
 The colours were selected to be sympathetic to the user base, using https://paperheartdesign.com/blog/color-palette-peaceful-palettes to help pick out soothing and low contrast colour palletes that could work for some of the user base. Of those presented, I feel the 'Blueberry Bliss' selection gives a reasonable range of tones and colour options. 
 
-<insert blueberry blues image here>
+<img src="docs/blueberries.jpg">
+
+The website specifically calls out these colours as being present in the image above. 
 
 #e7f1fb
 #bed4e9
@@ -120,14 +129,14 @@ Future features that would allow for better levels of support include the abilit
 
 ## Images
 
-Images were sourced primarily from Gamesworkshops website, as well as other hobby club pages. 
+Images were sourced primarily from Gamesworkshops website, as well as other hobby club pages, credits for these will be provided at the end of the readme. 
 
 ## Icons
 
-Icons were provided by [FontAwesome(https://fontawsome.com)]
+Icons were provided by [FontAwesome](https://fontawsome.com)
 
 # Features
-The website consists of 4 pages, a home page, a club information page, a contact page and a response page which loads when the contact form is successfully submitted. The footer of each page also includes a modal, allowing information about the location of the club and its opening times to be available anywhere on the site. Their is also a custom 404, based on the base layout of the site incase a visitor finds themselves trying to access a noneexistent part of the website. It being based on the main site layout allows visitors to gain access to any other page on the site when this loads. 
+The website consists of 4 pages, a **home page**, a **club page**, a **contact page** and a **response page** which loads when the contact form is successfully submitted. The footer of each page also includes a modal, allowing information about the location of the club and its opening times to be available anywhere on the site. Their is also a **custom 404** incase a visitor finds themselves trying to access a noneexistent part of the website, allowing them to head back to the main content. 
 
 
 ## Header
