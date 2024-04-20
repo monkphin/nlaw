@@ -9,48 +9,48 @@ A website created for the first milestone project for Code Institutes full stack
 # Contents
 
 # [User Experience](#user-experience)
-    * The Clubs Goals
-    * A visitors Goals
+    * The Clubs Goals(#hobby-lub-oals)
+    * A visitors Goals(#sisitor-goals)
 
-* Design
-    * Wireframes
-    * Colour Palette
-    * Typography
-    * Images
-    * Icons
+* Design{#design}
+    * Wireframes(#wireframes)
+    * Colour Palette(#colour-palette)
+    * Typography(#typography)
+    * Images(#images)
+    * Icons(#icons)
 
-* Features
-    * Header
-    * Footer
-    * Modal 
-    * Home Page
-    * Club Page
-    * Contact Page
-    * Reponse Page
-    * 404 Page
-    * Stickey Header
-    * Carousel
-    * Future Features
+* Features(#features)
+    * Header(#header)
+    * Footer(#footer)
+    * Modal (#modal)
+    * Home Page(#home-page)
+    * Club Page(#club-page)
+    * Contact Page(#contact-page)
+    * Response Page(#response-page)
+    * 404 Page(#404-page)
+    * Sticky Nav(#sticky-nav)
+    * Carousel(#carousel)
+    * Future Features(#future-features)
 
-* Bugs and issues
-    * Home Page
+* Bugs and issues(#bugs-and-issues)
+    * Home Page(#index.html)
 
-* Technology
-    * Languages
-    * Frameworks
+* Technology(#technology)
+    * Languages(#languages)
+    * Frameworks(#frameworks)
 
-* Testing
-    * HTML Validation
-    * CSS Validation
-    * Accessibility
-    * Performance
-    * User Testing
-    * Performance
-    * Responsiveness
+* Testing(#testing)
+    * HTML Validation(#html-validation)
+    * CSS Validation(#css-validation)
+    * Accessibility(#accessibility)
+    * Performance(#performance)
+    * User Testing(#user-testing)
+    * Performance(#performance)
+    * Responsiveness(#responsiveness)
 
-* Deployment
+* Deployment(#deployment)
 
-* Credits
+* Credits(#credits)
 
 # User Experience
 
