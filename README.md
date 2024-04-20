@@ -108,7 +108,7 @@ Wireframes were created with Balsamiq software.
 
 ## Colour Palette. 
 
-The colours were selected to be sympathetic to the user base, using https://paperheartdesign.com/blog/color-palette-peaceful-palettes to help pick out soothing and low contrast colour palletes that could work for some of the user base. Of those presented, I feel the 'Blueberry Bliss' selection gives a reasonable range of tones and colour options. 
+The colours were selected to be sympathetic to the user base, using [Paperheart Design's peaceful pallettes](https://paperheartdesign.com/blog/color-palette-peaceful-palettes) to help pick out soothing and low contrast colour palletes that could work for some of the user base. Of those presented, I feel the 'Blueberry Bliss' selection gives a reasonable range of tones and colour options. 
 
 <img src="docs/blueberries.jpg">
 
