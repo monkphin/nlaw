@@ -86,16 +86,16 @@ The design process needed to factor in the clubs history, since many of its memb
 
 The following sites were used to help research requirements for autism friendly design elements: 
 
-* [https://www.horlix.com/making-your-autism-friendly-website](Horlix - Making your autism friendly website) 
-* [https://overlayfacts.org/blog/digital-accessibility-web-design-for-autism](Overlay Facts - Digital Accessibility for Autism)
-* [https://uxdesign.cc/designing-for-autistic-people-overview-of-existing-research-d6f6dc20710e](UX Design - Designing for Autistic People)
+* [Horlix - Making your autism friendly website](https://www.horlix.com/making-your-autism-friendly-website) 
+* [Overlay Facts - Digital Accessibility for Autism](https://overlayfacts.org/blog/digital-accessibility-web-design-for-autism)
+* [UX Design - Designing for Autistic People](https://uxdesign.cc/designing-for-autistic-people-overview-of-existing-research-d6f6dc20710e)
 
-Due to this, several iterations of the site were wireframed before a look was settled on with attempts to work to the UK Department of Health guidlines for ASM freindly design as outlined [https://file.scirp.org/pdf/JSEA_2014022510055814.pdf](here)
+Due to this, several iterations of the site were wireframed before a look was settled on with attempts to work to the UK Department of Health guidlines for ASM freindly design as outlined [here](https://file.scirp.org/pdf/JSEA_2014022510055814.pdf)
 
 While the final design breaks some of the Department of Health recommendations, steps have been taken to assist where confusion may occur such as the inclusion of bounding boxes. Examples of this method were observed from several other websites that have been lauded for ASM focused design. 
 
-* [https://autisticadvocacy.org/](Autism Advocacy) 
-* [https://sesameworkshop.org/topics/autism/](Sesemae Street) 
+* [Autism Advocacy](https://autisticadvocacy.org) 
+* [Sesemae Street](https://sesameworkshop.org/topics/autism) 
 
 Overall I feel this finds a balance between a clean design and an autistic friendly one. 
 
@@ -239,15 +239,15 @@ The site was built with HTML and CSS, any javascript in use is provided via Boot
 
 # Testing and Validation
 ## HTML Validation
-https://validator.w3.org/
+[W3C Schools HTML Validator](https://validator.w3.org/)
 
 
 ## CSS Validation
-https://jigsaw.w3.org/css-validator/
+[W3C Schools CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 
 ## Accessability
-https://wave.webaim.org/ was used to check to ensure the site conforms to accessability standards. Several pages show redundant links - specifically contact.html, response.html and 404.html due to both the site logo and the home link in the nav bar both linking to the hindex page. Additionally club.html shows two redundant links, one due to the aforementioned duplication on the navbar and also due to the telephone number link in the contact modal being a duplicate of the link on the contact section. Other than this, no issues are reported. 
+(WAVE)[https://wave.webaim.org/] was used to check to ensure the site conforms to accessability standards. Several pages show redundant links - specifically contact.html, response.html and 404.html due to both the site logo and the home link in the nav bar both linking to the hindex page. Additionally club.html shows two redundant links, one due to the aforementioned duplication on the navbar and also due to the telephone number link in the contact modal being a duplicate of the link on the contact section. Other than this, no issues are reported. 
 
 
 ## Performance
@@ -270,26 +270,26 @@ Comments included that the colour choice was calming and easy on the eye and tha
 # Credits
 Images were sourced from a few locations, the deails of which are below. No creator credits were able to be located when checking these websites. 
 
-* Hero Image - [https://wargamesreading.co.uk/](Wargames Reading)
+* Hero Image - [Wargames Reading](https://wargamesreading.co.uk/)
 
-* Main body section images on index.html - [http://warhammer.com](Warhammer)
+* Main body section images on index.html - [Warhammer](http://warhammer.com)
 
 * Games logos on index.html - 
-    * Warhammer 40,000 [http://warhammer.com](Warhammer)
-    * Age of Sigma r[http://warhammer.com](Warhammer)
-    * Necromunda [http://warhammer.com](Warhammer)
-    * Warcry [http://warhammer.com](Warhammer)
-    * Kill Team [http://warhammer.com](Warhammer)
-    * Horus Heresy [http://warhammer.com](Warhammer)
-    * The Walking Dead [https://www.manticgames.com/](Mantic Games)
-    * Bolt Action [http://warlordgames.com](Warlord Games)
-    * Star Wars Legion [https://www.fantasyflightgames.com](Fantasy Flight Games)
-    * Dungeons & Dragons [https://dnd.wizards.com/](Wizards of the Coast)
+    * Warhammer 40,000 [Warhammer](http://warhammer.com)
+    * Age of Sigmar [Warhammer](http://warhammer.com)
+    * Necromunda [Warhammer](http://warhammer.com)
+    * Warcry [Warhammer](http://warhammer.com)
+    * Kill Team [Warhammer](http://warhammer.com)
+    * Horus Heresy [Warhammer](http://warhammer.com)
+    * The Walking Dead [Mantic Games](https://www.manticgames.com/)
+    * Bolt Action [Warlord Games](http://warlordgames.com)
+    * Star Wars Legion [Fantasy Flight Games](https://www.fantasyflightgames.com)
+    * Dungeons & Dragons [Wizards of the Coast](https://dnd.wizards.com/)
 
-* Main body images on club.html - [http://warhammer.com](Warhammer)
+* Main body images on club.html - [Warhammer](http://warhammer.com)
 
-* 404.html image  [http://warhammer.com](Warhammer)
+* 404.html image  [Warhammer](http://warhammer.com)
 
-* Main body image on response.html - [https://www.goonhammer.com/the-belated-vadinax-week-9-update/](Goonhammer)
+* Main body image on response.html - [Goonhammer](https://www.goonhammer.com/the-belated-vadinax-week-9-update/)
 
-* Text was adapted from copy found on [https://www.explodingdicetabletop.com/](Exploding Dice)
+* Text was adapted from copy found on [Exploding Dice](https://www.explodingdicetabletop.com/)
