@@ -33,7 +33,7 @@ A website created for the first milestone project for Code Institutes full stack
     * [Future Features](#future-features)
 
 * [Bugs and Issues](#bugs-and-issues)
-    * [Home Page](#home-page)
+    * [Home Page](#index-page)
 
 * [Technology](#technology)
     * [Languages](#languages)
@@ -193,7 +193,7 @@ Since I am using an older version of Bootstrap I have already created a developm
 
 # Bugs and issues. 
 
-## Home Page
+## Index Page
 index.html has some issues with its three content boxes, where they don't auto size to match each others vertical lengths this is due to having to place them within divs to allow for margins to function without causing the content to overflow to a new row. 
 
 Their is also an issue with some slight side scrolling on mobile versions of this page, which is likely related to how the bootstrap layout has been nested. The content boxes are also slightly wider than expected when on mobile, resulting in them filling the horizontal space, rather than having some breathing room around the edges. These issues are being investigsated but may not be resolved by the time the project needs to be handed in. 
