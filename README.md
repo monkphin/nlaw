@@ -181,7 +181,7 @@ Due to the index page becoming overly long when showing the list of games the gr
 As mentioned earlier in the document, it would be ideal to allow for a degree of personal customisation at the user level to allow for further improvements to accessability. Adding a calendar that the club can update would also be a useful feature so they could show events that they may have coming up that may be of interest to visitors, this could potentially tie into a mailing list, which would require a database to store user details. Additionally a gallery page could also be of use to show more pictures of the venue or projects the club are working on.
 Since I am using an older version of Bootstrap I have already created a development branch with the intention to migrate this over to Bootstrap 5, this will also give me a chance to refactor the HTML and CSS a little, since simply porting over to Bootstrap 5 presented a lot of rendering issues which need to be resolved.  
 
-##Bugs and issues. 
+## Bugs and issues. 
 index.html has some issues with its three bootstrap boxes, where they don't auto size to match each other. Also seeing some issues with overflow on this page as well as the divs being rendered wider than they should (compare to other pages for examples of how it should appear) when on mobile which I believe is inhereted from bootstraps CSS. I suspect both of these issues are down to how I'm nesting bootstrap grids. This causes minor issues with site functionality - page loads with everything looking OK but can be shifted to the left slightly. The site is usable inspite of this. 
 
 index.html has some minor positioning issues that dont directly impact site functionality for the hero text on the hero image. On some smaller screens its not aligned in a way that looks neat or inline with the rest of the site layout. This should be an easy fix with media queries, but I suspect their may be a more elegant way to do this. 
@@ -255,7 +255,7 @@ Overall loading times and performance were tested using Googles lighthouse tool 
 
 ## Responsiveness
 
-##User Testing. 
+## User Testing. 
 Since the site is designed with ASM users in mind, I reached out to several friends who I know are diagnosed with ASM who provided feedback and suggestions. 
 Comments included that the colour choice was calming and easy on the eye and that the site was easy to use, read and navigate with minimal issues. 
 
