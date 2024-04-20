@@ -43,10 +43,11 @@ A website created for the first milestone project for Code Institutes full stack
     * [HTML Validation](#html-validation)
     * [CSS Validation](#css-validation)
     * [Accessibility](#accessibility)
-    * [Performance](#performance)
     * [User Testing](#user-testing)
     * [Performance](#performance)
     * [Responsiveness](#responsiveness)
+
+* [User Stories](#user-stories)
 
 * [Deployment](#deployment)
 
@@ -266,18 +267,16 @@ The site was built with HTML and CSS, any javascript in use is provided via Boot
 ## Accessibility
 [WAVE](https://wave.webaim.org) was used to check to ensure the site conforms to accessability standards. Several pages show redundant links - specifically contact.html, response.html and 404.html due to both the site logo and the home link in the nav bar both linking to the hindex page. Additionally club.html shows two redundant links, one due to the aforementioned duplication on the navbar and also due to the telephone number link in the contact modal being a duplicate of the link on the contact section. Other than this, no issues are reported. 
 
+## User Testing. 
+Since the site is designed with ASM users in mind, I reached out to several friends who I know are diagnosed with ASM who provided feedback and suggestions. 
+Comments included that the colour choice was calming and easy on the eye and that the site was easy to use, read and navigate with minimal issues. 
 
 ## Performance
 Overall loading times and performance were tested using Googles lighthouse tool within Chromes Developer Tools
 
 ## Responsiveness
 
-## User Testing. 
-Since the site is designed with ASM users in mind, I reached out to several friends who I know are diagnosed with ASM who provided feedback and suggestions. 
-Comments included that the colour choice was calming and easy on the eye and that the site was easy to use, read and navigate with minimal issues. 
-
-
-## User Stories. 
+# User Stories. 
 
 
 # Deployment. 
