@@ -137,12 +137,12 @@ header {
 }
 
 .site-col-md-4 {    
-    padding: 0 important!;
+    padding: 0;
     max-width: 90%;
 }
 
 .site-col-md-8 {    
-    padding: 0 important!;
+    padding: 0;
     max-width: 90%;
 }
 
