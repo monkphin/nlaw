@@ -9,48 +9,48 @@ A website created for the first milestone project for Code Institutes full stack
 # Contents
 
 # [User Experience](#user-experience)
-    *The Clubs Goals
-    *A visitors Goals
+    * The Clubs Goals
+    * A visitors Goals
 
-*Design
-    *Wireframes
-    *Colour Palette
-    *Typography
-    *Images
-    *Icons
+* Design
+    * Wireframes
+    * Colour Palette
+    * Typography
+    * Images
+    * Icons
 
-*Features
-    *Header
-    *Footer
-    *Modal 
-    *Home Page
-    *Club Page
-    *Contact Page
-    *Reponse Page
-    *404 Page
-    *Stickey Header
-    *Carousel
-    *Future Features
+* Features
+    * Header
+    * Footer
+    * Modal 
+    * Home Page
+    * Club Page
+    * Contact Page
+    * Reponse Page
+    * 404 Page
+    * Stickey Header
+    * Carousel
+    * Future Features
 
-*Bugs and issues
-    *Home Page
+* Bugs and issues
+    * Home Page
 
-*Technology
-    *Languages
-    *Frameworks
+* Technology
+    * Languages
+    * Frameworks
 
-*Testing
-    *HTML Validation
-    *CSS Validation
-    *Accessibility
-    *Performance
-    *User Testing
-    *Performance
-    *Responsiveness
+* Testing
+    * HTML Validation
+    * CSS Validation
+    * Accessibility
+    * Performance
+    * User Testing
+    * Performance
+    * Responsiveness
 
-*Deployment
+* Deployment
 
-*Credits
+* Credits
 
 # User Experience
 
@@ -188,44 +188,44 @@ index.html - the carousel misrenders on screen widths of 913 to 991 pixels, caus
 The site was built with HTML and CSS, any javascript in use is provided via Bootstrap, which was needed for the carousel and nav toggle. 
 
 ## Framworks/Laungages/Programs. 
-*Bootstrap 4.2.1
-    *Used for layout and positioning, as well as the navbar, modal and carousel. 
+* Bootstrap 4.2.1
+    * Used for layout and positioning, as well as the navbar, modal and carousel. 
 
-*W3Schools
-    *Used for help with CSS. 
+* W3Schools
+    * Used for help with CSS. 
 
-*Git
-    *Users for version control, storage and deployment. 
+* Git
+    * Users for version control, storage and deployment. 
 
-*GoogleFonts
-    *Used to import fonts to the stylesheet. 
+* GoogleFonts
+    * Used to import fonts to the stylesheet. 
 
-*VSCode
-    *IDE of choice. 
+* VSCode
+    * IDE of choice. 
 
-*Balsamiq
-    *Wireframing program. 
+* Balsamiq
+    * Wireframing program. 
 
-*WAVE
-    *Used to assist with accessability checks. 
+* WAVE
+    * Used to assist with accessability checks. 
 
-*Techsini 
-    *Mockup generator
+* Techsini 
+    * Mockup generator
 
-*Fireshot
-    *Chrome PLugin for screenshots. 
+* Fireshot
+    * Chrome PLugin for screenshots. 
 
-*Google Dev Tools
-    *Used to help with troubleshooting
+* Google Dev Tools
+    * Used to help with troubleshooting
 
-*Pixelmator
-    *Users for editing and resizing images
+* Pixelmator
+    * Users for editing and resizing images
 
-*TinyPNG
-    *used for image compression. 
+* TinyPNG
+    * used for image compression. 
 
- *Favicon.io
-    *Used to generate a Favicon   
+ * Favicon.io
+    * Used to generate a Favicon   
 
 
 # Testing and Validation
@@ -261,26 +261,26 @@ Comments included that the colour choice was calming and easy on the eye and tha
 # Credits
 Images were sourced from a few locations, the deails of which are below. No creator credits were able to be located when checking these websites. 
 
-*Hero Image - [https://wargamesreading.co.uk/](Wargames Reading)
+* Hero Image - [https://wargamesreading.co.uk/](Wargames Reading)
 
-*Main body section images on index.html - [http://warhammer.com](Warhammer)
+* Main body section images on index.html - [http://warhammer.com](Warhammer)
 
-*Games logos on index.html - 
-    *Warhammer 40,000 [http://warhammer.com](Warhammer)
-    *Age of Sigma r[http://warhammer.com](Warhammer)
-    *Necromunda [http://warhammer.com](Warhammer)
-    *Warcry [http://warhammer.com](Warhammer)
-    *Kill Team [http://warhammer.com](Warhammer)
-    *Horus Heresy [http://warhammer.com](Warhammer)
-    *The Walking Dead [https://www.manticgames.com/](Mantic Games)
-    *Bolt Action [http://warlordgames.com](Warlord Games)
-    *Star Wars Legion [https://www.fantasyflightgames.com](Fantasy Flight Games)
-    *Dungeons & Dragons [https://dnd.wizards.com/](Wizards of the Coast)
+* Games logos on index.html - 
+    * Warhammer 40,000 [http://warhammer.com](Warhammer)
+    * Age of Sigma r[http://warhammer.com](Warhammer)
+    * Necromunda [http://warhammer.com](Warhammer)
+    * Warcry [http://warhammer.com](Warhammer)
+    * Kill Team [http://warhammer.com](Warhammer)
+    * Horus Heresy [http://warhammer.com](Warhammer)
+    * The Walking Dead [https://www.manticgames.com/](Mantic Games)
+    * Bolt Action [http://warlordgames.com](Warlord Games)
+    * Star Wars Legion [https://www.fantasyflightgames.com](Fantasy Flight Games)
+    * Dungeons & Dragons [https://dnd.wizards.com/](Wizards of the Coast)
 
-*Main body images on club.html - [http://warhammer.com](Warhammer)
+* Main body images on club.html - [http://warhammer.com](Warhammer)
 
-*404.html image  [http://warhammer.com](Warhammer)
+* 404.html image  [http://warhammer.com](Warhammer)
 
-*Main body image on response.html - [https://www.goonhammer.com/the-belated-vadinax-week-9-update/](Goonhammer)
+* Main body image on response.html - [https://www.goonhammer.com/the-belated-vadinax-week-9-update/](Goonhammer)
 
-*Text was adapted from copy found on [https://www.explodingdicetabletop.com/](Exploding Dice)
+* Text was adapted from copy found on [https://www.explodingdicetabletop.com/](Exploding Dice)
