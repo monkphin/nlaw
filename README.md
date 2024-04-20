@@ -9,8 +9,8 @@ A website created for the first milestone project for Code Institutes full stack
 # Contents
 
 * [User Experience](#user-experience)
-    * [The Clubs Goals](#hobby-lub-oals)
-    * [A visitors Goals](#sisitor-goals)
+    * [The Clubs Goals](#hobby-club-goals)
+    * [A visitors Goals](#visitor-goals)
 
 * [Design](#design)
     * [Wireframes](#wireframes)
