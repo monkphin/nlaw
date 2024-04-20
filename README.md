@@ -254,6 +254,11 @@ The site was built with HTML and CSS, any javascript in use is provided via Boot
  * Favicon.io
     * Used to generate a Favicon.
 
+* Quicktime
+    * Used to record footage of parts of the website for documentation 
+
+* Convertio
+    * Used to convert .mov files to .gif files for the readme.md file. 
 
 # Testing and Validation
 ## HTML Validation
