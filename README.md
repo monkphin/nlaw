@@ -514,15 +514,6 @@ The Best Practice call out was due to a low image quality on the lost.webp file.
 
 </details>
 
-## Responsiveness
-
-# User Stories. 
-
-
-# Deployment. 
-
-
-
 # Credits
 Images were sourced from a few locations, the details of which are below. No creator credits were able to be located when checking these websites. 
 
