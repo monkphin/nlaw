@@ -204,7 +204,7 @@ The menu items show an underline and change to #0b385f to show the current page.
 <img src="docs/full-nav.png">
 <img src="docs/mobile-nav.png">
 <img src="docs/hamburger.png">
-<img src="docs/full-menu.gif">
+<img src="docs/desktop-menu.gif">
 <img src="docs/mobile-menu.gif">
 
 ## Footer
