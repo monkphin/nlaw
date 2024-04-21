@@ -112,43 +112,61 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 <details>
 <summary>Desktop</summary>
 
-Homepage
+<details>
+<summary>Homepage Desktop</summary>
 <img src="docs/index-desktop.png">
-
-Club
-<img src="docs/club-desktop.png">
-
-
-Contact
-<img src="docs/contact-desktop.png">
-
-Response
-<img src="docs/response-desktop.png">
-
-404
-<img src="docs/404-desktop.png">
-
 </details>
 
+<details>
+<summary>Club Desktop</summary>
+<img src="docs/club-desktop.png">
+</details>
+
+<details>
+<summary>Contact Desktop</summary>
+<img src="docs/contact-desktop.png">
+</details>
+
+<details>
+<summary>Response Desktop</summary>
+<img src="docs/response-desktop.png">
+</details>
+
+<details>
+<summary>404 Desktop</summary>
+<img src="docs/404-desktop.png">
+</details>
+</details>
 
 <details>
 <summary>Mobile</summary>
-Homepage
+
+<details>
+<summary>Homepage Mobile</summary>
 <img src="docs/index-mobile.png">
+</details>
 
-Club
+<details>
+<summary>Club Mobile</summary>
 <img src="docs/club-mobile.png">
+</details>
 
-Contact
+<details>
+<summary>Contact Mobile</summary>
 <img src="docs/contact-mobile.png">
+</details>
 
-Response
+<details>
+<summary>Response Mobile</summary>
 <img src="docs/response-mobile.png">
+</details>
 
-404
+<details>
+<summary>404 Mobile</summary>
 <img src="docs/404-mobile.png">
 </details>
 
+</details>
 </details>
 
 ## Colour Palette. 
