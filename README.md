@@ -348,21 +348,92 @@ The site was built with HTML and CSS, any javascript in use is provided via Boot
 # Testing and Validation
 ## HTML Validation
 [W3Schools HTML Validator](https://validator.w3.org/)
+All pages passed with 0 errors. 
 
+<details>
+<summary>Homepage</summary>
+<img src="docs/home-validate.png">
+</details>
+
+<details>
+<summary>Club Page</summary>
+<img src="docs/club-validate.png">
+</details>
+
+<details>
+<summary>Contact Page</summary>
+<img src="docs/contact-validate.png">
+</details>
+
+<details>
+<summary>Response Page</summary>
+<img src="docs/response-validate.png">
+</details>
+
+<details>
+<summary>404 Page</summary>
+<img src="docs/index-desktop.png">
+</details>
 
 ## CSS Validation
 [W3Schools CSS Validator](https://jigsaw.w3.org/css-validator/)
+Some errors were detected with the CSS when testing against the URL. However these were all with external sheets provided by Hover.css or bootstrap due tot hem using vendor specific extensions. The websites CSS file passed with 0 errors. However a warning was presented due to the imported stylesheet for the fonts not being checked by the service. 
+
+<details>
+<summary>Full site CSS</summary>
+<img src="docs/full-css-validate.png">
+</details>
+
+<details>
+<summary>CSS File</summary>
+<img src="docs/file-css-validate.png">
+</details>
+
+<details>
+<summary>CSS File Warning</summary>
+<img src="docs/file-css-warning.png">
+</details>
 
 
 ## Accessibility
-[WAVE](https://wave.webaim.org) was used to check to ensure the site conforms to accessibility standards. Several pages show redundant links - specifically contact.html, response.html and 404.html due to both the site logo and the home link in the nav bar both linking to the index page. Additionally club.html shows two redundant links, one due to the aforementioned duplication on the navbar and also due to the telephone number link in the contact modal being a duplicate of the link on the contact section. Other than this, no issues are reported. 
+[WAVE](https://wave.webaim.org) was used to check to ensure the site conforms to accessibility standards. Several pages show redundant links - specifically contact.html, and response.html due to both the site logo and the home link in the nav bar both linking to the index page. Additionally club.html shows two redundant links, one due to the aforementioned duplication on the navbar and also due to the telephone number link in the contact modal being a duplicate of the link on the contact section. Other than this, no issues are reported. 
+
+<details>
+<summary>Homepage</summary>
+<img src="docs/wave-home.png">
+</details>
+
+<details>
+<summary>Club Page</summary>
+<img src="docs/wave-home.png">
+<img src="docs/wave-redundant.png">
+<img src="docs/wave-club-redundant.png">
+</details>
+
+<details>
+<summary>Contact Page</summary>
+<img src="docs/wave-home.png">
+<img src="docs/wave-redundant.png">
+</details>
+
+<details>
+<summary>Response Page</summary>
+<img src="docs/wave-home.png">
+<img src="docs/wave-redundant.png">
+</details>
+
+<details>
+<summary>404 Page</summary>
+<img src="docs/wave-home.png">
+</details>
 
 ## User Testing. 
 Since the site is designed with ASM users in mind, I reached out to several friends who I know are diagnosed with ASM who provided feedback and suggestions. 
 Comments included that the colour choice was calming and easy on the eye and that the site was easy to use, read and navigate with minimal issues. 
 
 ## Performance
-Overall loading times and performance were tested using Google’s lighthouse tool within Chrome's Developer Tools
+Overall loading times and performance were tested using Google’s lighthouse tool within Chrome's Developer Tools. 
+
 
 ## Responsiveness
 
