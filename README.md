@@ -91,9 +91,9 @@ The following sites were used to help research requirements for autism friendly 
 * [Overlay Facts - Digital Accessibility for Autism](https://overlayfacts.org/blog/digital-accessibility-web-design-for-autism)
 * [UX Design - Designing for Autistic People](https://uxdesign.cc/designing-for-autistic-people-overview-of-existing-research-d6f6dc20710e)
 
-Due to this, several iterations of the site were wireframed before a look was settled on with attempts to work to the UK Department of Health guidelines for ASM friendly design as outlined [here](https://file.scirp.org/pdf/JSEA_2014022510055814.pdf)
+Due to this, several iterations of the site were wireframed before a look was settled on with attempts to work to the UK Department of Health guidelines for ASD friendly design as outlined [here](https://file.scirp.org/pdf/JSEA_2014022510055814.pdf)
 
-While the final design breaks some of the Department of Health recommendations, steps have been taken to assist where potential for confusion may occur such as the inclusion of bounding boxes. Examples of this method were observed from several other websites that have been lauded for ASM focused design. 
+While the final design breaks some of the Department of Health recommendations, steps have been taken to assist where potential for confusion may occur such as the inclusion of bounding boxes. Examples of this method were observed from several other websites that have been lauded for ASD focused design. 
 
 * [Autism Advocacy](https://autisticadvocacy.org) 
 * [Sesame Street](https://sesameworkshop.org/topics/autism) 
@@ -425,7 +425,7 @@ Some errors were detected with the CSS when testing against the URL. However the
 </details>
 
 ## User Testing. 
-Since the site is designed with ASM users in mind, I reached out to several friends who I know are diagnosed with ASM who provided feedback and suggestions. 
+Since the site is designed with ASD users in mind, I reached out to several friends who I know are diagnosed with ASD who provided feedback and suggestions. 
 Comments included that the colour choice was calming and easy on the eye and that the site was easy to use, read and navigate with minimal issues. 
 
 ## Performance
