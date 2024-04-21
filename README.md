@@ -119,32 +119,33 @@ Club
 <img src="docs/club-desktop.png">
 
 
-<summary>Contact Desktop</summary>
+Contact
 <img src="docs/contact-desktop.png">
 
-<summary>Response Desktop</summary>
+Response
 <img src="docs/response-desktop.png">
 
-<summary>404 Desktop</summary>
+404
 <img src="docs/404-desktop.png">
+
 </details>
 
 
 <details>
 <summary>Mobile</summary>
-<summary>Homepage Mobile</summary>
+Homepage
 <img src="docs/index-mobile.png">
 
-<summary>Club Mobile</summary>
+Club
 <img src="docs/club-mobile.png">
 
-<summary>Contact Mobile</summary>
+Contact
 <img src="docs/contact-mobile.png">
 
-<summary>Response Mobile</summary>
+Response
 <img src="docs/response-mobile.png">
 
-<summary>404 Mobile</summary>
+404
 <img src="docs/404-mobile.png">
 </details>
 
