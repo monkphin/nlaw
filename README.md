@@ -432,35 +432,40 @@ Comments included that the colour choice was calming and easy on the eye and tha
 Overall loading times and performance were tested using Google’s lighthouse tool within Chrome's Developer Tools. 
 
 <details>
-
 <summary>Desktop</summary>
 
+<details>
 <summary>Home Page</summary>
 <img src="docs/home-performance.png">
+<br>
 The main issues recorded here were due to the hero image, a suggestion to preconnect to google fonts and some render blocking resources from bootstrap, hover.css and fontawesome. 
 </details>
 
 <details>
 <summary>Club Page</summary>
 <img src="docs/club-performance.png">
+<br>
 The main callouts provided here were around improperly sized images, the hero image itself and again suggestions to preconnect to google fonts and having render blocking resources from bootstrap, hoverr.css and fontawesome. 
 </details>
 
 <details>
 <summary>Contact Page</summary>
 <img src="docs/contact-performance.png">
+<br>
 The only two main negative callouts were again suggestions to preconnect to google fonts and having render blocking resources from bootstrap, hoverr.css and fontawesome. 
 </details>
 
 <details>
 <summary>Response Page</summary>
 <img src="docs/response-performance.png">
+<br>
 The two main negative callouts were due to having render blocking resources from bootstrap, hoverr.css and fontawesome and also a suggestion to reduce unused CSS, which was highlighted as coming from Bootstrap and FontAwesome. 
 </details>
 
 <details>
 <summary>404 Page</summary>
 <img src="docs/404-performance.png">
+<br>
 This page only had a singular call out, which was the render blocking resources from from bootstrap, hoverr.css and fontawesome.
 </details>
 
@@ -472,33 +477,38 @@ This page only had a singular call out, which was the render blocking resources 
 <details>
 <summary>Home Page</summary>
 <img src="docs/home-performance-mob.png">
-Performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
+<br>Performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
+<br>
 The accessability score was dropped due one of the column images being seen as low quality. 
 </details>
 
 <details>
 <summary>Club Page</summary>
 <img src="docs/club-performance-mob.png">
+<br>
 Like with the home page performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
 </details>
 
 <details>
 <summary>Contact Page</summary>
 <img src="docs/contact-performance-mob">
+<br>
 Much like with the previous two pages performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
 </details>
 
 <details>
 <summary>Response Page</summary>
 <img src="docs/response-performance-mob.png">
+<br>
 Much like with the previous two pages performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. Additionally their was a suggestion the comm array image could be reduced in size further and also that a preconnect/prefetch could be used on the font-awesome CDN. 
 </details>
 
 <details>
 <summary>404 Page</summary>
 <img src="docs/404-performance-mob.png">
+<br>
 This was, unsurprisingly the most performant of the pages tested, it also being the most minimal. Main callouts were around the same render blocking resources - this is due to essentially copy pasting over the initial index.html file and ripping out all but the header and building a near empty page, so removing the uneeded links to CSS/Javascript resources could help improve this. 
-
+<br>
 The Best Practice call out was due to a low image quality on the lost.webp file. 
 </details>
 
