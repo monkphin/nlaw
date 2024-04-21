@@ -171,7 +171,7 @@ This page provides more specific information on the club itself, concerning its 
 ## Contact Page
 The contact page is a simple form asking for name, email and a message. This has an action to call response.html, so it doesn't just error out and instead provides feedback to the user that an email has been sent. With further development this would send an email to the clubs email on submission. 
 
-All fields are required to submit and the form is configured to be aware of if the email field has not been provided with an email. 
+All fields will highlight as they're clicked into to show the user which field they're working on and all fields require data to submitthe form. The form is configured to be aware of if the email field has been filled in with normal text, rather than an email. 
 
 ## Response Page
 This page exists purely to provide feedback on submitting the form, rather than just erroring out. 
