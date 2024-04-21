@@ -106,12 +106,18 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 
 <details>
 <summary>Wireframes</summary>
+<details>
+
+
+<details>
+<summary>Desktop</summary>
 
 <summary>Homepage Desktop</summary>
 <img src="docs/index-desktop.png">
 
 <summary>Club Desktop</summary>
 <img src="docs/club-desktop.png">
+
 
 <summary>Contact Desktop</summary>
 <img src="docs/contact-desktop.png">
@@ -121,13 +127,19 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 
 <summary>404 Desktop</summary>
 <img src="docs/404-desktop.png">
+</details>
 
+
+<details>
+<summary>Mobile</summary>
 <summary>Homepage Mobile</summary>
 <img src="docs/index-mobile.png">
 
+<details>
 <summary>Club Mobile</summary>
 <img src="docs/club-mobile.png">
 
+<details>
 <summary>Contact Mobile</summary>
 <img src="docs/contact-mobile.png">
 
