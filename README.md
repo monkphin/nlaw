@@ -372,7 +372,7 @@ All pages passed with 0 errors.
 
 <details>
 <summary>404 Page</summary>
-<img src="docs/index-desktop.png">
+<img src="docs/404-validate.png">
 </details>
 
 ## CSS Validation
