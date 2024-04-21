@@ -165,21 +165,21 @@ Finally, the images in the games list and carousel will grow on mouse over, than
 
 <img src="docs/hover.gif">
 
-## The Club page
+## Club page
 This page provides more specific information on the club itself, concerning its gaming facilities and what food and drink options are available and some basic information regarding costs to access, again the hero image, showing the main room of the club is carried over. This page also features a list of club rules and also the address and phone number for the club, and its opening hours and a google map to aid people in visiting. Much like the home page this uses bootstraps grid positioning system with various columns and rows and some nesting of these to help ensure a clean and responsive layout irrespective of the device that the site is accessed from. Much like with the modal, the opening times shifts between horizontal and modal depending on the device screen size that the site is accessed from. LIke in the modal, the phone number is clickable and will open the users default calling application with the number pre-populated. 
 
-## Contact
+## Contact Page
 The contact page is a simple form asking for name, email and a message. This has an action to call response.html, so it doesn't just error out and instead provides feedback to the user that an email has been sent. With further development this would send an email to the clubs email on submission. 
 
 All fields are required to submit and the form is configured to be aware of if the email field has not been provided with an email. 
 
-## Response
+## Response Page
 This page exists purely to provide feedback on submitting the form, rather than just erroring out. 
 
-## 404
+## 404 Page
 A custom 404 error page was added, to keep the user on site in the event of them somehow trying to load a none existing page. This is built using the stock layout to allow users to easily navigate to any part of the site, rather than just leaving them with no route back or simply sending them back to the home page. 
 
-## Sticky Nav. 
+## Sticky Nav
 Since the site can get potentially quite long on smaller screen sizes the navbar is configured to remain in view at all times, allowing the user to easily move from page to page if they want to read information on a different page, or perhaps have a question they want to ask of the club while it's in mind. 
 
 ## Carousel
