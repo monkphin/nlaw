@@ -403,7 +403,8 @@ Some errors were detected with the CSS when testing against the URL. However the
 
 <details>
 <summary>Club Page</summary>
-<img src="docs/wave-home.png"><img src="docs/wave-redundant.png"><img src="docs/wave-club-redundant.png">
+<img src="docs/wave-home.png">
+<img src="docs/wave-redundant.png"><img src="docs/wave-club-redundant.png">
 </details>
 
 <details>
