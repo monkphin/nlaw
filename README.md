@@ -491,7 +491,7 @@ Like with the home page performance issues were suggested to be relating to the 
 
 <details>
 <summary>Contact Page</summary>
-<img src="docs/contact-performance-mob">
+<img src="docs/contact-performance-mob.png">
 <br>
 Much like with the previous two pages performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
 </details>
