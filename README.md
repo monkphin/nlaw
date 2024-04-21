@@ -233,8 +233,7 @@ The site's homepage provides some of the clubs history, as well as information a
 The page as a whole uses bootstraps grid positioning to allow for positioning and responsive design, with stacked rows to allow for a column containing the list of games to be rendered on the left when on a desktop with the hero image to the right in another column directly above the three columns providing the clubs background, information on tabletop gaming and some information about the club and its members. These will re-order depending on the size of the device, with the hero image showing the main room of the club always remaining at the top of the page. 
 
 <img src="docs/indexpage-desktop.png">
-<img src="docs/indexpage-mobile.png">
-<img src="docs/indexpage-bottom-mobile.png">
+<img src="docs/indexpage-mobile.png"><img src="docs/indexpage-bottom-mobile.png">
 
 Finally, much like on the carousel the images will expand slightly thanks to Hover.css's grow function, to show the user that the image they're interacting with when mousing over it. 
 
@@ -246,8 +245,7 @@ This page provides more specific information on the club itself, concerning its 
 <img src="docs/clubpage-top-desktop.png">
 <img src="docs/clubpage-bottom-desktop.png">
 
-<img src="docs/clubpage-top-mobile.png">
-<img src="docs/clubpage-bottom-mobile.png">
+<img src="docs/clubpage-top-mobile.png"><img src="docs/clubpage-bottom-mobile.png">
 
 ## Contact Page
 The contact page is a simple form asking for name, email and a message. This has an action to call response.html, so it doesn't just error out and instead provides feedback to the user that an email has been sent. With further development this would send an email to the clubs email on submission. 
@@ -405,21 +403,17 @@ Some errors were detected with the CSS when testing against the URL. However the
 
 <details>
 <summary>Club Page</summary>
-<img src="docs/wave-home.png">
-<img src="docs/wave-redundant.png">
-<img src="docs/wave-club-redundant.png">
+<img src="docs/wave-home.png"><img src="docs/wave-redundant.png"><img src="docs/wave-club-redundant.png">
 </details>
 
 <details>
 <summary>Contact Page</summary>
-<img src="docs/wave-home.png">
-<img src="docs/wave-redundant.png">
+<img src="docs/wave-home.png"><img src="docs/wave-redundant.png">
 </details>
 
 <details>
 <summary>Response Page</summary>
-<img src="docs/wave-home.png">
-<img src="docs/wave-redundant.png">
+<img src="docs/wave-home.png"><img src="docs/wave-redundant.png">
 </details>
 
 <details>
