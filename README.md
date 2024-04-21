@@ -197,12 +197,13 @@ Since I am using an older version of Bootstrap I have already created a developm
 
 ## Index Page
 index.html has some issues with its three content boxes, where they don't auto size to match each other's vertical lengths; this is due to having to place them within divs to allow for margins to function without causing the content to overflow to a new row. 
-
-There is also an issue with some slight side scrolling on mobile versions of this page, which is likely related to how the bootstrap layout has been nested. This has been mitigated in the short term by hiding overflow on main tags in the short term. 
 <br><br>
  The content boxes are also slightly wider than expected when on mobile, resulting in them filling the horizontal space, rather than having some breathing room around the edges. These issues are being investigated but may not be resolved by the time the project needs to be handed in. 
 
 index.html has some minor positioning issues that don't directly impact site functionality for the hero text on the hero image. On some smaller screens it is not aligned in a way that looks neat or inline with the rest of the site layout. This should be an easy fix with media queries, but I suspect there may be a more elegant way to do this. 
+
+## Site Wide
+Their are some off overflow issues on mobile views, which have required me to hide overflows in the CSS on the footer of all pages featuring the main site template and the main content of the index page. I suspect this is due to how I'm nesting bootstrap containers, which may be resolved when moving to Bootstrap 5.  
 
 To be fixed. 
 index.html - the carousel misrenders on screen widths of 913 to 991 pixels, causing it to overlap over the footer. This can easily be fixed via an additional CSS media query. 
