@@ -205,7 +205,7 @@ The menu items show an underline and change to #0b385f to show the current page.
 <img src="docs/mobile-nav.png">
 <img src="docs/hamburger.png">
 <img src="docs/full-menu.gif">
-<img src="mobile-menu.gif">
+<img src="docs/mobile-menu.gif">
 
 ## Footer
 The footer provides constant access to key information concerning the location and operating hours of the club. This modal responds to changes in screen size with both the opening hours and contact information shifting from horizontal to vertical layout as the amount of visible space decreases. The footer also contains links to various social media platforms where the club has some presence, allowing site visitors to interact with the club through other methods and see any other pictures of the venue and any hobby activities that may not be present on the website. 
