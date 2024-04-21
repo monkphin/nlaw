@@ -112,10 +112,10 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 <details>
 <summary>Desktop</summary>
 
-<summary>Homepage Desktop</summary>
+Homepage
 <img src="docs/index-desktop.png">
 
-<summary>Club Desktop</summary>
+Club
 <img src="docs/club-desktop.png">
 
 
