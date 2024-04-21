@@ -106,7 +106,7 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 
 <details>
 <summary>Wireframes</summary>
-</details>
+
 
 
 <details>
@@ -148,6 +148,7 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 <img src="docs/404-mobile.png">
 </details>
 
+</details>
 
 ## Colour Palette. 
 
