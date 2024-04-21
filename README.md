@@ -223,7 +223,7 @@ Since the site can get potentially quite long on smaller screen sizes the navbar
 <img src="docs/sticky-menu.gif">
 
 ## Carousel
-Due to the index page becoming overly long when showing the list of games the group enjoys, the design was tweaked slightly to shift this list to the bottom of the main content and replace it with a carousel. The carousel was sourced from Bootstrap with some customisation being done to ensure it fit the site's designs, this meant using some fonts from FontAwesome to replace the left and right arrows since the default icons were proving difficult to format correctly.  
+Due to the index page becoming overly long when showing the list of games the group enjoys, the design was tweaked slightly to shift this list to the bottom of the main content and replace it with a carousel. The carousel was sourced from Bootstrap with some customisation being done to ensure it fit the site's designs, this meant using some fonts from FontAwesome to replace the left and right arrows since the default icons were proving difficult to format correctly. Grow from Hover.css is also used so that the images will zoom slightly on mouse over to show some interaction to the user when moving to tap/click on the image. 
 
 <img src="docs/carousel.gif">
 
@@ -236,9 +236,9 @@ The page as a whole uses bootstraps grid positioning to allow for positioning an
 
 <img src="docs/indexpage-desktop.gif">
 <img src="docs/indexpage-mobile.gif">
+<img src="docs/indexpage-bottom-mobile.gif">
 
-Finally, the images in the games list and carousel will grow on mouse over, thanks to Hover.css. 
-
+Finally, much like on the carousel the images will expand slightly thanks to Hover.css's grow function, to show the user that the image they're interacting with when mousing over it. 
 
 <img src="docs/hover.gif">
 
@@ -256,13 +256,20 @@ The contact page is a simple form asking for name, email and a message. This has
 
 All fields will highlight as they're clicked into to show the user which field they're working on and all fields require data to submitthe form. The form is configured to be aware of if the email field has been filled in with normal text, rather than an email. 
 
+<img src="docs/contactpage-desktop.gif">
+<img src="docs/contactpage-mobile.gif">
+
 ## Response Page
 This page exists purely to provide feedback on submitting the form, rather than just erroring out. 
+
+<img src="docs/responsepage-desktop.gif">
+<img src="docs/responsepage-mobile.gif">
 
 ## 404 Page
 A custom 404 error page was added, to keep the user on site in the event of them somehow trying to load a none existing page. This is built using the stock layout to allow users to easily navigate to any part of the site, rather than just leaving them with no route back or simply sending them back to the home page. 
 
-
+<img src="docs/404page-desktop.gif">
+<img src="docs/404page-mobile.gif">
 
 ## Future features
 As mentioned earlier in the document, it would be ideal to allow for a degree of personal customisation at the user level to allow for further improvements to accessibility. Adding a calendar that the club can update would also be a useful feature so they could show events that they may have coming up that may be of interest to visitors, this could potentially tie into a mailing list, which would require a database to store user details. Additionally a gallery page could also be of use to show more pictures of the venue or projects the club are working on without visitors having to leave the site and visit the clubs social pages. 
