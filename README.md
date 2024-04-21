@@ -217,10 +217,25 @@ The modal as previously mentioned provides a quick and easy way to find the club
 <img src="docs/full-modal.png">
 <img src="docs/mobile-modal.png">
 
+## Sticky Nav
+Since the site can get potentially quite long on smaller screen sizes the navbar is configured to remain in view at all times, allowing the user to easily move from page to page if they want to read information on a different page, or perhaps have a question they want to ask of the club while it's in mind. 
+
+<img src="docs/sticky-menu.gif">
+
+## Carousel
+Due to the index page becoming overly long when showing the list of games the group enjoys, the design was tweaked slightly to shift this list to the bottom of the main content and replace it with a carousel. The carousel was sourced from Bootstrap with some customisation being done to ensure it fit the site's designs, this meant using some fonts from FontAwesome to replace the left and right arrows since the default icons were proving difficult to format correctly.  
+
+<img src="docs/carousel.gif">
+
 ## Home Page
 The site's homepage provides some of the clubs history, as well as information about the wider tabletop gaming hobby and some of the possible benefits it can bring to those partaking in it. This page also features a list of game systems the club members enjoy the most to allow visitors to understand what games they may expect to be able to easily play if they visited in person. Early testing of the site showed some issues with how this was positioned when using mobiles and other smaller screened devices, where the main content was pushed quite far down the page. To resolve this Bootstrap ordering was used to move the games list to the bottom of the page on smaller screens. However this also proved less than ideal since it just created an overly long vertical scroll. To mitigate this, the list is hidden on smaller screens and replaced by a carousel.
 
+
+
 The page as a whole uses bootstraps grid positioning to allow for positioning and responsive design, with stacked rows to allow for a column containing the list of games to be rendered on the left when on a desktop with the hero image to the right in another column directly above the three columns providing the clubs background, information on tabletop gaming and some information about the club and its members. These will re-order depending on the size of the device, with the hero image showing the main room of the club always remaining at the top of the page. 
+
+<img src="docs/indexpage-desktop.gif">
+<img src="docs/indexpage-mobile.gif">
 
 Finally, the images in the games list and carousel will grow on mouse over, thanks to Hover.css. 
 
@@ -229,6 +244,12 @@ Finally, the images in the games list and carousel will grow on mouse over, than
 
 ## Club page
 This page provides more specific information on the club itself, concerning its gaming facilities and what food and drink options are available and some basic information regarding costs to access, again the hero image, showing the main room of the club is carried over. This page also features a list of club rules and also the address and phone number for the club, and its opening hours and a google map to aid people in visiting. Much like the home page this uses bootstraps grid positioning system with various columns and rows and some nesting of these to help ensure a clean and responsive layout irrespective of the device that the site is accessed from. Much like with the modal, the opening times shifts between horizontal and modal depending on the device screen size that the site is accessed from. LIke in the modal, the phone number is clickable and will open the users default calling application with the number pre-populated. 
+
+<img src="docs/clubpage-top-desktop.gif">
+<img src="docs/clubpage-bottom-desktop.gif">
+
+<img src="docs/clubpage-top-mobile.gif">
+<img src="docs/clubpage-bottom-mobile.gif">
 
 ## Contact Page
 The contact page is a simple form asking for name, email and a message. This has an action to call response.html, so it doesn't just error out and instead provides feedback to the user that an email has been sent. With further development this would send an email to the clubs email on submission. 
@@ -241,14 +262,7 @@ This page exists purely to provide feedback on submitting the form, rather than 
 ## 404 Page
 A custom 404 error page was added, to keep the user on site in the event of them somehow trying to load a none existing page. This is built using the stock layout to allow users to easily navigate to any part of the site, rather than just leaving them with no route back or simply sending them back to the home page. 
 
-## Sticky Nav
-Since the site can get potentially quite long on smaller screen sizes the navbar is configured to remain in view at all times, allowing the user to easily move from page to page if they want to read information on a different page, or perhaps have a question they want to ask of the club while it's in mind. 
 
-## Carousel
-Due to the index page becoming overly long when showing the list of games the group enjoys, the design was tweaked slightly to shift this list to the bottom of the main content and replace it with a carousel. The carousel was sourced from Bootstrap with some customisation being done to ensure it fit the site's designs, this meant using some fonts from FontAwesome to replace the left and right arrows since the default icons were proving difficult to format correctly.  
-
-
-<img src="docs/carousel.gif">
 
 ## Future features
 As mentioned earlier in the document, it would be ideal to allow for a degree of personal customisation at the user level to allow for further improvements to accessibility. Adding a calendar that the club can update would also be a useful feature so they could show events that they may have coming up that may be of interest to visitors, this could potentially tie into a mailing list, which would require a database to store user details. Additionally a gallery page could also be of use to show more pictures of the venue or projects the club are working on without visitors having to leave the site and visit the clubs social pages. 
