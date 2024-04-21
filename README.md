@@ -436,39 +436,40 @@ Overall loading times and performance were tested using Google’s lighthouse to
 <summary>Desktop</summary>
 
 <summary>Home Page</summary>
-<img src="docs/wave-home.png">
-
+<img src="docs/home-performance.png">
+The main issues recorded here were due to the hero image, a suggestion to preconnect to google fonts and some render blocking resources from bootstrap, hover.css and fontawesome. 
 </details>
 
 <details>
 <summary>Club Page</summary>
-<img src="docs/wave-home.png">
-
+<img src="docs/club-performance.png">
+The main callouts provided here were around improperly sized images, the hero image itself and again suggestions to preconnect to google fonts and having render blocking resources from bootstrap, hoverr.css and fontawesome. 
 </details>
 
 <details>
 <summary>Contact Page</summary>
-<img src="docs/wave-home.png">
-
+<img src="docs/contact-performance.png">
+The only two main negative callouts were again suggestions to preconnect to google fonts and having render blocking resources from bootstrap, hoverr.css and fontawesome. 
 </details>
 
 <details>
 <summary>Response Page</summary>
-<img src="docs/wave-home.png">
-
+<img src="docs/response-performance.png">
+The two main negative callouts were due to having render blocking resources from bootstrap, hoverr.css and fontawesome and also a suggestion to reduce unused CSS, which was highlighted as coming from Bootstrap and FontAwesome. 
 </details>
 
 <details>
 <summary>404 Page</summary>
-<img src="docs/wave-home.png">
-
+<img src="docs/404-performance.png">
+This page only had a singular call out, which was the render blocking resources from from bootstrap, hoverr.css and fontawesome.
 </details>
 
 </details>
 
-
+<details>
 <summary>Mobile</summary>
 
+<details>
 <summary>Home Page</summary>
 <img src="docs/home-performance-mob.png">
 Performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
