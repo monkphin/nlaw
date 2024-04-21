@@ -7,6 +7,10 @@ header {
     height: 112px;
 }
 
+main {
+    overflow-x: hidden; 
+}
+
 .site-navbar-light {
     top: 0;
     width: 100%;
