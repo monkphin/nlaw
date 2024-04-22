@@ -526,6 +526,59 @@ The Best Practice call out was due to a low image resolution on the lost.webp fi
 
 </details>
 
+# Deployment
+
+This project is currently hosted on Github Pages which was deployed from the main branch. 
+
+## Cloning Locally
+
+To work on the site on your local machine a local clone will be needed. 
+Please follow the below steps to clone this repo. 
+    * Log into github and browse to this repo. 
+    * Click the green button labeled 'Code' and ensure the 'Local' tab is selected. 
+    * Click on https and copy the provided link
+    * Open your local CLI with Git support or IDE that supports Git CLI
+    * Change your cirectory to the one where you wish to clone the directory to. 
+    * type 'git clone' and paste the previously copied URL and press enter. 
+    ```
+    $ git clone https://github.com/monkphin/nlaw.git
+    ```
+    This will generate the below output. 
+    > Cloning into `CI-Clone`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+    ```
+
+## Branching
+If you need to develop new features that may impact the currently running hosted site on Github Pages, the repo will need a branch creating. 
+To do this, the following steps can be followed
+
+Web:
+    * Click on the button marked 'main' and click 'view all branches' 
+    * Click the green 'New Branch' button
+    * In the spawned modal, enter a name for the branch and select which source you are branching from if more than one branch exists. 
+    * Click the green 'Create Branch' button. 
+
+CLI:
+Assuming you are currnetly working on the 'main' branch
+    In your CLI type the following git checkout -b <branch name>
+    
+    ```
+    darre@local MINGW64 ~/Code/nlaw (main)
+    $ git checkout -b new-feature
+    ```
+    This will generate the below output
+    ```
+    Switched to a new branch 'new-feature'
+    darre@Anton MINGW64 ~/Code/nlaw (new-feature)
+    ```
+    Any changes you make to the code from this point on will be in the newly created branch. 
+
+Adjustments can be made to the underlying code of the site without impacting the deplyed build by creating a branch. 
+
+
 # Credits
 Images were sourced from a few locations, the details of which are below. No creator credits were able to be located when checking these websites. 
 
