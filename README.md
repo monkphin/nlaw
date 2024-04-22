@@ -438,7 +438,7 @@ Overall loading times and performance were tested using Google’s lighthouse to
 <summary>Home Page</summary>
 <img src="docs/home-performance.png">
 <br>
-The main issues recorded here were due to the hero image, a suggestion to preconnect to google fonts and some render blocking resources from bootstrap, hover.css and fontawesome. 
+The main issues recorded here were due to the hero image, a suggestion to preconnect to google fonts and some render blocking resources from bootstrap, hover.css and fontawesome. I susept the renderblocking images will be resolved once the site is migrated to bootstrap 5, since its documentation includes sections on optimisation which bootstrap 4 seems to lack. 
 </details>
 
 <details>
