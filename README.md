@@ -450,35 +450,35 @@ Overall loading times and performance were tested using Google’s lighthouse to
 <summary>Home Page</summary>
 <img src="docs/home-performance.png">
 <br>
-
+The main issue seen here is LCP, specifically due to render delay for the hero image which is around 2,880ms on average over multiple tests. Steps have been taken to improve this, such as pre-caching the image in HTML, shifting where the image is called in the CSS file, shifting to webp files and compressing the file to sub 200kb to minimise load times. However I am unable to reduce this further. 
 </details>
 
 <details>
 <summary>Club Page</summary>
 <img src="docs/club-performance.png">
 <br>
-The main callouts provided here were around improperly sized images, the hero image itself and again suggestions to preconnect to google fonts and having render blocking resources from bootstrap, hoverr.css and fontawesome. 
+Unlike the home page, the club page shows much better LCP times, with its render delay being the main culprit with times averaging around 1,050ms. The same techniques for the homepage are being used here to preload the hero image to ensure speedy response times. 
 </details>
 
 <details>
 <summary>Contact Page</summary>
 <img src="docs/contact-performance.png">
 <br>
-The only two main negative callouts were again suggestions to preconnect to google fonts and having render blocking resources from bootstrap, hoverr.css and fontawesome. 
+The main issue highlighted on the contact page was that bootstrap and hover.css are blocking the first paint of the page. However the impact is very negligable. 
 </details>
 
 <details>
 <summary>Response Page</summary>
 <img src="docs/response-performance.png">
 <br>
-The two main negative callouts were due to having render blocking resources from bootstrap, hoverr.css and fontawesome and also a suggestion to reduce unused CSS, which was highlighted as coming from Bootstrap and FontAwesome. 
+Much like the contact page, the main issue highlighted on the response page was that bootstrap and hover.css are blocking the first paint of the page. However the impact is very negligable. 
 </details>
 
 <details>
 <summary>404 Page</summary>
 <img src="docs/404-performance.png">
 <br>
-This page only had a singular call out, which was the render blocking resources from from bootstrap, hoverr.css and fontawesome.
+This page only had a singular call out, which was the render blocking resources from from bootstrap. Again, this isnt overly impacting performance in testing so isnt a huge issue. 
 </details>
 
 </details>
@@ -489,39 +489,39 @@ This page only had a singular call out, which was the render blocking resources 
 <details>
 <summary>Home Page</summary>
 <img src="docs/home-performance-mob.png">
-<br>Performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
+<br>Much like on the desktop, the hero image is presenting the mainstay of issues here despite steps taken to try to mitigate this. This time with the LCP being 15.5s
 <br>
-The accessability score was dropped due one of the column images being seen as low quality. 
+The Best Practices score was dropped due the column images being seen as low resolution, specifically the 'build.webp' image, interestingly the other two images were not called out, despite them all being the same size and DPI. 
 </details>
 
 <details>
 <summary>Club Page</summary>
 <img src="docs/club-performance-mob.png">
 <br>
-Like with the home page performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
+Like with the home page performance issues were suggested to be relating to the hero image. With the main issue again being render delay, hitting 7,330ms. 
 </details>
 
 <details>
 <summary>Contact Page</summary>
 <img src="docs/contact-performance-mob.png">
 <br>
-Much like with the previous two pages performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. 
+As with the other tests, the render delay for the hero image is again dragging the performance score down, with it hitting 2,440ms. 
 </details>
 
 <details>
 <summary>Response Page</summary>
 <img src="docs/response-performance-mob.png">
 <br>
-Much like with the previous two pages performance issues were suggested to be relating to the hero image. Render Blocking resources from Bootstrap, Hover.css and FontAwesome CDNs, specifically relating to their externally sourced CSS and JS. Similarly, Bootstrap and FontAwesome were also called out for having unused CSS. Additionally their was a suggestion the comm array image could be reduced in size further and also that a preconnect/prefetch could be used on the font-awesome CDN. 
+Again, we see the hero image showing issues with render delay of around 2,750ms. 
 </details>
 
 <details>
 <summary>404 Page</summary>
 <img src="docs/404-performance-mob.png">
 <br>
-This was, unsurprisingly the most performant of the pages tested, it also being the most minimal. Main callouts were around the same render blocking resources - this is due to essentially copy pasting over the initial index.html file and ripping out all but the header and building a near empty page, so removing the uneeded links to CSS/Javascript resources could help improve this. 
+This was, much like with the desktop tests, the most performant of pages due to having had the third party javascript and unneeded style sheets stripped out. 
 <br>
-The Best Practice call out was due to a low image quality on the lost.webp file. 
+The Best Practice call out was due to a low image resolution on the lost.webp file. 
 </details>
 
 </details>
