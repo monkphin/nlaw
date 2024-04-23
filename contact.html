@@ -76,8 +76,8 @@
           </div>
   
               <!--Main Content Row-->
-              <div class="row justify-content-center">
-                <div class="col-lg-10">
+              <div class="row">
+                <div class="col-12">
                   <section class="site-form-col">
                     <form action="response.html">
                     <h4>Contact Us!</h4>
@@ -100,8 +100,8 @@
   <!--Footer-->
   <footer>
 
-    <!-- Bootstrap Modal -->
-    <div class="modal fade" id="address-modal" tabindex="-1" role="dialog" aria-labelledby="address-modal" aria-hidden="true">
+     <!-- Bootstrap Modal -->
+     <div class="modal fade" id="address-modal" tabindex="-1" role="dialog" aria-labelledby="address-modal" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header site-modal-header">
@@ -122,66 +122,98 @@
               <h5 class="uppercase">Opening Hours</h5>
                 <div class="d-none d-md-block">
                   <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>Day</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>Monday</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>Wednesday</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>Friday</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>Saturday</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>Sunday</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>Time</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>18:00 - 22:00</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>18:00 - 22:00</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>18:00 - 22:00</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>12:00 - 22:00</p>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm site-times-modal">
                       <p>12:00 - 22:00</p>
                     </div>
                   </div>
                 </div>
 
-                <!--Div will hide on large screens - setting this on the cols as doing it on the whole row caused oddness with rendering-->
-                  <div class="row">
-                    <div class="col-6 d-md-none site-modal-md-6">
-                      <p>Day</p>
-                      <p>Monday</p>
-                      <p>Wednesday</p>
-                      <p>Friday</p>
-                      <p>Saturday</p>
-                      <p>Sunday</p>
-                    </div>
-                    <div class="col-6 d-md-none site-modal-md-6">
-                      <p>Time</p>
-                      <p>18:00 - 22:00</p>
-                      <p>18:00 - 22:00</p>
-                      <p>18:00 - 22:00</p>
-                      <p>12:00 - 22:00</p>
-                      <p>12:00 - 22:00</p>
-                    </div>
-                  </div>
+                        <!--Div will hide on large screens - setting this on the cols as doing it on the whole row caused oddness with rendering-->
+                        <div class="d-md-none">  
+                          <div class="row">
+                            <div class="col-6 col-sm center site-times">
+                              <p>Day</p>
+                            </div>
+                            <div class="col-6 center site-times">
+                              <p>Time</p>  
+                            </div>
+                          </div>                            
+                          <div class="row">
+                            <div class="col-6 center site-times">                              
+                              <p>Monday</p>
+                            </div>
+                            <div class="col-6 center site-times">
+                              <p>18:00 - 22:00</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-6 center site-times">                                   
+                              <p>Wednesday</p>
+                            </div>
+                            <div class="col-6 center site-times">
+                              <p>18:00 - 22:00</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-6 center site-times">   
+                              <p>Friday</p>
+                            </div>
+                            <div class="col-6 center site-times">
+                              <p>18:00 - 22:00</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-6 center site-times">                                   
+                              <p>Saturday</p>
+                            </div>
+                            <div class="col-6 center site-times">
+                              <p>12:00 - 22:00</p>                                     
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-6 center site-times">                                   
+                              <p>Sunday</p>
+                            </div>
+                            <div class="col-6 center site-times">
+                              <p>12:00 - 22:00</p>                                     
+                            </div>
+                          </div>
+                        </div>
               
             </div>
           </div>
@@ -190,12 +222,12 @@
           </div>
         </div>
       </div>
-      </div>
+    </div>
 
     <!-- Footer main content -->
     <div class="container-fluid site-footer">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8 site-button-col">
           <button type="button" class="btn btn-primary site-button" data-toggle="modal" data-target="#address-modal">
             Find Us
         </button>
