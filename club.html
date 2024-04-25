@@ -1,42 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Preload for hero image-->
-    <link rel="preload" as="image" href="assets/images/club.webp">
+    <link rel="preload" as="image" href="assets/images/club.webp" />
     <!--preconnect for offsite resources-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/">
-    <link rel="preconnect" href="https://ka-f.fontawesome.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link rel="preconnect" href="https://ka-f.fontawesome.com" />
     <!--bootstrap stylesheet-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
     <!--Hover Css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
     <!-- local stylesheet -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <!--favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/fav/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/fav/site.webmanifest" />
     <!--meta tags for search engines-->
-    <meta name="description" content="A tabletop wargame and RPG hobbygroup for the Newton-le-Willows area.">
+    <meta
+      name="description"
+      content="A tabletop wargame and RPG hobby group for the Newton-le-Willows area."
+    />
     <title>N/L/A/W</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--header-->
     <header>
       <!-- Bootstrap navbar with custom CSS denotes by the prefix "site-" also including elements that hide on screen size via bootstrap CSS-->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light site-navbar-light">
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light site-navbar-light"
+      >
         <!--logo-->
-        <a class="navbar-brand site-brand" href="index.html"><h1>N/L/A/W</h1><h2 class="d-none d-lg-block">Newton Local Area Wargamers</h2></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand site-brand" href="index.html"
+          ><h1>N/L/A/W</h1>
+          <h2 class="d-none d-lg-block">Newton Local Area Wargamers</h2></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navToggle"
+          aria-controls="navToggle"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <!--collapsable navbar-->
         <div class="collapse navbar-collapse site-nav uppercase" id="navToggle">
           <ul class="navbar-nav ml-auto">
@@ -44,7 +83,9 @@
               <a class="site-nav-link nav-link" href="index.html">Home</a>
             </li>
             <li class="site-nav-item nav-item">
-              <a class="site-nav-link nav-link site-active" href="#">The Club<span class="sr-only">(current)</span></a>
+              <a class="site-nav-link nav-link site-active" href="#"
+                >The Club<span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item site-nav-item">
               <a class="site-nav-link nav-link" href="contact.html">Contact</a>
@@ -57,223 +98,305 @@
     <!--Main Body Content using bootstraps templating with custom CSS denoted with "site-" prefix-->
     <main>
       <div class="container-fluid site-content">
-
-          <!--Hero Image Row-->
-          <div class="row">
-            <div class="col-lg-12">
-              <section id="hero-outer">
-                <div id="hero-image"></div>
-                <div id="hero-text">
-                    <h2>N/L/A/W</h2>
-                    <h3>Newton Local Area Wargamers</h3>
-                </div>
-              </section>
-            </div>
+        <!--Hero Image Row-->
+        <div class="row">
+          <div class="col-lg-12">
+            <section id="hero-outer">
+              <div id="hero-image"></div>
+              <div id="hero-text">
+                <h2>N/L/A/W</h2>
+                <h3>Newton Local Area Wargamers</h3>
+              </div>
+            </section>
           </div>
+        </div>
 
-
-          <!--Main Content Row-->
-          <div class="row">
-
-            <!-- Column for Site Info Panels -->
-            <div class="col-md-8">
-              <!--Site Info Panel 1-->
-              <div class="row center">
-                <div class="col-lg-12 site-col site-content-col">
-                  <div class="row club-row">
-                    <div class="col-xl-4">
-                      <img src="assets/images/40k-game.webp" alt="A scene from a hectic game of Warhammer 40,000" class="img-fluid side-img">
-                    </div>
-                    <div class="col-xl-8">
-                      <p>We currently have 10 full sized tables measuring 6'x4' along with a large collection of themed mats and painted scenery to allow for a wide variety of settings and systems to be supported. We're always looking to expand our inventory and run a volunteer provided 3d printer farm to help with this.</p>
-                      <p>We also have a broad selection of board games and can arrange for demonstrations on request. If you have never participated in tabletop gaming or RPGs before and would like to learn more, please get in touch, we would be happy to answer any questions you have and arrange for a drop in session to help you learn more.</p>
-                    </div>
+        <!--Main Content Row-->
+        <div class="row">
+          <!-- Column for Site Info Panels -->
+          <div class="col-md-8">
+            <!--Site Info Panel 1-->
+            <div class="row center">
+              <div class="col-lg-12 site-col site-content-col">
+                <div class="row club-row">
+                  <div class="col-xl-4">
+                    <img
+                      src="assets/images/40k-game.webp"
+                      alt="A scene from a hectic game of Warhammer 40,000"
+                      class="img-fluid side-img"
+                    />
+                  </div>
+                  <div class="col-xl-8">
+                    <p>
+                      We currently have 10 full sized tables measuring 6'x4'
+                      along with a large collection of themed mats and painted
+                      scenery to allow for a wide variety of settings and
+                      systems to be supported. We're always looking to expand
+                      our inventory and run a volunteer provided 3d printer farm
+                      to help with this.
+                    </p>
+                    <p>
+                      We also have a broad selection of board games and can
+                      arrange for demonstrations on request. If you have never
+                      participated in tabletop gaming or RPGs before and would
+                      like to learn more, please get in touch, we would be happy
+                      to answer any questions you have and arrange for a drop in
+                      session to help you learn more.
+                    </p>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <!--Site Info Panel 2-->
-              <div class="row center">
-                <div class="col-lg-12 site-col site-content-col">
-                  <div class="row club-row">
-                    <div class="col-xl-4">
-                      <img src="assets/images/necro-game.webp" alt="A picture of a recent game of Necromunda" class="img-fluid side-img">
-                    </div>
-                    <div class="col-xl-8">
-                      <p>Onsite we have various facilities for our members. We provide drinks, both hot and cold, and snacks. This is offered on an honour system, where we trust our members to pay for what is consumed but don't hold them to this.</p>
-                      <p>Members are also allowed to bring their own food and drink to the premises. We ask for a monthly subscription of £10 for membership to cover the costs of upkeep and running the venue, as well as purchasing more items for use by the membership. We do allow for people to use the club without being members for a fee of £10 per occasion, this will be taken as your monthly fee if you choose to join us.</p>
-                    </div>
+            <!--Site Info Panel 2-->
+            <div class="row center">
+              <div class="col-lg-12 site-col site-content-col">
+                <div class="row club-row">
+                  <div class="col-xl-4">
+                    <img
+                      src="assets/images/necro-game.webp"
+                      alt="A picture of a recent game of Necromunda"
+                      class="img-fluid side-img"
+                    />
+                  </div>
+                  <div class="col-xl-8">
+                    <p>
+                      Onsite we have various facilities for our members. We
+                      provide drinks, both hot and cold, and snacks. This is
+                      offered on an honour system, where we trust our members to
+                      pay for what is consumed but don't hold them to this.
+                    </p>
+                    <p>
+                      Members are also allowed to bring their own food and drink
+                      to the premises. We ask for a monthly subscription of £10
+                      for membership to cover the costs of upkeep and running
+                      the venue, as well as purchasing more items for use by the
+                      membership. We do allow for people to use the club without
+                      being members for a fee of £10 per occasion, this will be
+                      taken as your monthly fee if you choose to join us.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-
-            <!--Club Rules Panel-->
-            <div class="col-md-4 site-col">
-              <section class="site-content-col">
-                <h3 class="center">Club Rules</h3>
-                <ol>
-                  <li>Club fees should be paid, or a valid membership card shown, on arrival.</li>
-                  <li>All visitors must sign in on arrival and sign out on departure.</li>
-                  <li>Please place all rubbish in the provided bins and keep the club tidy.</li>
-                  <li>Keep all bags/cases clear of the aisles to prevent tripping.</li>
-                  <li>No smoking or vaping in the club or wider centre.</li>
-                  <li>Drugs or Alcohol of any kind are not permitted at any time.</li>
-                  <li>Bullying or abusive behaviour will not be tolerated.</li>
-                  <li>N/L/A/W is a family environment with a policy of inclusivity, we would ask you to respect that and act appropriately.</li>
-                  <li>Terrain at each table may be arranged as required but please don’t remove terrain or mats from designated tables without asking the club volunteer on duty.</li>
-                  <li>If you accidentally damage terrain, or spot damaged terrain, let the volunteer on duty know so we can get it fixed.</li>                   
-                  <li>Gamers who don’t follow these rules will be reminded of their duty to do so.</li>
-                  <li>Gamers who receive repeated warnings may be suspended or banned from attending the club.</li>      
-                </ol>              
-              </section>
-            </div>
-
           </div>
 
+          <!--Club Rules Panel-->
+          <div class="col-md-4 site-col">
+            <section class="site-content-col">
+              <h3 class="center">Club Rules</h3>
+              <ol>
+                <li>
+                  Club fees should be paid, or a valid membership card shown, on
+                  arrival.
+                </li>
+                <li>
+                  All visitors must sign in on arrival and sign out on
+                  departure.
+                </li>
+                <li>
+                  Please place all rubbish in the provided bins and keep the
+                  club tidy.
+                </li>
+                <li>
+                  Keep all bags/cases clear of the aisles to prevent tripping.
+                </li>
+                <li>No smoking or vaping in the club or wider centre.</li>
+                <li>
+                  Drugs or Alcohol of any kind are not permitted at any time.
+                </li>
+                <li>Bullying or abusive behaviour will not be tolerated.</li>
+                <li>
+                  N/L/A/W is a family environment with a policy of inclusivity,
+                  we would ask you to respect that and act appropriately.
+                </li>
+                <li>
+                  Terrain at each table may be arranged as required but please
+                  don’t remove terrain or mats from designated tables without
+                  asking the club volunteer on duty.
+                </li>
+                <li>
+                  If you accidentally damage terrain, or spot damaged terrain,
+                  let the volunteer on duty know so we can get it fixed.
+                </li>
+                <li>
+                  Gamers who don’t follow these rules will be reminded of their
+                  duty to do so.
+                </li>
+                <li>
+                  Gamers who receive repeated warnings may be suspended or
+                  banned from attending the club.
+                </li>
+              </ol>
+            </section>
+          </div>
+        </div>
 
-          <!--Location Panel-->
-          <div class="row">
-            <div class="col-12 site-col">
-              <div class="site-content-col">
-                  <div class="col-12">
-                    <p class="center">The club is typically open 3 nights a week, Monday to Friday and every weekend. Though we can open the club outside these times if given notice.</p>
+        <!--Location Panel-->
+        <div class="row">
+          <div class="col-12 site-col">
+            <div class="site-content-col">
+              <div class="col-12">
+                <p class="center">
+                  The club is typically open 3 nights a week, Monday to Friday
+                  and every weekend. Though we can open the club outside these
+                  times if given notice.
+                </p>
+                <div class="row">
+                  <div class="col-md-2">
+                    <h4 class="center uppercase">Site address:</h4>
+                    <p class="center">
+                      Community Centre, <br />Park Rd S, <br />Newton-le-Willows
+                      <br />WA12 8EX
+                    </p>
+                    <h4 class="center uppercase">Call Us</h4>
+                    <a href="tel:01514961546" class="center site-tel"
+                      >01514961546</a
+                    >
+                  </div>
+                  <div class="col-10 center">
                     <div class="row">
-                      <div class="col-md-2">
-                        <h4 class="center uppercase">Site address:</h4>
-                        <p class="center">Community Centre, <br>Park Rd S, <br>Newton-le-Willows <br>WA12 8EX</p>
-                        <h4 class="center uppercase">Call Us</h4>
-                        <a href="tel:01514961546" class="center site-tel">01514961546</a>
+                      <div class="col-12">
+                        <iframe
+                          class="site-map"
+                          title="Google Map showing the location of the venue"
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.2079159049003!2d-2.630595386815192!3d53.44686947220317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0478983b0def%3A0xaa0f90b22fdba1ed!2sNewton%20Community%20Centre%20-%20Newton-le-willows!5e0!3m2!1sen!2suk!4v1713029306040!5m2!1sen!2suk"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
-                      <div class="col-10 center">
-                        <div class="row">
-                          <div class="col-12">
-                            <iframe class="site-map" title="Google Map showing the location of the venue" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.2079159049003!2d-2.630595386815192!3d53.44686947220317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0478983b0def%3A0xaa0f90b22fdba1ed!2sNewton%20Community%20Centre%20-%20Newton-le-willows!5e0!3m2!1sen!2suk!4v1713029306040!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        
-                          </div>
-                          </div>
-                          <!--Div will hide on narrow screens-->
-                          <div class="d-none d-md-block">
-                            <div class="row">
-                              <div class="col-sm">
-                                <p>Day</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>Monday</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>Wednesday</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>Friday</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>Saturday</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>Sunday</p>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm">
-                                <p>Time</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>12:00 - 22:00</p>
-                              </div>
-                              <div class="col-sm">
-                                <p>12:00 - 22:00</p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <!--Div will hide on large screens - setting this on the cols as doing it on the whole row caused oddness with rendering-->
-                          <div class="d-md-none">  
-                            <div class="row">
-                              <div class="col-6 col-sm center site-times">
-                                <p>Day</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>Time</p>  
-                              </div>
-                            </div>                            
-                            <div class="row">
-                              <div class="col-6 center site-times">                              
-                                <p>Monday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-6 center site-times">                                   
-                                <p>Wednesday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-6 center site-times">   
-                                <p>Friday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-6 center site-times">                                   
-                                <p>Saturday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>12:00 - 22:00</p>                                     
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-6 center site-times">                                   
-                                <p>Sunday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>12:00 - 22:00</p>                                     
-                              </div>
-                            </div>
-                          </div>
-                              
-  
-
+                    </div>
+                    <!--Div will hide on narrow screens-->
+                    <div class="d-none d-md-block">
+                      <div class="row">
+                        <div class="col-sm">
+                          <p>Day</p>
                         </div>
+                        <div class="col-sm">
+                          <p>Monday</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>Wednesday</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>Friday</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>Saturday</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>Sunday</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm">
+                          <p>Time</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>18:00 - 22:00</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>18:00 - 22:00</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>18:00 - 22:00</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>12:00 - 22:00</p>
+                        </div>
+                        <div class="col-sm">
+                          <p>12:00 - 22:00</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--Div will hide on large screens - setting this on the cols as doing it on the whole row caused oddness with rendering-->
+                    <div class="d-md-none">
+                      <div class="row">
+                        <div class="col-6 col-sm center site-times">
+                          <p>Day</p>
+                        </div>
+                        <div class="col-6 center site-times">
+                          <p>Time</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 center site-times">
+                          <p>Monday</p>
+                        </div>
+                        <div class="col-6 center site-times">
+                          <p>18:00 - 22:00</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 center site-times">
+                          <p>Wednesday</p>
+                        </div>
+                        <div class="col-6 center site-times">
+                          <p>18:00 - 22:00</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 center site-times">
+                          <p>Friday</p>
+                        </div>
+                        <div class="col-6 center site-times">
+                          <p>18:00 - 22:00</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 center site-times">
+                          <p>Saturday</p>
+                        </div>
+                        <div class="col-6 center site-times">
+                          <p>12:00 - 22:00</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 center site-times">
+                          <p>Sunday</p>
+                        </div>
+                        <div class="col-6 center site-times">
+                          <p>12:00 - 22:00</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
+        </div>
       </div>
-            
     </main>
 
     <!--Footer-->
     <footer>
-
       <!-- Bootstrap Modal -->
-      <div class="modal fade" id="address-modal" tabindex="-1" role="dialog" aria-labelledby="address-modal" aria-hidden="true">
+      <div
+        class="modal fade"
+        id="address-modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="address-modal"
+        aria-hidden="true"
+      >
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header site-modal-header">
-              <h4 class="modal-title site-modal-title uppercase">Get in touch</h4>
+              <h4 class="modal-title site-modal-title uppercase">
+                Get in touch
+              </h4>
             </div>
             <div class="modal-body site-modal-body">
               <div class="row">
                 <div class="col-sm-6">
                   <h5 class="uppercase">Visit Us</h5>
-                  <p>Community Centre, <br>Park Rd S, <br>Newton-le-Willows <br>WA12 8EX</p>
+                  <p>
+                    Community Centre, <br />Park Rd S, <br />Newton-le-Willows
+                    <br />WA12 8EX
+                  </p>
                 </div>
                 <div class="col-sm-6">
                   <h5 class="uppercase">Call Us</h5>
@@ -282,105 +405,110 @@
               </div>
               <div>
                 <h5 class="uppercase">Opening Hours</h5>
-                  <div class="d-none d-md-block">
-                    <div class="row">
-                      <div class="col-sm site-times-modal">
-                        <p>Day</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>Monday</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>Wednesday</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>Friday</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>Saturday</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>Sunday</p>
-                      </div>
+                <div class="d-none d-md-block">
+                  <div class="row">
+                    <div class="col-sm site-times-modal">
+                      <p>Day</p>
                     </div>
-                    <div class="row">
-                      <div class="col-sm site-times-modal">
-                        <p>Time</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>18:00 - 22:00</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>18:00 - 22:00</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>18:00 - 22:00</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>12:00 - 22:00</p>
-                      </div>
-                      <div class="col-sm site-times-modal">
-                        <p>12:00 - 22:00</p>
-                      </div>
+                    <div class="col-sm site-times-modal">
+                      <p>Monday</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>Wednesday</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>Friday</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>Saturday</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>Sunday</p>
                     </div>
                   </div>
+                  <div class="row">
+                    <div class="col-sm site-times-modal">
+                      <p>Time</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>18:00 - 22:00</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>18:00 - 22:00</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>18:00 - 22:00</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>12:00 - 22:00</p>
+                    </div>
+                    <div class="col-sm site-times-modal">
+                      <p>12:00 - 22:00</p>
+                    </div>
+                  </div>
+                </div>
 
-                          <!--Div will hide on large screens - setting this on the cols as doing it on the whole row caused oddness with rendering-->
-                          <div class="d-md-none">  
-                            <div class="row">
-                              <div class="col-6 col-sm center site-times">
-                                <p>Day</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>Time</p>  
-                              </div>
-                            </div>                            
-                            <div class="row">
-                              <div class="col-6 center site-times">                              
-                                <p>Monday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-6 center site-times">                                   
-                                <p>Wednesday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-6 center site-times">   
-                                <p>Friday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>18:00 - 22:00</p>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-6 center site-times">                                   
-                                <p>Saturday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>12:00 - 22:00</p>                                     
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-6 center site-times">                                   
-                                <p>Sunday</p>
-                              </div>
-                              <div class="col-6 center site-times">
-                                <p>12:00 - 22:00</p>                                     
-                              </div>
-                            </div>
-                          </div>
-                
+                <!--Div will hide on large screens - setting this on the cols as doing it on the whole row caused oddness with rendering-->
+                <div class="d-md-none">
+                  <div class="row">
+                    <div class="col-6 col-sm center site-times">
+                      <p>Day</p>
+                    </div>
+                    <div class="col-6 center site-times">
+                      <p>Time</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 center site-times">
+                      <p>Monday</p>
+                    </div>
+                    <div class="col-6 center site-times">
+                      <p>18:00 - 22:00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 center site-times">
+                      <p>Wednesday</p>
+                    </div>
+                    <div class="col-6 center site-times">
+                      <p>18:00 - 22:00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 center site-times">
+                      <p>Friday</p>
+                    </div>
+                    <div class="col-6 center site-times">
+                      <p>18:00 - 22:00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 center site-times">
+                      <p>Saturday</p>
+                    </div>
+                    <div class="col-6 center site-times">
+                      <p>12:00 - 22:00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 center site-times">
+                      <p>Sunday</p>
+                    </div>
+                    <div class="col-6 center site-times">
+                      <p>12:00 - 22:00</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="modal-footer center">
-              <button type="button" class="btn btn-primary site-button site-modal-button" data-dismiss="modal">Close</button>
+              <button
+                type="button"
+                class="btn btn-primary site-button site-modal-button"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>
@@ -390,17 +518,72 @@
       <div class="container-fluid site-footer">
         <div class="row">
           <div class="col-md-8 site-button-col">
-            <button type="button" class="btn btn-primary site-button" data-toggle="modal" data-target="#address-modal">
+            <button
+              type="button"
+              class="btn btn-primary site-button"
+              data-toggle="modal"
+              data-target="#address-modal"
+            >
               Find Us
-          </button>
+            </button>
           </div>
           <div class="col-md-4">
-            <ul class="list-inline site-socials  text-md-right">
-              <li class="list-inline-item"><a class="site-footer-link" href="https://facebook.com" target="_blank" aria-label="Facebook - (Opens in a new tab)" rel="noopener"><i class="fa-brands fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
-              <li class="list-inline-item"><a class="site-footer-link" href="https://instagram.com" target="_blank"  aria-label="Instagram - (Opens in a new tab)" rel="noopener"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
-              <li class="list-inline-item"><a class="site-footer-link" href="https://twitter.com" target="_blank"  aria-label="Twitter - (Opens in a new tab)" rel="noopener"><i class="fa-brands fa-twitter" aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>
-              <li class="list-inline-item"><a class="site-footer-link" href="https://youtube.com" target="_blank"  aria-label="YouTube - (Opens in a new tab)" rel="noopener"><i class="fa-brands fa-youtube" aria-hidden="true"></i><span class="sr-only">Youtube</span></a></li>
-              <li class="list-inline-item"><a class="site-footer-link" href="https://tiktok.com" target="_blank"  aria-label="TikTok - (Opens in a new tab)" rel="noopener"><i class="fa-brands fa-tiktok" aria-hidden="true"></i><span class="sr-only">TikTok</span></a></li>
+            <ul class="list-inline site-socials text-md-right">
+              <li class="list-inline-item">
+                <a
+                  class="site-footer-link"
+                  href="https://facebook.com"
+                  target="_blank"
+                  aria-label="Facebook - (Opens in a new tab)"
+                  rel="noopener"
+                  ><i class="fa-brands fa-facebook" aria-hidden="true"></i
+                  ><span class="sr-only">Facebook</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="site-footer-link"
+                  href="https://instagram.com"
+                  target="_blank"
+                  aria-label="Instagram - (Opens in a new tab)"
+                  rel="noopener"
+                  ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+                  ><span class="sr-only">Twitter</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="site-footer-link"
+                  href="https://twitter.com"
+                  target="_blank"
+                  aria-label="Twitter - (Opens in a new tab)"
+                  rel="noopener"
+                  ><i class="fa-brands fa-twitter" aria-hidden="true"></i
+                  ><span class="sr-only">Instagram</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="site-footer-link"
+                  href="https://youtube.com"
+                  target="_blank"
+                  aria-label="YouTube - (Opens in a new tab)"
+                  rel="noopener"
+                  ><i class="fa-brands fa-youtube" aria-hidden="true"></i
+                  ><span class="sr-only">Youtube</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="site-footer-link"
+                  href="https://tiktok.com"
+                  target="_blank"
+                  aria-label="TikTok - (Opens in a new tab)"
+                  rel="noopener"
+                  ><i class="fa-brands fa-tiktok" aria-hidden="true"></i
+                  ><span class="sr-only">TikTok</span></a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -408,10 +591,25 @@
     </footer>
 
     <!--Bootstrap Java-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
     <!--fontawesome kit-->
-    <script src="https://kit.fontawesome.com/f862737888.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/f862737888.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
