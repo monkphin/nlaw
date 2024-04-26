@@ -395,6 +395,12 @@ footer {
   .site-games-carousel {
     height: 140px;
   }
+
+  .modal-dialog {
+    max-width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 530px) {
@@ -417,7 +423,7 @@ footer {
 
 @media (min-width: 768px) {
   .modal-dialog {
-    max-width: 90%;
+    max-width: 690px;
   }
 
   .site-games-carousel {
