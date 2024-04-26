@@ -430,6 +430,15 @@ footer {
     margin-right: 0;
     display: block;
   }
+
+  .site-form-wrapper {
+    max-width: 80%;
+  }
+
+  .site-form-col .site-button {
+    margin: 20px auto;
+    display: block;
+  }
 }
 
 @media (min-width: 820px) {
