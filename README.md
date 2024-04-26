@@ -432,9 +432,9 @@ Overall loading times and performance were tested using Google’s lighthouse to
 
 Several optimisations were put in place based on early test outputs and lighthouse recommendations. These include preloading the Hero image, since this is called from the CSS file which can add some delay to rendering. Pre-connecting for third party hosted resources, such as bootstraps javascript and CSS. Performing optimisations on images by running them through compression tools and reformatting as Webp files. 
 
-Its worth noting that inspite of these optimisations improving scores, they're still not entirely perfect and different results have been seen when testing on different devices. For example, testing the club.html page when on an M1 based Mac showed no issues with Best Practices. But carrying out the same tests on a Desktop PC running windows 11 showed a lower score here, due to how Google Maps is being called. Similarly, some performance outcomes varied from device to device. Essentially suggesting that device level factors can impact the outcome of Lightouse testing. 
+Its worth noting that inspite of these optimisations improving scores, they're still not entirely perfect and different results have been seen when testing on different devices. For example, testing the club.html page when on an M1 based Mac showed no issues with Best Practices. But carrying out the same tests on a Desktop PC running windows 11 showed a lower score here, due to how Google Maps is being accessed (See the home page section below for more information). Similarly, some performance outcomes varied from device to device. Essentially suggesting that device level factors can impact the outcome of Lightouse testing. 
 
-THeir are also other factors to consider that are beyond my control currently. Such as the fact the live version of the site ishosted on github, that their are reliances on third party frameworks, such as Bootstrap or Hover.css. Meaning I cannot optimise the hosting that these are provided from and cannot acount for possible load or other issues they're having when testing is carried out.  
+There are also other factors to consider that are beyond my control currently. Such as the fact the live version of the site is hosted on github, that their are reliances on third party frameworks, such as Bootstrap or Hover.css. Meaning I cannot optimise the hosting that these are provided from and cannot acount for possible load or other issues they're having when testing is carried out.  
 
 Finally, theirs a lot of documentaiton to support Lighthouse testing against absolute worse case scenarios such as [using 3G when testing for mobile for example](https://stackoverflow.com/questions/58394704/google-page-speed-insights-lighthouse-measurement-origin#:~:text=All%20tests%20are%20run%20using,3G%20network%20%26%204x%20CPU%20slowdown.&text=Concluding%20I%20would%20say%20that,not%20very%20clear%20about%20this.)
 
@@ -456,6 +456,10 @@ The Best Practices score was dropped due the column images being seen as low res
 <img src="docs/club-lightouse.png">
 <br>
 Like with the home page performance issues were suggested to be relating to the hero image. With the main issue being load time, which recorded 4,000 ms.
+<br>
+As mentioned prevously. Testing this page on a different computer showed issues with the best practices score being lower than I saw from initial testing. 
+<img src="docs/clubpage-lighthouse-low.png">
+The lower score was predomininantly caused by including Google Maps, which uses third party cookies. I have started reading up on a new way to integrate Google Maps into a website, however this will be resolved at a later date as part of a planned refactor to Bootstrap 5. 
 </details>
 
 <details>

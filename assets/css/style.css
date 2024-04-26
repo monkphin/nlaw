@@ -374,6 +374,11 @@ footer {
   .footer {
     margin-top: 15px;
   }
+
+  #hero-text {
+    width: 300px;
+    font-size: 1.3em;
+  }
 }
 
 @media (min-width: 440px) {
@@ -401,11 +406,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-  #hero-text {
-    width: 300px;
-    font-size: 1.3em;
-  }
-
   .modal-dialog {
     max-width: 90%;
   }
