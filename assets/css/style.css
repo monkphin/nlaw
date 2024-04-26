@@ -465,6 +465,6 @@ footer {
 
 @media (min-width: 1024px) {
   .modal-dialog {
-    max-width: 65%;
+    max-width: 820px;
   }
 }
