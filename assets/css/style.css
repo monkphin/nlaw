@@ -287,10 +287,10 @@ header {
 
 .site-404 {
   display: flex;
-  align-items: center; /* Align vertically */
-  justify-content: center; /* Align horizontally */
-  height: 100vh; /* Full viewport height */
-  margin: 0; /* Remove default margin */
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+  margin: 0; 
 }
 
 .site-404-col {
@@ -333,9 +333,8 @@ footer {
 
 /*------------------------------------------------------------------------------------------------------------------------ Modal */
 
-/* Make sure the modal dialog is centered and responsive */
 .modal-dialog {
-  max-width: 100%; /* Set maximum width to prevent over-extension on larger screens */
+  max-width: 100%; 
 }
 
 .site-modal-header,
@@ -407,17 +406,20 @@ footer {
     font-size: 1.3em;
   }
 
+  .modal-dialog {
+    max-width: 90%; 
+  }
+
   .site-games-carousel {
     height: 226px;
   }
-  
+
   .site-button {
     margin-top: 15px;
     margin-left: 20px;
     margin-right: 0;
     display: block;
   }
-
 }
 
 @media (min-width: 820px) {
@@ -435,5 +437,15 @@ footer {
 @media (min-width: 912px) {
   .site-games-carousel {
     height: 260px;
+  }
+
+  .modal-dialog {
+    max-width: 80%; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-dialog {
+    max-width: 65%; 
   }
 }
