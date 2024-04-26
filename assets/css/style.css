@@ -10,9 +10,13 @@
   border-radius: 25px;
 }
 
-#hero-text,
 #hero-text h2 {
-  color: #e7f1fb;
+  font-size: 1em;
+}
+
+#hero-text h3 {
+  font-size: 1em;
+  padding-right: 100px;
 }
 
 #hero-text {
@@ -20,18 +24,15 @@
   font-family: "Inter", sans-serif;
   vertical-align: middle;
   letter-spacing: 4px;
-  width: 300px;
+  width: 70%;
   height: 200px;
   padding-top: 40px;
   padding-left: 10px;
+  color: #e7f1fb;
   background-color: rgba(11, 56, 95, 0.7);
   top: 30px;
   left: 40px;
   position: absolute;
-}
-
-main {
-  overflow-x: hidden;
 }
 
 h3,
@@ -105,11 +106,14 @@ img {
 .site-button {
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1em;
   background-color: #1c2127;
   color: #e7f1fb;
   text-decoration: none !important;
   margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .site-button:hover {
@@ -186,13 +190,13 @@ header {
 }
 
 .site-games-carousel {
-  height: 310px;
+  height: 100px;
 }
 
 .carousel-item img {
   vertical-align: middle;
   max-height: 100%;
-  max-width: 80%;
+  max-width: 70%;
   width: auto;
   margin: auto;
 }
@@ -243,6 +247,10 @@ header {
   text-align: center;
 }
 
+.site-times {
+  padding: 0;
+}
+
 /*------------------------------------------------------------------------------------------------------------------------ Contact */
 
 .site-contact-row {
@@ -253,7 +261,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 80%;
+  max-width: 1000%;
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -278,6 +286,14 @@ header {
 /*------------------------------------------------------------------------------------------------------------------------ 404 */
 
 .site-404 {
+  display: flex;
+  align-items: center; /* Align vertically */
+  justify-content: center; /* Align horizontally */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.site-404-col {
   width: 80%;
   height: 100%;
   display: block;
@@ -290,7 +306,7 @@ header {
 footer {
   background-color: #e7f1fb;
   width: 100%;
-  overflow-x: hidden; /*had a weird overflow bug that I couldn't locate the cause of, googling suggested to use overflow hidden to 'fix'*/
+  margin-top: 5px;
 }
 
 .site-footer {
@@ -307,19 +323,19 @@ footer {
 }
 
 .site-socials {
-  margin-right: 20px;
-}
-
-.site-socials {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   padding: 0;
   margin-top: 10px;
+  text-align: center;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------ Modal */
 
 /* Make sure the modal dialog is centered and responsive */
 .modal-dialog {
-  max-width: 60%; /* Set maximum width to prevent over-extension on larger screens */
+  max-width: 100%; /* Set maximum width to prevent over-extension on larger screens */
 }
 
 .site-modal-header,
@@ -336,6 +352,10 @@ footer {
   text-align: center !important;
 }
 
+.site-times-modal {
+  padding: 0;
+}
+
 .site-modal-button {
   display: block;
   margin-left: auto;
@@ -345,122 +365,75 @@ footer {
 
 /*------------------------------------------------------------------------------------------------------------------------ Media Queries */
 
-/* ----------------------------------------------------------------------------------Hero */
-
-/* Adjust for smallest screens to avoid odd rendering issues with the hero text */
-@media (max-width: 370px) {
-  #hero-text {
-    width: 70%;
-  }
-
-  #hero-text h2 {
-    font-size: 1em;
-  }
-
-  #hero-text h3 {
-    font-size: 1em;
-    padding-right: 100px;
-  }
-}
-
-/* ----------------------------------------------------------------------------------Carousel */
-
-/* Larger devices (still under a typical tablet width) */
-@media (max-width: 912px) {
+@media (min-width: 390px) {
   .site-games-carousel {
-    height: 300px;
+    height: 116px;
   }
 }
 
-@media (max-width: 795px) {
-  .site-games-carousel {
-    height: 255px;
-  }
-}
-
-/* Medium-small devices */
-@media (max-width: 540px) {
-  .site-games-carousel {
-    height: 170px;
-  }
-}
-
-/* Slightly larger, but still small devices */
-@media (max-width: 375px) {
-  .site-games-carousel {
-    height: 115px;
-  }
-}
-
-/* For very small devices */
-@media (max-width: 280px) {
-  .site-games-carousel {
-    height: 100px;
-  }
-}
-
-/* ----------------------------------------------------------------------------------Club */
-
-@media (max-width: 357px) {
-  .site-times {
-    padding: 0;
-  }
-}
-
-/* ----------------------------------------------------------------------------------Contact */
-
-@media (max-width: 650px) {
-  .site-form-col {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  /* ----------------------------------------------------------------------------------Footer */
-  .site-socials {
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .container-fluid.site-footer {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  .site-button-col {
-    float: left;
-  }
-
-  .site-button {
+@media (min-width: 430px) {
+  .footer {
     margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* ----------------------------------------------------------------------------------Carousel */
-  .modal-dialog {
-    max-width: 100%;
-    margin: 10px;
   }
 }
 
-/* Had to add this very dirty work around in due to odd issues in the footer that ONLY occurred at 768px wide that needed these adjustments to fix, which would harm layouts on anything either side of this */
-@media (min-width: 768px) and (max-width: 768px) {
+@media (min-width: 440px) {
+  .site-games-carousel {
+    height: 140px;
+  }
+}
+
+@media (min-width: 530px) {
+  .site-games-carousel {
+    height: 160px;
+  }
+}
+
+@media (min-width: 590px) {
+  .site-games-carousel {
+    height: 180px;
+  }
+}
+
+@media (min-width: 664px) {
+  .site-games-carousel {
+    height: 220px;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero-text {
+    width: 300px;
+    font-size: 1.3em;
+  }
+
+  .site-games-carousel {
+    height: 226px;
+  }
+  
   .site-button {
     margin-top: 15px;
     margin-left: 20px;
     margin-right: 0;
     display: block;
   }
+
 }
 
-/* ----------------------------------------------------------------------------------Modal */
+@media (min-width: 820px) {
+  .site-games-carousel {
+    height: 240px;
+  }
+}
 
-@media (max-width: 900px) {
-  .site-times-modal {
-    padding: 0;
+@media (min-width: 870px) {
+  .site-games-carousel {
+    height: 260px;
+  }
+}
+
+@media (min-width: 912px) {
+  .site-games-carousel {
+    height: 260px;
   }
 }
