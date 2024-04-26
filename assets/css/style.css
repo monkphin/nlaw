@@ -287,10 +287,10 @@ header {
 
 .site-404 {
   display: flex;
-  align-items: center; 
-  justify-content: center; 
-  height: 100vh; 
-  margin: 0; 
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .site-404-col {
@@ -334,7 +334,7 @@ footer {
 /*------------------------------------------------------------------------------------------------------------------------ Modal */
 
 .modal-dialog {
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 .site-modal-header,
@@ -407,7 +407,7 @@ footer {
   }
 
   .modal-dialog {
-    max-width: 90%; 
+    max-width: 90%;
   }
 
   .site-games-carousel {
@@ -440,12 +440,12 @@ footer {
   }
 
   .modal-dialog {
-    max-width: 80%; 
+    max-width: 80%;
   }
 }
 
 @media (min-width: 1024px) {
   .modal-dialog {
-    max-width: 65%; 
+    max-width: 65%;
   }
 }
