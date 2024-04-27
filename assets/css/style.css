@@ -49,7 +49,7 @@ a:hover {
 p {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.5;
 }
 
@@ -124,7 +124,7 @@ img {
   color: #1c2127;
   font-family: "Barlow", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.5;
 }
 
@@ -148,7 +148,7 @@ header {
 .site-brand {
   font-family: "Inter", sans-serif;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 1.5em;
   color: #1c2127;
 }
 
@@ -158,13 +158,13 @@ header {
 
 .site-brand h2 {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .site-nav {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .site-nav-link {
@@ -204,7 +204,7 @@ header {
 .site-fa-angle-left,
 .site-fa-angle-right {
   color: #1c2127 !important;
-  font-size: 40px;
+  font-size: 2.5em;
 }
 
 .site-fa-angle-left:hover,
@@ -329,7 +329,7 @@ footer {
 
 .site-footer-link {
   color: #1c2127 !important;
-  font-size: 30px;
+  font-size: 1.75em;
   color: #1c2127;
 }
 .site-footer-link:hover {
