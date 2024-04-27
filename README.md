@@ -114,7 +114,6 @@ The club would like to have a presence online outside of standard social media t
 17. As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too. 
 18. As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements. 
 
-
 # Design
 
 The design process needed to factor in the club's history, since many of its members are autistic, thanks to its roots in a local autism college.
@@ -334,8 +333,6 @@ There is a minor issue with the height of the Bootstrap content boxes not proper
 
 This issue is also present on the club page, for the rules column. In both cases, I believe the issue to be caused by there being other tags wrapped inside the bootstrap tags. This makes some sense for the rules column since it denotes that the information contained within while related to the main content, is its own specific section. For the Homepage, this was to resolve an issue which I believe to be caused by how I'm nesting bootstrap containers, I believe this is also the root of the issue with the width of the content on the home page when on mobile. However, despite multiple attempts to resolve these issues, no fix has been found as yet.
 
-## Site Wide
-
 I believe some of the issues mentioned above may be resolved when moving to Bootstrap 5 since this will also require some refactoring of the HTML and CSS.
 
 # Technology.
@@ -497,6 +494,64 @@ Some errors were detected with the CSS when testing against the URL. These were 
 Since the site is designed with ASD users in mind, I reached out to several friends who I know are diagnosed with ASD and provided feedback and suggestions. 
 Comments included that the colour choice was calming and easy on the eye and that the site was easy to use, read and navigate with minimal issues.
 
+## User Stories
+
+  1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. 
+  
+| Feature   | Action                                             | Expected Result                                                                           | Actual Result     |
+| --------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------- |
+| Home Page | Visit the website and read basic about information | Provide the user information about the clubs history and the wider hobby and its benefits | Works as expected |
+
+2. As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in. 
+
+| Feature    | Action                                                                                          | Expected Result                                                                                             | Actual Result      |
+| ---------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------ |
+| Home Page  | Visit the website and read information about the club in the second column                      | Provide the user information regarding the club itself, its members, and the overall atmosphere of the club | Works as expected  |
+| Hero Image | Visit the website and see the Hero image, showing a picture of the club and some of its members | Provide the user with a visual representation of the club and its members on a busier session.              | Works as expected. |
+
+3. As a user, I want to know the location of the club, so I can visit the club if I want to.
+
+| Feature    | Action                                                                                                    | Expected Result                                                                                                          | Actual Result     |
+| ---------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------- |
+| Address    | Navigate to the Club section of the website, scroll down and see the clubs address.                       | Find the address the club                                                                                                | Works as expected |
+| Modal      | Click the 'Find Us' button on the bottom of the website to launch a modal, which shows the clubs address. | On any page except the 404 page, scroll to the bottom and click the button to display a modal showing the clubs address. | Works as expected |
+| Google Map | Browse to the Club section, scroll down and see a google map, showing the location of the club.           | See a map showing the clubs location, clicking this to open the map in a new tab if desired.                             | Works as expected |
+
+4. As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests.
+
+| Feature   | Action                                                                  | Expected Result                                                                                                                                                                                                                                                      | Actual Result     |
+| --------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Home Page | Browse to the website and view a list of games the club commonly plays. | On the clubs home page, a graphical list using logos for the clubs preferred games is present, these are also links which take the user to the relevant websites informing them of the games in more detail if they're new to the hobby and would like to know more. | Works as expected |
+
+5. As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like.
+
+| Feature                                                                          | Action                                                                                                                                                           | Expected Result                                                                                                                                                  | Actual Result      |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Hero Image                                                                       | Visit the website and see the Hero image, showing a picture of the club and some of its members.                                                                 | Provide the user with a visual representation of the club and its members on a busier session.                                                                   | Works as expected. |
+| Images elsewhere on the site                                                     | While browsing the site, be presented with some images of the clubs minis, games in play or the club itself.                                                     | Provide the user with some further visuals to show the club or its members collections.                                                                          | Works as expected. |
+| Links to more visually based social networks like Instagram, TickTok and Youtube | While browsing the site, scroll to the bottom of any page except the 404 page and see working links to the club's social media presence, which open in new tabs. | Provide the user with methods to find the club's visual-based social platforms so they can see additional pictures or videos of the club, its members and minis. | Works as expected. |
+
+
+6. As a user, I want to know the clubs opening hours, so that I know if I can fit visiting into my schedule. 
+
+
+
+7. As a user, I want to know if there are any costs, so that I know what, if anything I need to pay. 
+8. As a user, I want to be able to contact the club, so that I can ask any further questions I may have. 
+9. As a user, I want to know if food and drink are available and if I can take my own, so that I know if I should eat/drink before visiting or take my own if it's allowed.
+10. As a user, I want to be able to browse to any social networks the site is on to allow me to communicate and interact with them in different ways.  
+12. As a mobile user, I want the site to accommodate the device I am on, so that the site is readable and can be browsed with minimal effort. 
+12. As a mobile user, I want the site to render correctly on my device, so that I have a good user experience.
+13. As a mobile user, I want a navigation menu that is appropriate to my device, so that I don't need to try to zoom and move around on the screen to tap links that may be otherwise too small. 
+14. As a Club Owner, I want to provide basic information, such as location, opening hours, cost to attend, so that I can cut down on the need for visitors to contact us to find this out. 
+15. As a Club Owner, I want visitors to know about the club's rules, so that visitors will know what standard of behaviour is expected while visiting us. 
+16. As a Club Owner, I want the users to be able to contact us, so that they may ask any questions or seek clarification. 
+17. As a Club Owner, I want visitors to know how to find us and what transport options there are, so that visitors can visit our club with minimal effort. 
+18. As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too. 
+19. As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements. 
+20. As a Club Owner, I want to signpost the location of any social channels we may have, so that visitors are aware of where else we can be interacted with online. 
+
+
 
 ## Performance
 
@@ -508,7 +563,7 @@ It's worth noting that in spite of these optimisations improving scores, they're
 
 There are also other factors to consider that are beyond my control currently. Such as the fact the live version of the site is hosted on GitHub, and that there are reliances on third-party frameworks, such as Bootstrap or Hover.css. Meaning I cannot optimise the hosting that these are provided from and cannot account for possible load or other issues they're having when testing is carried out.  
 
-Finally, theirs a lot of information to support Lighthouse testing against absolute worse case scenarios such as[using 3G when testing for mobile for example](https://stackoverflow.com/questions/58394704/google-page-speed-insights-lighthouse-measurement-origin#:~:text=All%20tests%20are%20run%20using,3G%20network%20%26%204x%20CPU%20slowdown.&text=Concluding%20I%20would%20say%20that,not%20very%20clear%20about%20this.)
+Finally, theirs a lot of information to support Lighthouse testing against absolute worse case scenarios such as [using 3G when testing for mobile for example](https://stackoverflow.com/questions/58394704/google-page-speed-insights-lighthouse-measurement-origin#:~:text=All%20tests%20are%20run%20using,3G%20network%20%26%204x%20CPU%20slowdown.&text=Concluding%20I%20would%20say%20that,not%20very%20clear%20about%20this.)
 
 All of the above will be factors when performing lighthouse testing, which could contribute to lower scores being seen and some variance from test to test and device to device.
 
@@ -522,7 +577,7 @@ The Best Practices score was dropped due the column images being seen as low res
 
 <details>
 <summary>Club Page</summary>
-<img src="docs/club-lightouse.png">
+<img src="docs/club-lighthouse.png">
 <br>
 Like with the home page performance issues were suggested to be relating to the hero image. With the main issue being load time, which recorded 4,000 ms.
 </details>
@@ -531,7 +586,7 @@ Like with the home page performance issues were suggested to be relating to the 
 <summary>Contact Page</summary>
 <img src="docs/contact-lighthouse.png">
 <br>
-ON this page we saw LCP being the main culprit, with render delay hitting 1,440 ms.  
+On this page we saw LCP being the main culprit, with render delay hitting 1,440 ms.  
 </details>
 
 <details>
