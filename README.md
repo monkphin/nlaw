@@ -582,6 +582,8 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 </details>
 
+<details>
+<summary>iPhone SE</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
@@ -593,7 +595,10 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
 
+<details>
+<summary>iPhone 12 Pro</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
@@ -605,6 +610,10 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>Samsung Galaxy A51/71</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
@@ -616,6 +625,10 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>iPhone 14 Pro Max</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
@@ -627,6 +640,10 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>Surface Pro Duo</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
@@ -638,6 +655,10 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>iPad Mini</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
@@ -649,10 +670,14 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>ASUS ZenBook Fold</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
-| ASUS Zenbook Fold     | Home Page     | Displays as Expected |
+| ASUS ZenBook Fold     | Home Page     | Displays as Expected |
 | 853 x 1280            | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
 |                       | Response Page | Displays as Expected |
@@ -660,6 +685,10 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>Surface Pro 7</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
@@ -671,6 +700,10 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>iPad Pro</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
@@ -682,6 +715,10 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>Nest Hub Max</summary>
 
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
