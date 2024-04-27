@@ -603,6 +603,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 | Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
 | Samsung Galaxy A51/71 | Home Page     | Displays as Expected |
 | 412 x 914             | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
@@ -613,6 +614,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 | Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
 | iPhone 14 Pro Max     | Home Page     | Displays as Expected |
 | 430 x 932             | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
@@ -623,6 +625,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 | Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
 | Surface Pro Duo       | Home Page     | Displays as Expected |
 | 540 x 720             | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
@@ -633,6 +636,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 | Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
 | iPad Mini             | Home Page     | Displays as Expected |
 | 768 x 1024            | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
@@ -643,6 +647,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 | Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
 | ASUS Zenbook Fold     | Home Page     | Displays as Expected |
 | 853 x 1280            | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
@@ -653,6 +658,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 | Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
 | Surface Pro 7         | Home Page     | Displays as Expected |
 | 912 x 1368            | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
@@ -663,6 +669,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 | Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
 | iPad Pro              | Home Page     | Displays as Expected |
 | 1024 x 1366           | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
@@ -673,6 +680,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 | Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
 | Nest Hub Max          | Home Page     | Displays as Expected |
 | 1280 x 800            | Club Page     | Displays as Expected |
 |                       | Contact Page  | Displays as Expected |
