@@ -305,8 +305,6 @@ This issue is also present on the club page, for the rules column. In both cases
 
 I believe some of the issues mentioned above may be resolved when moving to Bootstrap 5 since this will also require some refactoring of the HTML and CSS.
 
-Finally, there are also some positioning fluctuations on the Hero text when displaying on different-sized screens, this should be fixable with media more precise media queries, however, it doesn't impact the core functionality of the website so is less pressing to dig into.
-
 # Technology.
 
 ## Languages
@@ -471,9 +469,6 @@ Comments included that the colour choice was calming and easy on the eye and tha
 Overall loading times and performance were tested using Google’s lighthouse tool within Chrome's Developer Tools.
 
 <details>
-<summary>Mobile</summary>
-
-<details>
 <summary>Home Page</summary>
 <img src="docs/home-performance-mob.png">
 <br>Much like on the desktop, the hero image is presenting the mainstay of issues here despite steps taken to try to mitigate this. This time with the LCP being 15.5s
@@ -509,8 +504,6 @@ Again, we see the hero image showing issues with render delay of around 2,750ms.
 This was, much like with the desktop tests, the most performant of pages due to having had the third party javascript and unneeded style sheets stripped out. 
 <br>
 The Best Practice call out was due to a low image resolution on the lost.webp file. 
-</details>
-
 </details>
 
 # Deployment
