@@ -878,27 +878,35 @@ Responsiveness testing was performed using Chrome's Developer Tools.
 
 # Version control and Deployment
 
-The sites code is all stored on GitHub, which is used for version control and is currently hosting a deployed copy of the site. 
+
+The site's code is all stored on GitHub, which is used for version control and is currently hosting a deployed copy of the site.
+
 
 ## Repo Creation
 
+
 A new repo was generated using the Code Institutes ci-fill-template using the below steps:
 
+
 1. Navigate to https://github.com/Code-Institute-Org/ci-full-template
-2. Click the green 'Use this template' button and select 'Create a new repository' 
-3. On the newly loaded page, in the text field enter a name for the repo, in this case nlaw was entered. 
-4. An optional description can be added in the text box below this. In this instance this was left blank. 
-5. Select the visibility as either public, or private. Since this needs to be visible for assessment and marking, the default 'Public' option was left checked. 
-6. Click the create repository button and wait for a few moments, once this has been cloned into your account the page will reload and you'll be presented with the code space for the repo. 
+2. Click the green 'Use this template' button and select 'Create a new repository'
+3. On the newly loaded page, in the text field enter a name for the repo, in this case, nlaw was entered.
+4. An optional description can be added in the text box below this. In this instance, this was left blank.
+5. Select the visibility as either public or private. Since this needs to be visible for assessment and marking, the default 'Public' option was left checked.
+6. Click the Create repository button and wait for a few moments, once this has been cloned into your account the page will reload and you'll be presented with the code space for the repo.
+
 
 ## Working locally
 
-Since I choose to work in Visual Studio Code, the contents of the newly created repo needed to be transferred to my computer. To do this I followed the below steps: 
 
-1. In VSCode, I opened the Terminal window, by visiting the 'Terminal' menu in VSCode and selecting 'New Terminal' 
-2. Within this terminal window I made sure I was in the correct folder for where I wanted to store my work, if this was not correct I would have used the bash command cd to navigate to the correct folder. In this case ~/Code, which is a folder called 'Code' in my logged in users Home Folder.
-3. In a web-browser, I navigated to the GitHub repository for the project and clicked on the green '<> Code' button, this presented me with several options for cloning. I selected the 'HTTPS' option and copied the URL in the text field. 
-4. In VSCodes terminal, I typed git clone https://github.com/monkphin/nlaw.git and pressed enter, which cloned the repo to my local machine as shown by the below output. 
+Since I chose to work in Visual Studio Code, the contents of the newly created repo needed to be transferred to my computer. To do this I followed the below steps:
+
+
+1. In VSCode, I opened the Terminal window, by visiting the 'Terminal' menu in VSCode and selecting 'New Terminal'
+2. Within this terminal window I made sure I was in the correct folder for where I wanted to store my work, if this was not correct I would have used the bash command cd to navigate to the correct folder. In this case, ~/Code, which is a folder called 'Code' in my logged-in user Home Folder.
+3. In a web browser, I navigated to the GitHub repository for the project and clicked on the green '<> Code' button, this presented me with several options for cloning. I selected the 'HTTPS' option and copied the URL in the text field.
+4. In Visual Studio Code’s terminal, I typed git clone https://github.com/monkphin/nlaw.git and pressed enter, which cloned the repo to my local machine as shown by the below output.
+ 
     ```
     darren@localhost MINGW64 ~/Code (main)
     $ git clone https://github.com/monkphin/nlaw.git
@@ -909,100 +917,155 @@ Since I choose to work in Visual Studio Code, the contents of the newly created 
     remote: Total 12 (delta 0), reused 8 (delta 0), pack-reused 0
     Receiving objects: 100% (12/12), 5.68 KiB | 830.00 KiB/s, done.
     ```
-5. Once this had finished cloning I used cd to navigate into the relevant folder - in this case cd nlaw 
+
+5. Once this had finished cloning I used cd to navigate into the relevant folder - in this case, cd nlaw
+   
     ```
     darren@localhost MINGW64 ~/Code (main)
     $ cd nlaw/
     darren@localhost MINGW64 ~/Code/nlaw (main)
     ```
-6. I am now able to work on the project on my local machine. 
+6. I am now able to work on the project on my local machine.
+
+
+All information from this point on will be instructions for performing these operations through the CLI unless otherwise stated.
+
 
 ## Version control
-One of the core benefits of using GitHub and similar tools is it allows for version control, as well as forking and branching of repositories. Effectively allowing you to safely make changes that can be reverted or in the case of forks and branches conduct work that will not impact your main code base. Which is quite useful if you're planning on making significant changes that could impact how a live site functions if you are hosting the site from GitHub directly or using automation to push out code changes to wherever you are currently hosting the site. 
+One of the core benefits of using GitHub and similar tools is it allows for version control, as well as forking and branching of repositories. Effectively allowing you to safely make changes that can be reverted or in the case of forks and branches conduct work that will not impact your main code base. This is quite useful if you're planning on making significant changes that could impact how a live site functions if you are hosting the site from GitHub directly or using automation to push out code changes to wherever you are currently hosting the site.
 
-When working on the site, I was using git functionality, such as git add, git commit and git push as outlined below to allow for version control meaning I could recover from critical issues with relative ease. 
 
-1. Once you have saved a file in the VSCode terminal type 'git status' this will output the current status of your local files vs the branch you are working on, confirming which files have been modified, if you are in-front of or behind the version of the code currently on Git and which branch you are working on. As seen below:
+When working on the site, I was using git functionality, such as git add, git commit and git push as outlined below to allow for version control meaning I could recover from critical issues with relative ease.
+
+
+1. Once you have saved a file in the VSCode terminal type 'git status' this will output the current status of your local files vs the branch you are working on, confirming which files have been modified if you are in front of or behind the version of the code currently on Git and which branch you are working on. As seen below:
+ 
     ```
     darren@localhost MINGW64 ~/Code/nlaw (main)
     $ git status
     On branch main
     Your branch is up to date with 'origin/main'.
 
+
     Changes not staged for commit:
     (use "git add <file>..." to update what will be committed)
     (use "git restore <file>..." to discard changes in working directory)
     modified:   README.md
 
+
     no changes added to commit (use "git add" and/or "git commit -a")
     ```
-2. Once you have confirmed which files are required to be staged you can issue a git commit command to do this
-    ```
-    darren@localhost MINGW64 ~/Code/nlaw (main)
 
+2. Once the modified files have been confirmed we need to add this change to the staging area. This is done with the git add command, in the above example we would issue 'git add README.md' which will stage the file ready for committing.
+3. Once you have confirmed which files are required to be staged you can issue a git commit command to do this. When committing a change it's best practice to add a message to the commit to outline the nature of the change. Ideally, this should clearly document the nature of the change or what exactly has been changed, since this will help with debugging and troubleshooting should you need to revert.
 
-## Forking
+  ```
+  darren@localhost MINGW64 ~/Code/nlaw (main)
+  $ git commit -m "Started to add information on version control and deployment to the README.md file"
+  [main 05e1d48] Started to add information on version control and deployment to the README.md file
+  1 file changed, 116 insertions(+), 48 deletions(-)
+  ```
+4. Assuming you are happy with the updates made to the file. You can upload these using git push, which generates output something like the below.
+ 
+  ```
+  darren@localhost MINGW64 ~/Code/nlaw (main)
+  $ git push
+  Enumerating objects: 5, done.
+  Counting objects: 100% (5/5), done.
+  Delta compression using up to 24 threads
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 3.05 KiB | 3.05 MiB/s, done.
+  Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+  remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+  To https://github.com/monkphin/nlaw.git
+    346c8cb..05e1d48  main -> main
+  ```
 
-This project is currently hosted on Github Pages and was deployed from the main branch.
-
-
-
-
-## Deployment 
-To deploy the site the following steps were used: 
-
-1. Navigate to the specific GitHub Repo for the site - in this case: https://github.com/monkphin/nlaw/
-2. Click settings in the menu at the top of the project. 
-3. On the left hand menu of the settings page, click on the the Pages link. 
-4. Under the 'Build and Deploy heading click the drop down under 'Branch' and select which branch to deploy from. In this case it was 'main'.  
-5. Check to ensure the correct site root is selected in the drop down next to the branch drop down selector that is now visible. In this case, '/(root)'. 
-6. Click 'save'. 
-7. Wait a moment for the webpage to reload, at which point you will see a notice at the top of the page stating 'GitHub Pages source saved' 
-8. Once the page has reloaded, you should see a message at the top stating 'Your site is live at https://monkphin.github.io/nlaw/' If this is not visible, refresh the page and it should now be visible. 
-
-
-
-## Cloning Locally
-
-To work on the site on your local machine a local clone will be needed.
-Please follow the below steps to clone this repo.
-_ Log into github and browse to this repo.
-_ Click the green button labeled 'Code' and ensure the 'Local' tab is selected.
-_ Click on https and copy the provided link
-_ Open your local CLI with Git support or IDE that supports Git CLI
-_ Change your directory to the one where you wish to clone the directory to.
-_ type 'git clone' and paste the previously copied URL and press enter.
-` $ git clone https://github.com/monkphin/nlaw.git
-`
-This will generate the below output. > Cloning into `CI-Clone`... > remote: Counting objects: 10, done. > remote: Compressing objects: 100% (8/8), done. > remove: Total 10 (delta 1), reused 10 (delta 1) > Unpacking objects: 100% (10/10), done.
 
 ## Branching
+As mentioned there may be points where you are working on a significant change which could impact the functionality of the website you are working on. In situations like this it's beneficial to create a fork. This effectively creates a separate work stream which can be edited and tested without impacting the existing codebase.
 
-If you need to develop new features that may impact the currently running hosted site on Github Pages, the repo will need a branch creating.
-To do this, the following steps can be followed
 
-Web:
-_ Click on the button marked 'main' and click 'view all branches'
-_ Click the green 'New Branch' button
-_ In the spawned modal, enter a name for the branch and select which source you are branching from if more than one branch exists.
-_ Click the green 'Create Branch' button.
+To branch a repository please follow the below steps:
+1. In the CLI, type 'git switch --create branchname' where the branchname is the name you want to give the new branch, often this will reflect the name of the specific project you're focused on adding in, or perhaps the name of the functionality or change you want to make. In my case, it will be 'bootstrap_5'
+ 
+  ```
+  darren@localhost MINGW64 ~/Code/nlaw (main)
+  $ git switch --create bootstrap_5
+  Switched to a new branch 'bootstrap_5'
+  ```
 
-CLI:
-Assuming you are currently working on the 'main' branch
-In your CLI type the following git checkout -b <branch name>
+2. Once the branch is created you are automatically switched to it. (Note the CLI now states (bootstrap_5) at the end of the path on the prompt line.)
+3. Much like the main branch once you are ready to upload to git you will need to use git add and git commit to stage any newly made changes.
+  
+  ```
+  darren@localhost MINGW64 ~/Code/nlaw (bootstrap_5)
+  $ git add index.html
+  darren@localhost MINGW64 ~/Code/nlaw (bootstrap_5)
+  $ git commit -m "Created a new branch to start implementing Bootstrap 5"
+  [bootstrap_5 9d6112c] Created a new branch to start implementing Bootstrap 5
+  1 file changed, 5 insertions(+), 4 deletions(-)
+  ```
 
-    ```
-    darren@local MINGW64 ~/Code/nlaw (main)
-    $ git checkout -b new-feature
-    ```
-    This will generate the below output
-    ```
-    Switched to a new branch 'new-feature'
-    darren@local MINGW64 ~/Code/nlaw (new-feature)
-    ```
-    Any changes you make to the code from this point on will be in the newly created branch.
+4. To push the change and also the new branch to GitHub you will need to use a slight variation on the git push command used previously, this time using 'git push --set-upstream origin bootstrap_5'
+  
+  ```
+  darren@localhost MINGW64 ~/Code/nlaw (bootstrap_5)
+  $ git push --set-upstream origin bootstrap_5
+  Enumerating objects: 5, done.
+  Counting objects: 100% (5/5), done.
+  Delta compression using up to 24 threads
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 441 bytes | 441.00 KiB/s, done.
+  Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+  remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+  remote:
+  remote: Create a pull request for 'bootstrap_5' on GitHub by visiting:
+  remote:      https://github.com/monkphin/nlaw/pull/new/bootstrap_5
+  remote:
+  To https://github.com/monkphin/nlaw.git
+  * [new branch]      bootstrap_5 -> bootstrap_5
+  branch 'bootstrap_5' set up to track 'origin/bootstrap_5'.
+  ```
+5. You can confirm this branch is on GitHub by visiting your repository in a web browser and clicking on the left button with the word 'main' listed in it, this will show and allow you to select the newly created branch on the website.
+<img src="docs/branch.png">
+6. You can see a list of branches using 'git branch'
 
-Adjustments can be made to the underlying code of the site without impacting the deployed build by creating a branch.
+  ```
+  darren@localhost MINGW64 ~/Code/nlaw (bootstrap_5)
+  $ git branch
+  * bootstrap_5
+  main
+  ```
+7. To switch between branches you can use 'git checkout' ensuring you state the name of the branch you wish to move into:
+
+
+  ```
+  darren@localhost MINGW64 ~/Code/nlaw (bootstrap_5)
+  $ git checkout main
+  Switched to branch 'main'
+  Your branch is up to date with 'origin/main'.
+  ```
+
+
+As yet, I have had no need to perform a merge, so will not document this at this time. However, I will update this page as and when I need to do this.
+
+
+## Deployment
+
+
+As mentioned the site is currently deployed via GitHub Sites.
+To deploy the site the following steps were used:
+
+
+1. Navigate to the specific GitHub Repo for the site - in this case: https://github.com/monkphin/nlaw/
+2. Click settings in the menu at the top of the project.
+3. On the left-hand menu of the settings page, click on the the Pages link.
+4. Under the 'Build and Deploy heading click the drop-down under 'Branch' and select which branch to deploy from. In this case, it was 'main'.  
+5. Check to ensure the correct site root is selected in the drop-down next to the branch drop-down selector that is now visible. In this case, '/(root)'.
+6. Click 'save'.
+7. Wait a moment for the webpage to reload, at which point you will see a notice at the top of the page stating 'GitHub Pages source saved'
+8. Once the page has reloaded, you should see a message at the top stating 'Your site is live at https://monkphin.github.io/nlaw/' If this is not visible, refresh the page and it should now be visible.
 
 # Credits
 
