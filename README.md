@@ -361,6 +361,9 @@ I believe some of the issues mentioned above may be resolved when moving to Boot
 ## Carousel Controls
 For some reason the carousel controls aren't properly honouring the colours set to match the website link colours. However, when I set these to more generic colours, such as 'red' this seems to render properly. This has no negative impact on functionality, but does make the carousel a little less cohesive with the overall look of the site. 
 
+## Contact Page
+This page has significantly less content than the rest of the site, so has a much shorter height as a result. Due to this the footer was showing issues where it would float part way up the page, rather than sticking to the bottom. To get around this I have had to apply some additional Bootstrap formatting (min-vh-100) to the body of the page, forcing it to take up 100% of the viewport height. 
+
 # Technology.
 
 ## Languages
