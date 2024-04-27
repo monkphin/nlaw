@@ -13,6 +13,12 @@ A website created for the first milestone project for Code Institutes full stack
   - [The Clubs Goals](#hobby-club-goals)
   - [A Visitors Goals](#visitor-goals)
 
+- [User Stories](#user-stories)
+  - [Club Visitor](club-visitor)
+  - [Mobile User](mobile-user)
+  - [Club Owner](club-owner)
+
+
 - [Design](#design)
 
   - [Wireframes](#wireframes)
@@ -81,6 +87,33 @@ The club would like to have a presence online outside of standard social media t
 - To know what the club offers, such as available gaming tables, spaces for 'hobbying' and to be informed about what facilities are onsite, as well as any rules the club may have. 
 - To be able to contact the club to ask any questions I may have before visiting
 - To be able to easily navigate the site irrespective of device
+
+# User Stories
+
+## Club Visitor
+1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. 
+2. As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in. 
+3. As a user, I want to know the location of the club, so I can visit the club if I want to.
+4. As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests.
+5. As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like.
+6. As a user, I want to know the clubs opening hours, so that I know if I can fit visiting into my schedule. 
+7. As a user, I want to know if there are any costs, so that I know what, if anything I need to pay. 
+8. As a user, I want to be able to contact the club, so that I can ask any further questions I may have. 
+9 . As a user, I want to know if food and drink are available and if I can take my own, so that I know if I should eat/drink before visiting or take my own if it's allowed. . 
+
+## Mobile User
+10. As a mobile user, I want the site to accommodate the device I am on, so that the site is readable and can be browsed with minimal effort. 
+11. As a mobile user, I want the site to render correctly on my device, so that I have a good user experience.
+12. As a mobile user, I want a navigation menu that is appropriate to my device, so that I don't need to try to zoom and move around on the screen to tap links that may be otherwise too small. 
+
+## Club Owner
+13. As a Club Owner, I want to provide basic information, such as location, opening hours, cost to attend, so that I can cut down on the need for visitors to contact us to find this out. 
+14. As a Club Owner, I want visitors to know about the club's rules, so that visitors will know what standard of behaviour is expected while visiting us. 
+15. As a Club Owner, I want the users to be able to contact us, so that they may ask any questions or seek clarification. 
+16. As a Club Owner, I want visitors to know how to find us and what transport options there are, so that visitors can visit our club with minimal effort. 
+17. As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too. 
+18. As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements. 
+
 
 # Design
 
@@ -464,6 +497,7 @@ Some errors were detected with the CSS when testing against the URL. These were 
 Since the site is designed with ASD users in mind, I reached out to several friends who I know are diagnosed with ASD and provided feedback and suggestions. 
 Comments included that the colour choice was calming and easy on the eye and that the site was easy to use, read and navigate with minimal issues.
 
+
 ## Performance
 
 Overall loading times and performance were tested using Google’s lighthouse tool within Chrome's Developer Tools.
@@ -505,6 +539,175 @@ This was, much like with the desktop tests, the most performant of pages due to 
 <br>
 The Best Practice call out was due to a low image resolution on the lost.webp file. 
 </details>
+
+## Device and Browser Testing
+The site has been tested on several physical devices specifically: 
+- WIndows Desktop PC
+- Apple M1 MacBook Pro
+- iPhone 14 Pro Max 
+- Samsung Galaxy S24
+
+In Addition the following browsers have all been used in testing: 
+ - Chrome
+ - Safari 
+ - Firefox
+
+## Responsivenes
+Responsiveness testing was caried out using Chromes Developer Tools.
+
+<details>
+<summary>Galaxy Pixel Fold</summary>
+| Device and Resolution | Page          | Result               | 
+| --------------------- | ------------- | -------------------- |
+| Galaxy Pixel Fold     | Home Page     | Displays as Expected |
+| 280 x 653             | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>iPhone SE</summary>
+| Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
+| iPhone SE             | Home Page     | Displays as Expected |
+| 375 x 667             | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>iPhone 12 Pro</summary>
+| Device and Resolution | Page          | Result               |
+| --------------------- | ------------- | -------------------- |
+| iPhone 12 Pro         | Home Page     | Displays as Expected |
+| 390 x 844             | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</summary>
+
+<details>
+<summary>Samsung Galaxy A51/71</summary>
+| Device and Resolution | Page          | Result               |
+| Samsung Galaxy A51/71 | Home Page     | Displays as Expected |
+| 412 x 914             | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</summary>
+
+<details>
+<summary>iPhone 14 Pro Max</summary>
+| Device and Resolution | Page          | Result               |
+| iPhone 14 Pro Max     | Home Page     | Displays as Expected |
+| 430 x 932             | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</details>
+
+<details>
+<summary>Surface Pro Duo</summary>
+| Device and Resolution | Page          | Result               |
+| Surface Pro Duo       | Home Page     | Displays as Expected |
+| 540 x 720             | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</summary>
+
+<details>
+<summary>iPad Mini</summary>
+| Device and Resolution | Page          | Result               |
+| iPad Mini             | Home Page     | Displays as Expected |
+| 768 x 1024            | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</summary>
+
+<details>
+<summary>ASUS Zenbook Fold</summary>
+| Device and Resolution | Page          | Result               |
+| ASUS Zenbook Fold     | Home Page     | Displays as Expected |
+| 853 x 1280            | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</summary>
+
+<details>
+<summary>Surface Pro 7</summary>
+| Device and Resolution | Page          | Result               |
+| Surface Pro 7         | Home Page     | Displays as Expected |
+| 912 x 1368            | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</summary>
+
+<details>
+<summary>iPad Pro</summary>
+| Device and Resolution | Page          | Result               |
+| iPad Pro              | Home Page     | Displays as Expected |
+| 1024 x 1366           | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</summary>
+
+<details>
+<summary>Nest Hub Max</summary>
+| Device and Resolution | Page          | Result               |
+| Nest Hub Max          | Home Page     | Displays as Expected |
+| 1280 x 800            | Club Page     | Displays as Expected |
+|                       | Contact Page  | Displays as Expected |
+|                       | Response Page | Displays as Expected |
+|                       | 404 Page      | Displays as Expected |
+|                       | Nav Bar       | Displays as Expected |
+|                       | Carousel      | Displays as Expected |
+|                       | Modal         | Displays as Expected |
+</summary>
+
+## User Story Testing
+Features: 1, 2 and 4
+As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. 
+As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in. 
+As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests.
+
+
 
 # Deployment
 
@@ -570,8 +773,7 @@ Images were sourced from a few locations, the details of which are below. No cre
   - Kill Team [Warhammer](http://warhammer.com)
   - Horus Heresy [Warhammer](http://warhammer.com)
   - The Walking Dead [Mantic Games](https://www.manticgames.com/)
-  - Bolt Action [Warlord Games](http://warlordgames.com)
-  - Star Wars Legion [Fantasy Flight Games](https://www.fantasyflightgames.com)
+  
   - Dungeons & Dragons [Wizards of the Coast](https://dnd.wizards.com/)
 
 - Main body images on club.html - [Warhammer](http://warhammer.com)
