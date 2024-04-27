@@ -1020,7 +1020,7 @@ To branch a repository please follow the below steps:
   1 file changed, 5 insertions(+), 4 deletions(-)
   ```
 
-4. To push the change and also the new branch to GitHub you will need to use a slight variation on the git push command used previously, this time using 'git push --set-upstream origin bootstrap_5'
+4. To push the change and also the new branch to GitHub you will need to use a slight variation on the git push command used previously, this time using 'git push --set-upstream origin bootstrap_5'. This should only be needed for the first push. From that point on you can use git push as normal. 
   
   ```
   darren@localhost MINGW64 ~/Code/nlaw (bootstrap_5)
