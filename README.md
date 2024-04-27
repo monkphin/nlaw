@@ -142,6 +142,7 @@ Overall I feel this finds a balance between a clean design and an autism friendl
 
 Wireframes were created with Balsamiq software to provide rough mockups for layout.
 
+<details>
 <summary>Homepage Desktop</summary>
 <img src="docs/index-desktop.png">
 </details>
