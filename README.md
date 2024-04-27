@@ -56,7 +56,7 @@ A website created for the first milestone project for Code Institutes full stack
   - [CSS Validation](#css-validation)
   - [Accessibility](#accessibility)
   - [User Testing](#user-testing)
-  - [User Stories](#user-stories)
+  - [User Stories](#user-story-testing)
   - [Performance](#performance)
 
 - [Deployment](#deployment)
@@ -93,7 +93,14 @@ The club would like to have a presence online outside of standard social media t
 
 ## Club Visitor
 
-1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. 2. As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in. 3. As a user, I want to know the location of the club, so I can visit the club if I want to. 4. As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests. 5. As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like. 6. As a user, I want to know the clubs opening hours, so that I know if I can fit visiting into my schedule. 7. As a user, I want to know if there are any costs, so that I know what, if anything I need to pay. 8. As a user, I want to be able to contact the club, so that I can ask any further questions I may have.
+1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. 
+2. As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in. 
+3. As a user, I want to know the location of the club, so I can visit the club if I want to. 
+4. As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests. 
+5. As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like. 
+6. As a user, I want to know the clubs opening hours, so that I know if I can fit visiting into my schedule. 
+7. As a user, I want to know if there are any costs, so that I know what, if anything I need to pay. 
+8. As a user, I want to be able to contact the club, so that I can ask any further questions I may have.
 9 . As a user, I want to know if food and drink are available and if I can take my own, so that I know if I should eat/drink before visiting or take my own if it's allowed. .
 
 ## Mobile User
@@ -110,6 +117,7 @@ The club would like to have a presence online outside of standard social media t
 16. As a Club Owner, I want visitors to know how to find us and what transport options there are, so that visitors can visit our club with minimal effort.
 17. As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too.
 18. As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements.
+19. As a Club Owner, I want to signpost the location of any social channels we may have, so that visitors are aware of where else we can be interacted with online.
 
 # Design
 
@@ -490,7 +498,7 @@ Some errors were detected with the CSS when testing against the URL. These were 
 Since the site is designed with ASD users in mind, I reached out to several friends who I know are diagnosed with ASD and provided feedback and suggestions.
 Comments included that the colour choice was calming and easy on the eye and that the site was easy to use, read and navigate with minimal issues.
 
-## User Stories
+## User Story Testing
 
 1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit.
 
