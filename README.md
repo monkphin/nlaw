@@ -15,9 +15,9 @@ A website created for the first milestone project for Code Institutes full stack
 
 - [User Stories](#user-stories)
 
-  - [Club Visitor](club-visitor)
-  - [Mobile User](mobile-user)
-  - [Club Owner](club-owner)
+  - [Club Visitor](#club-visitor)
+  - [Mobile User](#mobile-user)
+  - [Club Owner](#club-owner)
 
 - [Design](#design)
 
