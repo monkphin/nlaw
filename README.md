@@ -6,6 +6,7 @@ A website created for the first milestone project for Code Institutes full stack
 
 <img src="docs/mockup.png">
 
+
 # Contents
 
 - [User Experience](#user-experience)
@@ -63,6 +64,7 @@ A website created for the first milestone project for Code Institutes full stack
 
 - [Credits](#credits)
 
+
 # User Experience
 
 N/L/A/W is a local tabletop wargames group that started life as a small afterschool club in a local autism college.
@@ -89,6 +91,7 @@ The club would like to have a presence online outside of standard social media t
 - To be able to contact the club to ask any questions I may have before visiting
 - To be able to easily navigate the site irrespective of device
 
+
 # User Stories
 
 ## Club Visitor
@@ -101,7 +104,7 @@ The club would like to have a presence online outside of standard social media t
 6. As a user, I want to know the clubs opening hours, so that I know if I can fit visiting into my schedule. <br>
 7. As a user, I want to know if there are any costs, so that I know what, if anything I need to pay. <br>
 8. As a user, I want to be able to contact the club, so that I can ask any further questions I may have. <br>
-9 . As a user, I want to know if food and drink are available and if I can take my own, so that I know if I should eat/drink before visiting or take my own if it's allowed. <br>
+9. As a user, I want to know if food and drink are available and if I can take my own, so that I know if I should eat/drink before visiting or take my own if it's allowed. <br>
 
 ## Mobile User
 
@@ -118,6 +121,7 @@ The club would like to have a presence online outside of standard social media t
 17. As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too. <br>
 18. As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements. <br>
 19. As a Club Owner, I want to signpost the location of any social channels we may have, so that visitors are aware of where else we can be interacted with online. <br>
+
 
 # Design
 
@@ -143,62 +147,39 @@ Overall I feel this finds a balance between a clean design and an autism friendl
 Wireframes were created with Balsamiq software to provide rough mockups for layout.
 
 <details>
-<summary>Homepage Desktop</summary>
+<summary>Homepage</summary>
 <img src="docs/index-desktop.png">
-</details>
-
-<details>
-<summary>Club Desktop</summary>
-<img src="docs/club-desktop.png">
-</details>
-
-<details>
-<summary>Contact Desktop</summary>
-<img src="docs/contact-desktop.png">
-</details>
-
-<details>
-<summary>Response Desktop</summary>
-<img src="docs/response-desktop.png">
-</details>
-
-<details>
-<summary>404 Desktop</summary>
-<img src="docs/404-desktop.png">
-</details>
-
-<details>
-<summary>Modal Desktop</summary>
-<img src="docs/modal-desktop.png">
-</details>
-
-<details>
-<summary>Homepage Mobile</summary>
 <img src="docs/index-mobile.png">
 </details>
 
 <details>
-<summary>Club Mobile</summary>
+<summary>Club</summary>
+<img src="docs/club-desktop.png">
 <img src="docs/club-mobile.png">
 </details>
 
 <details>
-<summary>Contact Mobile</summary>
+<summary>Contact</summary>
+<img src="docs/contact-desktop.png">
 <img src="docs/contact-mobile.png">
+
 </details>
 
 <details>
-<summary>Response Mobile</summary>
+<summary>Response</summary>
+<img src="docs/response-desktop.png">
 <img src="docs/response-mobile.png">
 </details>
 
 <details>
-<summary>404 Mobile</summary>
+<summary>404</summary>
+<img src="docs/404-desktop.png">
 <img src="docs/404-mobile.png">
 </details>
 
 <details>
-<summary>Modal Mobile</summary>
+<summary>Modal</summary>
+<img src="docs/modal-desktop.png">
 <img src="docs/modal-mobile.png">
 </details>
 
@@ -226,6 +207,7 @@ Images were sourced primarily from Games Workshop's website, and other hobby clu
 
 Icons were provided by [FontAwesome](https://fontawsome.com)
 
+
 # Features
 
 The website consists of 5 pages:
@@ -241,8 +223,8 @@ The response page loads when the contact form is successfully submitted. The foo
 ## Header
 
 The header allows for simple, responsive navigation so that visitors can utilise its function regardless of the device in use. On larger screens, it will expand to take the full space of the browser, while on mobile or narrow screens the menu will collapse down into a hamburger toggle and the additional subheading will vanish to ensure the menu remains uncluttered.
+The menu items show an underline and change colour to #0b385f to show the current page. They and all other text-based links also change colour to #3373b0 on hover to provide feedback.
 
-The menu items show an underline and change to #0b385f to show the current page. They and all other text-based links also change colour to #3373b0 on hover to provide feedback.
 
 <details>
 <summary>Nav Bar Images</summary>
@@ -251,6 +233,15 @@ The menu items show an underline and change to #0b385f to show the current page.
 <img src="docs/hamburger.png">
 <img src="docs/desktop-menu.gif">
 <img src="docs/mobile-menu.gif">
+</details>
+
+## Sticky Nav
+
+Since the site can get potentially quite long on smaller screen sizes the navbar is configured to remain in view at all times, allowing the user to easily move from page to page if they want to read information on a different page, or perhaps have a question they want to ask of the club while it's in mind.
+
+<details>
+<summary>Sticky Menu Image</summary>
+<img src="docs/sticky-menu.gif">
 </details>
 
 ## Footer
@@ -271,15 +262,6 @@ The modal as previously mentioned provides a quick and easy way to find the club
 <summary>Modal Images</summary>
 <img src="docs/full-modal.png">
 <img src="docs/mobile-modal.png">
-</details>
-
-## Sticky Nav
-
-Since the site can get potentially quite long on smaller screen sizes the navbar is configured to remain in view at all times, allowing the user to easily move from page to page if they want to read information on a different page, or perhaps have a question they want to ask of the club while it's in mind.
-
-<details>
-<summary>Sticky Menu Image</summary>
-<img src="docs/sticky-menu.gif">
 </details>
 
 ## Carousel
@@ -375,6 +357,9 @@ There is a minor issue with the height of the Bootstrap content boxes not proper
 This issue is also present on the club page, for the rules column. In both cases, I believe the issue to be caused by there being other tags wrapped inside the bootstrap tags. This makes some sense for the rules column since it denotes that the information contained within, while related to the main content, is its own specific section. For the Homepage, this was to resolve an issue which I believe to be caused by how I'm nesting bootstrap containers. I believe this is also the root of the issue with the width of the content on the home page when on mobile. However, despite multiple attempts to resolve these issues, no fix has been found as yet.
 
 I believe some of the issues mentioned above may be resolved when moving to Bootstrap 5 since this will also require some refactoring of the HTML and CSS.
+
+## Carousel Controls
+For some reason the carousel controls aren't properly honouring the colours set to match the website link colours. However, when I set these to more generic colours, such as 'red' this seems to render properly. This has no negative impact on functionality, but does make the carousel a little less cohesive with the overall look of the site. 
 
 # Technology.
 
@@ -709,6 +694,7 @@ In Addition the following browsers have all been used in testing:
 - Chrome
 - Safari
 - Firefox
+- Edge
 
 ## Responsiveness
 
@@ -890,9 +876,91 @@ Responsiveness testing was performed using Chrome's Developer Tools.
 
 </details>
 
-# Deployment
+# Version control and Deployment
 
-This project is currently hosted on Github Pages which was deployed from the main branch.
+The sites code is all stored on GitHub, which is used for version control and is currently hosting a deployed copy of the site. 
+
+## Repo Creation
+
+A new repo was generated using the Code Institutes ci-fill-template using the below steps:
+
+1. Navigate to https://github.com/Code-Institute-Org/ci-full-template
+2. Click the green 'Use this template' button and select 'Create a new repository' 
+3. On the newly loaded page, in the text field enter a name for the repo, in this case nlaw was entered. 
+4. An optional description can be added in the text box below this. In this instance this was left blank. 
+5. Select the visibility as either public, or private. Since this needs to be visible for assessment and marking, the default 'Public' option was left checked. 
+6. Click the create repository button and wait for a few moments, once this has been cloned into your account the page will reload and you'll be presented with the code space for the repo. 
+
+## Working locally
+
+Since I choose to work in Visual Studio Code, the contents of the newly created repo needed to be transferred to my computer. To do this I followed the below steps: 
+
+1. In VSCode, I opened the Terminal window, by visiting the 'Terminal' menu in VSCode and selecting 'New Terminal' 
+2. Within this terminal window I made sure I was in the correct folder for where I wanted to store my work, if this was not correct I would have used the bash command cd to navigate to the correct folder. In this case ~/Code, which is a folder called 'Code' in my logged in users Home Folder.
+3. In a web-browser, I navigated to the GitHub repository for the project and clicked on the green '<> Code' button, this presented me with several options for cloning. I selected the 'HTTPS' option and copied the URL in the text field. 
+4. In VSCodes terminal, I typed git clone https://github.com/monkphin/nlaw.git and pressed enter, which cloned the repo to my local machine as shown by the below output. 
+    ```
+    darren@localhost MINGW64 ~/Code (main)
+    $ git clone https://github.com/monkphin/nlaw.git
+    Cloning into 'nlaw'...
+    remote: Enumerating objects: 12, done.
+    remote: Counting objects: 100% (12/12), done.
+    remote: Compressing objects: 100% (12/12), done.
+    remote: Total 12 (delta 0), reused 8 (delta 0), pack-reused 0
+    Receiving objects: 100% (12/12), 5.68 KiB | 830.00 KiB/s, done.
+    ```
+5. Once this had finished cloning I used cd to navigate into the relevant folder - in this case cd nlaw 
+    ```
+    darren@localhost MINGW64 ~/Code (main)
+    $ cd nlaw/
+    darren@localhost MINGW64 ~/Code/nlaw (main)
+    ```
+6. I am now able to work on the project on my local machine. 
+
+## Version control
+One of the core benefits of using GitHub and similar tools is it allows for version control, as well as forking and branching of repositories. Effectively allowing you to safely make changes that can be reverted or in the case of forks and branches conduct work that will not impact your main code base. Which is quite useful if you're planning on making significant changes that could impact how a live site functions if you are hosting the site from GitHub directly or using automation to push out code changes to wherever you are currently hosting the site. 
+
+When working on the site, I was using git functionality, such as git add, git commit and git push as outlined below to allow for version control meaning I could recover from critical issues with relative ease. 
+
+1. Once you have saved a file in the VSCode terminal type 'git status' this will output the current status of your local files vs the branch you are working on, confirming which files have been modified, if you are in-front of or behind the version of the code currently on Git and which branch you are working on. As seen below:
+    ```
+    darren@localhost MINGW64 ~/Code/nlaw (main)
+    $ git status
+    On branch main
+    Your branch is up to date with 'origin/main'.
+
+    Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+    modified:   README.md
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+    ```
+2. Once you have confirmed which files are required to be staged you can issue a git commit command to do this
+    ```
+    darren@localhost MINGW64 ~/Code/nlaw (main)
+
+
+## Forking
+
+This project is currently hosted on Github Pages and was deployed from the main branch.
+
+
+
+
+## Deployment 
+To deploy the site the following steps were used: 
+
+1. Navigate to the specific GitHub Repo for the site - in this case: https://github.com/monkphin/nlaw/
+2. Click settings in the menu at the top of the project. 
+3. On the left hand menu of the settings page, click on the the Pages link. 
+4. Under the 'Build and Deploy heading click the drop down under 'Branch' and select which branch to deploy from. In this case it was 'main'.  
+5. Check to ensure the correct site root is selected in the drop down next to the branch drop down selector that is now visible. In this case, '/(root)'. 
+6. Click 'save'. 
+7. Wait a moment for the webpage to reload, at which point you will see a notice at the top of the page stating 'GitHub Pages source saved' 
+8. Once the page has reloaded, you should see a message at the top stating 'Your site is live at https://monkphin.github.io/nlaw/' If this is not visible, refresh the page and it should now be visible. 
+
+
 
 ## Cloning Locally
 
