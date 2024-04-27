@@ -579,8 +579,6 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 
-<details>
-<summary>iPhone SE</summary>
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
 | iPhone SE             | Home Page     | Displays as Expected |
@@ -591,7 +589,6 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</details>
 
 <details>
 <summary>iPhone 12 Pro</summary>
