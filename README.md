@@ -289,7 +289,7 @@ The page as a whole uses Bootstraps grid positioning to allow for positioning an
 Finally, much like on the carousel, the images will expand slightly thanks to Hover.css's grow function, to show the user that the image they're interacting with when mousing over it.
 
 <details>
-<summary>Carousel Hover Image</summary>
+<summary>Game List Hover Image</summary>
 <img src="docs/hover.gif">
 </details>
 
