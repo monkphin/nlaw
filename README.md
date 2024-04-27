@@ -60,7 +60,7 @@ A website created for the first milestone project for Code Institutes full stack
   - [User Stories](#user-story-testing)
   - [Performance](#performance)
   - [Device and Browser Testing](#device-and-browser-testing)
-  - [Responsiveness](#responseiveness)
+  - [Responsiveness](#responsiveness)
 
 
 - [Version Control and Deployment](#version-control-and-deployment)
