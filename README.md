@@ -168,6 +168,11 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 </details>
 
 <details>
+<summary>Modal Desktop</summary>
+<img src="docs/modal-desktop.png">
+</details>
+
+<details>
 <summary>Homepage Mobile</summary>
 <img src="docs/index-mobile.png">
 </details>
@@ -190,6 +195,11 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 <details>
 <summary>404 Mobile</summary>
 <img src="docs/404-mobile.png">
+</details>
+
+<details>
+<summary>Modal Mobile</summary>
+<img src="docs/modal-mobile.png">
 </details>
 
 
@@ -218,14 +228,15 @@ Icons were provided by [FontAwesome](https://fontawsome.com)
 
 # Features
 
-The website consists of 4 pages:
+The website consists of 5 pages:
 
 - home page
 - club page
 - contact page
 - response page
+- custom 404 page
 
-The response page loads when the contact form is successfully submitted. The footer of each page also includes a modal, allowing information about the location of the club and its opening times to be available anywhere on the site. There is also a **custom 404** in case a visitor finds themselves trying to access a nonexistent part of the website, allowing them to head back to the main content.
+The response page loads when the contact form is successfully submitted. The footer of each page also includes a modal, allowing information about the location of the club and its opening times to be available anywhere on the site. The custom 404 is present in case a visitor finds themselves trying to access a nonexistent part of the website, allowing them to head back to the main content.
 
 ## Header
 
@@ -233,37 +244,52 @@ The header allows for simple, responsive navigation so that visitors can utilise
 
 The menu items show an underline and change to #0b385f to show the current page. They and all other text-based links also change colour to #3373b0 on hover to provide feedback.
 
+<details>
+<summary>Nav Bar Images</summary>
 <img src="docs/full-nav.png">
 <img src="docs/mobile-nav.png">
 <img src="docs/hamburger.png">
 <img src="docs/desktop-menu.gif">
 <img src="docs/mobile-menu.gif">
+</details>
 
 ## Footer
 
 The footer provides constant access to key information concerning the location and operating hours of the club. This modal responds to changes in screen size with both the opening hours and contact information shifting from horizontal to vertical layout as the amount of visible space decreases. The footer also contains links to various social media platforms where the club has some presence, allowing site visitors to interact with the club through other methods and see any other pictures of the venue and any hobby activities that may not be present on the website.
 
+<details>
+<summary>Footer Images</summary>
 <img src="docs/full-footer.png">
 <img src="docs/mobile-footer.png">
+</details>
 
 ## Modal
 
 The modal as previously mentioned provides a quick and easy way to find the club's address and opening hours. The base template for this was taken from an example provided by Bootstrap and features some amendments to styling and CSS of my own to make it fit the site more closely. There is also a clickable phone number, which will open your device's default phone system and auto-fill the number allowing a user to call the club with minimal effort.
 
+<details>
+<summary>Modal Images</summary>
 <img src="docs/full-modal.png">
 <img src="docs/mobile-modal.png">
+</details>
 
 ## Sticky Nav
 
 Since the site can get potentially quite long on smaller screen sizes the navbar is configured to remain in view at all times, allowing the user to easily move from page to page if they want to read information on a different page, or perhaps have a question they want to ask of the club while it's in mind.
 
+<details>
+<summary>Sticky Menu Image</summary>
 <img src="docs/sticky-menu.gif">
+</details>
 
 ## Carousel
 
 Due to the index page becoming overly long when showing the list of games the group enjoys, the design was tweaked slightly to shift this list to the bottom of the main content and replace it with a carousel. The carousel was sourced from Bootstrap with some customisation being done to ensure it fit the site's designs, this meant using some fonts from FontAwesome to replace the left and right arrows since the default icons were proving difficult to format correctly. Grow from Hover.css is also used so that the images will zoom slightly on mouse over to show some interaction to the user when moving to tap/click on the image.
 
+<details>
+<summary>Carousel Image</summary>
 <img src="docs/carousel.gif">
+</details>
 
 ## Home Page
 
@@ -271,21 +297,31 @@ The site's homepage provides some of the club's history, as well as information 
 
 The page as a whole uses Bootstraps grid positioning to allow for positioning and responsive design, with stacked rows to allow for a column containing the list of games to be rendered on the left when on a desktop with the hero image to the right in another column directly above the three columns providing the club's background, information on tabletop gaming and some information about the club and its members. These will re-order depending on the size of the device, with the hero image showing the main room of the club always remaining at the top of the page.
 
+<details>
+<summary>Homepage Images</summary>
 <img src="docs/indexpage-desktop.png">
-<img src="docs/indexpage-mobile.png"><img src="docs/indexpage-bottom-mobile.png">
+<img src="docs/indexpage-mobile.png">
+<img src="docs/indexpage-bottom-mobile.png">
+</details>
 
 Finally, much like on the carousel, the images will expand slightly thanks to Hover.css's grow function, to show the user that the image they're interacting with when mousing over it.
 
+<details>
+<summary>Carousel Hover Image</summary>
 <img src="docs/hover.gif">
+</details>
 
 ## Club page
 
 This page provides more specific information on the club itself, concerning its gaming facilities and what food and drink options are available and some basic information regarding costs to access, again the hero image, showing the main room of the club is carried over. This page also features a list of club rules and also the address and phone number for the club, its opening hours and a Google map to aid people in visiting. Much like the home page this uses Bootstraps grid positioning system with various columns and rows and some nesting of these to help ensure a clean and responsive layout irrespective of the device that the site is accessed from. Much like with the modal, the opening times shift between horizontal and modal depending on the device screen size that the site is accessed from. Like in the modal, the phone number is clickable and will open the user's default calling application with the number pre-populated, or where none is configured, generate an OS-level dialogue box asking to select an application to use.
 
+<details>
+<summary>Club page Images</summary>
 <img src="docs/clubpage-top-desktop.png">
 <img src="docs/clubpage-bottom-desktop.png">
 
 <img src="docs/clubpage-top-mobile.png"><img src="docs/clubpage-bottom-mobile.png">
+</details>
 
 ## Contact Page
 
@@ -293,22 +329,31 @@ The contact page is a simple form asking for a name, email and a message. This h
 
 All fields' borders highlight as they're clicked into to show the user which field they're working in and all fields require data to submit the form. The form is configured to be aware of if the email field has been filled in with normal text, rather than an email.
 
+<details>
+<summary>Contact page Images</summary>
 <img src="docs/contactpage-desktop.png">
 <img src="docs/contactpage-mobile.png">
+</details>
 
 ## Response Page
 
 This page exists purely to provide feedback on submitting the form, rather than just erroring out. In a future iteration of the website, this page would still exist as a confirmation to provide feedback on a successful submission. But the form itself would submit the information provided.
 
+<details>
+<summary>Response page Images</summary>
 <img src="docs/responsepage-desktop.png">
 <img src="docs/responsepage-mobile.png">
+</details>
 
 ## 404 Page
 
 A custom 404 error page was added, to keep the user on-site in the event of them somehow trying to load a non-existing page. This is built using the stock layout to allow users to easily navigate to any part of the site, rather than just leaving them with no route back or simply sending them back to the home page.
 
+<details>
+<summary>404 page Images</summary>
 <img src="docs/404page-desktop.png">
 <img src="docs/404page-mobile.png">
+</details>
 
 ## Future features
 
