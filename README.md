@@ -309,7 +309,7 @@ This page provides more specific information on the club itself, concerning its 
 <summary>Club page Images</summary>
 <img src="docs/clubpage-desktop.png">
 <img src="docs/clubpage-mobile.png">
-<img src="docs/clubpagemobile-bottom.png">
+<img src="docs/clubpage-mobile-bottom.png">
 </details>
 
 ## Contact Page
@@ -535,7 +535,7 @@ Comments included that the colour choice was calming and easy on the eye and tha
 
 ## User Story Testing
 
-1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit.
+1. As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit.
 
 | Feature   | Action                                             | Expected Result                                                                           | Actual Result     |
 | --------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------- |
