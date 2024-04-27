@@ -56,6 +56,7 @@ A website created for the first milestone project for Code Institutes full stack
   - [CSS Validation](#css-validation)
   - [Accessibility](#accessibility)
   - [User Testing](#user-testing)
+  - [User Stories](#user-stories)
   - [Performance](#performance)
 
 - [Deployment](#deployment)
