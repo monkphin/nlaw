@@ -59,8 +59,16 @@ A website created for the first milestone project for Code Institutes full stack
   - [User Testing](#user-testing)
   - [User Stories](#user-story-testing)
   - [Performance](#performance)
+  - [Device and Browser Testing](#device-and-browser-testing)
+  - [Responsiveness](#responseiveness)
 
-- [Deployment](#deployment)
+
+- [Version Control and Deployment](#version-control-and-deployment)
+  - [Repository Creation](#repo-creation)
+  - [Cloning Locally](#cloning-locally)
+  - [Version Control](#version-control)
+  - [Branching](#branching)
+  - [Deployment](#deployment)
 
 - [Credits](#credits)
 
@@ -901,7 +909,7 @@ A new repo was generated using the Code Institutes ci-fill-template using the be
 6. Click the Create repository button and wait for a few moments, once this has been cloned into your account the page will reload and you'll be presented with the code space for the repo.
 
 
-## Working locally
+## Cloning locally
 
 
 Since I chose to work in Visual Studio Code, the contents of the newly created repo needed to be transferred to my computer. To do this I followed the below steps:
