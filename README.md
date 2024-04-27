@@ -93,7 +93,7 @@ The club would like to have a presence online outside of standard social media t
 
 ## Club Visitor
 
-1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. <br>
+1. As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. <br>
 2. As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in. <br>
 3. As a user, I want to know the location of the club, so I can visit the club if I want to. <br>
 4. As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests. <br>
