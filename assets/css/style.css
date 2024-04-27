@@ -315,6 +315,16 @@ header {
   margin-top: 20px;
 }
 
+.site-404-text h1 {
+  font-size: 1.5em;  
+  font-weight: 700;  
+  font-family: "Barlow", sans-serif; 
+  text-transform: none;  
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
 /*------------------------------------------------------------------------------------------------------------------------ Footer */
 
 footer {
