@@ -148,8 +148,8 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 
 <details>
 <summary>Homepage</summary>
-<img src="docs/index-desktop.png">
-<img src="docs/index-mobile.png">
+<img src="docs/home-desktop.png">
+<img src="docs/home-mobile.png">
 </details>
 
 <details>
