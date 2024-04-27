@@ -607,7 +607,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</summary>
+</details>
 
 <details>
 <summary>Samsung Galaxy A51/71</summary>
@@ -620,7 +620,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</summary>
+</details>
 
 <details>
 <summary>iPhone 14 Pro Max</summary>
@@ -646,7 +646,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</summary>
+</details>
 
 <details>
 <summary>iPad Mini</summary>
@@ -659,7 +659,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</summary>
+</details>
 
 <details>
 <summary>ASUS Zenbook Fold</summary>
@@ -672,7 +672,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</summary>
+</details>
 
 <details>
 <summary>Surface Pro 7</summary>
@@ -685,7 +685,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</summary>
+</details>
 
 <details>
 <summary>iPad Pro</summary>
@@ -698,7 +698,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</summary>
+</details>
 
 <details>
 <summary>Nest Hub Max</summary>
@@ -711,7 +711,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</summary>
+</details>
 
 ## User Story Testing
 Features: 1, 2 and 4
