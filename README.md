@@ -569,7 +569,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 
 <details>
 <summary>Galaxy Pixel Fold</summary>
-| Device and Resolution | Page          | Result               | 
+| Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
 | Galaxy Pixel Fold     | Home Page     | Displays as Expected |
 | 280 x 653             | Club Page     | Displays as Expected |
