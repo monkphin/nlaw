@@ -567,8 +567,6 @@ In Addition the following browsers have all been used in testing:
 ## Responsivenes
 Responsiveness testing was caried out using Chromes Developer Tools.
 
-<details>
-<summary>Galaxy Pixel Fold</summary>
 | Device and Resolution | Page          | Result               |
 | --------------------- | ------------- | -------------------- |
 | Galaxy Pixel Fold     | Home Page     | Displays as Expected |
@@ -579,7 +577,7 @@ Responsiveness testing was caried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-</details>
+
 
 <details>
 <summary>iPhone SE</summary>
