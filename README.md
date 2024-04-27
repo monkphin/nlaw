@@ -362,7 +362,8 @@ I believe some of the issues mentioned above may be resolved when moving to Boot
 For some reason the carousel controls aren't properly honouring the colours set to match the website link colours. However, when I set these to more generic colours, such as 'red' this seems to render properly. This has no negative impact on functionality, but does make the carousel a little less cohesive with the overall look of the site. 
 
 ## Contact Page
-This page has significantly less content than the rest of the site, so has a much shorter height as a result. Due to this the footer was showing issues where it would float part way up the page, rather than sticking to the bottom. To get around this I have had to apply some additional Bootstrap formatting (min-vh-100) to the body of the page, forcing it to take up 100% of the viewport height. 
+This page has significantly less content than the rest of the site, so has a much shorter height as a result. Due to this and some issues with how the site is rendering the footer was showing issues where it would float part way up the page, rather than sticking to the bottom. To get around this I have had to apply the Bootstrap class min-vh-100 to the first div of the page, forcing it to take up 100% of the viewport height. I also tried using Bootstraps 'fixed-bottom class to stick the footer to the bottom of the screen but this had the effect of keeping it locked in place, rather than being scrollable, which while not a bad solution would need replicating across the rest of the site which would cause it to take up additional screen space which would be better served by displaying content. 
+While its unlikely to be a common issue, I also modified all other pages to have the same change so that taller displays will always have the footer at the bottom of the screen, rather than have it float up on screens that are longer than the content of the site. 
 
 # Technology.
 
