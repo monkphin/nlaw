@@ -730,7 +730,7 @@ Responsiveness testing was carried out using Chromes Developer Tools.
 |                       | Nav Bar       | Displays as Expected |
 |                       | Carousel      | Displays as Expected |
 |                       | Modal         | Displays as Expected |
-
+</details>
 
 ## User Story Testing
 Features: 1, 2 and 4
