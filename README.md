@@ -93,31 +93,31 @@ The club would like to have a presence online outside of standard social media t
 
 ## Club Visitor
 
-1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. 
-2. As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in. 
-3. As a user, I want to know the location of the club, so I can visit the club if I want to. 
-4. As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests. 
-5. As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like. 
-6. As a user, I want to know the clubs opening hours, so that I know if I can fit visiting into my schedule. 
-7. As a user, I want to know if there are any costs, so that I know what, if anything I need to pay. 
-8. As a user, I want to be able to contact the club, so that I can ask any further questions I may have.
-9 . As a user, I want to know if food and drink are available and if I can take my own, so that I know if I should eat/drink before visiting or take my own if it's allowed. .
+1.As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. <br>
+2. As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in. <br>
+3. As a user, I want to know the location of the club, so I can visit the club if I want to. <br>
+4. As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests. <br>
+5. As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like. <br>
+6. As a user, I want to know the clubs opening hours, so that I know if I can fit visiting into my schedule. <br>
+7. As a user, I want to know if there are any costs, so that I know what, if anything I need to pay. <br>
+8. As a user, I want to be able to contact the club, so that I can ask any further questions I may have. <br>
+9 . As a user, I want to know if food and drink are available and if I can take my own, so that I know if I should eat/drink before visiting or take my own if it's allowed. <br>
 
 ## Mobile User
 
-10. As a mobile user, I want the site to accommodate the device I am on, so that the site is readable and can be browsed with minimal effort.
-11. As a mobile user, I want the site to render correctly on my device, so that I have a good user experience.
-12. As a mobile user, I want a navigation menu that is appropriate to my device, so that I don't need to try to zoom and move around on the screen to tap links that may be otherwise too small.
+10. As a mobile user, I want the site to accommodate the device I am on, so that the site is readable and can be browsed with minimal effort. <br>
+11. As a mobile user, I want the site to render correctly on my device, so that I have a good user experience. <br>
+12. As a mobile user, I want a navigation menu that is appropriate to my device, so that I don't need to try to zoom and move around on the screen to tap links that may be otherwise too small. <br>
 
 ## Club Owner
 
-13. As a Club Owner, I want to provide basic information, such as location, opening hours, cost to attend, so that I can cut down on the need for visitors to contact us to find this out.
-14. As a Club Owner, I want visitors to know about the club's rules, so that visitors will know what standard of behaviour is expected while visiting us.
-15. As a Club Owner, I want the users to be able to contact us, so that they may ask any questions or seek clarification.
-16. As a Club Owner, I want visitors to know how to find us and what transport options there are, so that visitors can visit our club with minimal effort.
-17. As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too.
-18. As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements.
-19. As a Club Owner, I want to signpost the location of any social channels we may have, so that visitors are aware of where else we can be interacted with online.
+13. As a Club Owner, I want to provide basic information, such as location, opening hours, cost to attend, so that I can cut down on the need for visitors to contact us to find this out. <br>
+14. As a Club Owner, I want visitors to know about the club's rules, so that visitors will know what standard of behaviour is expected while visiting us. <br>
+15. As a Club Owner, I want the users to be able to contact us, so that they may ask any questions or seek clarification. <br>
+16. As a Club Owner, I want visitors to know how to find us and what transport options there are, so that visitors can visit our club with minimal effort. <br>
+17. As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too. <br>
+18. As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements. <br>
+19. As a Club Owner, I want to signpost the location of any social channels we may have, so that visitors are aware of where else we can be interacted with online. <br>
 
 # Design
 
@@ -142,10 +142,6 @@ Overall I feel this finds a balance between a clean design and an autism friendl
 
 Wireframes were created with Balsamiq software to provide rough mockups for layout.
 
-<details>
-<summary>Desktop</summary>
-
-<details>
 <summary>Homepage Desktop</summary>
 <img src="docs/index-desktop.png">
 </details>
@@ -169,10 +165,6 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 <summary>404 Desktop</summary>
 <img src="docs/404-desktop.png">
 </details>
-</details>
-
-<details>
-<summary>Mobile</summary>
 
 <details>
 <summary>Homepage Mobile</summary>
@@ -199,7 +191,6 @@ Wireframes were created with Balsamiq software to provide rough mockups for layo
 <img src="docs/404-mobile.png">
 </details>
 
-</details>
 
 ## Colour Palette.
 
@@ -658,8 +649,6 @@ This was, unsurprisingly, the most performant of pages due to having significant
 The Best Practice call out was due to a low image resolution on the lost.webp file.
 </details>
 
-# Deployment
-
 ## Device and Browser Testing
 
 The site has been tested on several physical devices specifically:
@@ -854,13 +843,6 @@ Responsiveness testing was performed using Chrome's Developer Tools.
 |                       | Modal         | Displays as Expected |
 
 </details>
-
-## User Story Testing
-
-Features: 1, 2 and 4
-As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit.
-As a user, I want to know more about what the club is about, so that I can decide if it's something I’m interested in.
-As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests.
 
 # Deployment
 
