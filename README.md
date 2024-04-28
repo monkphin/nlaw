@@ -658,7 +658,10 @@ All of the above will be factors when performing lighthouse testing, which could
 <details>
 <summary>Homepage</summary>
 <img src="docs/home-lighthouse.png">
-<br>The hero image is presenting the mainstay of issues here despite steps taken to try to mitigate this. With the LCP showing a time of 6s
+<br>
+The hero image is presenting the mainstay of issues here despite steps taken to try to mitigate this. With the LCP showing a time of 6s
+<br>
+This page is also the most image heavy, so some performance issues are expected due to the need to load the images to render them once the page loads.
 </details>
 
 <details>
