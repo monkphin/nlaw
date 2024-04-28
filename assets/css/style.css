@@ -422,6 +422,10 @@ footer {
   .site-games-carousel {
     height: 160px;
   }
+
+  #hero-image {
+    background: url("../images/hero-mid.webp") no-repeat center center;
+  }
 }
 
 @media (min-width: 590px) {
@@ -437,11 +441,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-
-  #hero-image {
-    background: url("../images/hero-mid.webp") no-repeat center center;
-  }
-
   .modal-dialog {
     max-width: 690px;
   }
