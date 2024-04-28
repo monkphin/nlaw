@@ -6,7 +6,7 @@
 #hero-image {
   height: 500px;
   width: 100%;
-  background: url("../images/club.webp") no-repeat center center;
+  background: url("../images/hero-small.webp") no-repeat center center;
   border-radius: 25px;
 }
 
@@ -170,6 +170,7 @@ header {
 .site-nav-link {
   color: #1c2127 !important;
 }
+
 .site-nav-link:hover {
   color: #3373b0 !important;
 }
@@ -341,6 +342,7 @@ footer {
   font-size: 1.75em;
   color: #1c2127;
 }
+
 .site-footer-link:hover {
   color: #3373b0 !important;
 }
@@ -435,6 +437,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+
+  #hero-image {
+    background: url("../images/hero-mid.webp") no-repeat center center;
+  }
+
   .modal-dialog {
     max-width: 690px;
   }
@@ -486,4 +493,9 @@ footer {
   .modal-dialog {
     max-width: 820px;
   }
+
+  #hero-image {
+    background: url("../images/hero-large.webp") no-repeat center center;
+  }
+
 }
