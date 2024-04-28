@@ -657,7 +657,7 @@ All of the above will be factors when performing lighthouse testing, which could
 
 <details>
 <summary>Homepage</summary>
-<img src="docs/homepage-Lighthouse.png">
+<img src="docs/home-lighthouse.png">
 <br>The hero image is presenting the mainstay of issues here despite steps taken to try to mitigate this. With the LCP showing a time of 6s
 </details>
 
