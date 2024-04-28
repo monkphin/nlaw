@@ -363,7 +363,7 @@ There is a minor issue with the height of the Bootstrap content boxes not proper
 <img src="docs/content-height.png">
 </details>
 
-This issue is also present on the club page, for the rules column. In both cases, I believe the issue to be caused by there being other tags wrapped inside the bootstrap tags. This makes some sense for the rules column since it denotes that the information contained within, while related to the main content, is its own specific section. For the Homepage, this was to resolve an issue which I believe to be caused by how I'm nesting bootstrap containers. I believe this is also the root of the issue with the width of the content on the home page when on mobile. However, despite multiple attempts to resolve these issues, no fix has been found as yet.
+This issue is also present on the club page, for the rules column. In both cases, I believe the issue to be caused by there being other tags wrapped inside the Bootstrap tags. This makes some sense for the rules column since it denotes that the information contained within, while related to the main content, is its own specific section. For the Homepage, this was to resolve an issue which I believe to be caused by how I'm nesting Bootstrap containers. I believe this is also the root of the issue with the width of the content on the home page when on mobile. However, despite multiple attempts to resolve these issues, no fix has been found as yet.
 
 I believe some of the issues mentioned above may be resolved when moving to Bootstrap 5 since this will also require some refactoring of the HTML and CSS.
 
@@ -554,7 +554,7 @@ Comments included that the colour choice was calming and easy on the eye and tha
 | ---------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | Address    | Navigate to the Club section of the website, scroll down and see the club's address.                      | Find the address the club                                                                                                 | Works as expected |
 | Modal      | Click the 'Find Us' button on the bottom of the website to launch a modal, which shows the clubs address. | On any page except the 404 page, scroll to the bottom and click the button to display a modal showing the club's address. | Works as expected |
-| Google Map | Browse to the Club section, scroll down and see a google map, showing the location of the club.           | See a map showing the clubs location, clicking this to open the map in a new tab if desired.                              | Works as expected |
+| Google Map | Browse to the Club section, scroll down and see a Google map, showing the location of the club.           | See a map showing the clubs location, clicking this to open the map in a new tab if desired.                              | Works as expected |
 
 4. As a user, I want to know the games the club mostly plays, so that I can know if this matches my own interests.
 
@@ -643,9 +643,9 @@ Comments included that the colour choice was calming and easy on the eye and tha
 
 ## Performance
 
-Overall loading times and performance were tested using Google’s lighthouse tool within Chrome's Developer Tools.
+Overall loading times and performance were tested using Google’s Lighthouse tool within Chrome's Developer Tools.
 
-Several optimisations were put in place based on early test outputs and lighthouse recommendations. These include preloading the Hero image, since this is called from the CSS file which can add some delay to rendering. Pre-connecting for third-party hosted resources, such as Bootstraps javascript and CSS. Performing optimisations on images by running them through compression tools and reformatting as Webp files.
+Several optimisations were put in place based on early test outputs and Lighthouse recommendations. These include creating three different sized hero images which would be loaded using media queries for varying screen widths, preloading the smallest hero image, since the main focus here is helping improve the mobile experience and since this image is called from the CSS file it can add some delay to loading, pre-connecting for third-party hosted resources, such as Bootstraps javascript and CSS and also performing optimisations on images by resizing them, running them through compression tools and reformatting as Webp files.
 
 It's worth noting that despite these optimizations improving scores, they're still not entirely perfect and different results have been seen when testing on different devices. For example, testing the club.html page when on an M1-based Mac showed no issues with Best Practices. But carrying out the same tests on a Desktop PC running Windows 11 showed a lower score here, due to how Google Maps is being called. Similarly, some performance outcomes varied from device to device. Essentially suggesting that device-level factors can affect the outcome of Lighthouse testing.
 
@@ -657,10 +657,8 @@ All of the above will be factors when performing lighthouse testing, which could
 
 <details>
 <summary>Homepage</summary>
-<img src="docs/homepage-lighthouse.png">
+<img src="docs/homepage-Lighthouse.png">
 <br>The hero image is presenting the mainstay of issues here despite steps taken to try to mitigate this. With the LCP showing a time of 6s
-<br>
-The Best Practices score was dropped due the column images being seen as low resolution, specifically the 'build.webp' image, interestingly the other two images were not called out, despite them all being the same size and DPI.
 </details>
 
 <details>
@@ -689,8 +687,6 @@ Again, we see the hero image showing issues with render delay of around 2,750ms.
 <img src="docs/404-lighthouse.png">
 <br>
 This was, unsurprisingly, the most performant of pages due to having significantly less content and any links to unused frameworks removed.
-<br>
-The Best Practice call out was due to a low image resolution on the lost.webp file.
 </details>
 
 ## Device and Browser Testing
