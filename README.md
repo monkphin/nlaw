@@ -581,7 +581,7 @@ Comments included that the colour choice was calming and easy on the eye and tha
 
 | Feature                       | Action                                                                                 | Expected Result                                      | Actual Result                          |
 | ----------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------- |
-| Club pricing on the Club page | Navigate to the Club Page of the website and read the information in the second column | See any pricing that applies to using the club | Works as expected but could be clearer |
+| Club pricing on the Club page | Navigate to the Club Page of the website and read the information in the second column | See any pricing that applies to using the club | Works as expected |
 
 8. As a user, I want to be able to contact the club, so that I can ask any further questions I may have.
 
