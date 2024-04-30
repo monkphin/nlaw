@@ -67,6 +67,8 @@ A website created for the first milestone project for Code Institutes full stack
   - [Repository Creation](#repo-creation)
   - [Cloning Locally](#cloning-locally)
   - [Version Control](#version-control)
+    - [CLI](#CLI)
+    - [GitHub Website](#github-website)
   - [Branching](#branching)
   - [Deployment](#deployment)
 
@@ -949,6 +951,7 @@ One of the core benefits of using GitHub and similar tools is it allows for vers
 
 When working on the site, I was using git functionality, such as git add, git commit and git push as outlined below to allow for version control meaning I could recover from critical issues with relative ease.
 
+### CLI
 
 1. Once you have saved a file in the VSCode terminal type 'git status' this will output the current status of your local files vs the branch you are working on, confirming which files have been modified if you are in front of or behind the version of the code currently on Git and which branch you are working on. As seen below:
  
@@ -993,6 +996,15 @@ When working on the site, I was using git functionality, such as git add, git co
     346c8cb..05e1d48  main -> main
   ```
 
+### GitHub Website
+
+Some minor changes were made via the GitHub website, where I was reading copy and spotted typos here and there. As such, it's worth noting how these changes were made. 
+
+1. On the GitHub website select the relevant file in the code view of your repository.
+2. At the top of the document click the 'pen' icon, to take you to edit mode.
+3. Make the required changes.
+4. At the top of the page press the green 'Commit Changes' button.
+5. As needed modify the title of the commit message and/or add a description as needed - for most of my web based commits I was using descriptions, rather than editing the title as I was doing for CLI based commits, since until this point I was not aware of the ability to add a description. 
 
 ## Branching
 As mentioned there may be points where you are working on a significant change which could impact the functionality of the website you are working on. In situations like this it's beneficial to create a fork. This effectively creates a separate work stream which can be edited and tested without impacting the existing codebase.
