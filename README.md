@@ -245,6 +245,12 @@ The menu items show an underline and change colour to #0b385f to show the curren
 <img src="docs/mobile-menu.gif">
 </details>
 
+| Story Point | Story                                                                                                                                                                                        | How                                                                                                                               |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 11          | As a mobile user, I want the site to render correctly on my device so that I have a good user experience.                                                                                    | The header will render specific content depending on the size of the user's screen, hiding the subheading where space is lacking. This has been tested over multiple resolutions and test views. |
+| 12          | As a mobile user, I want a navigation menu that is appropriate to my device, so that I don't need to try to zoom and move around on the screen to tap links that may be otherwise too small. | The responsive nature of the header ensures that the navigation menu is appropriate to the user's device.                         |
+
+
 ## Sticky Nav
 
 Since the site can get potentially quite long on smaller screen sizes the navbar is configured to remain in view at all times, allowing the user to easily move from page to page if they want to read information on a different page, or perhaps have a question they want to ask of the club while it's in mind.
@@ -253,6 +259,21 @@ Since the site can get potentially quite long on smaller screen sizes the navbar
 <summary>Sticky Menu Image</summary>
 <img src="docs/sticky-menu.gif">
 </details>
+
+| Story Point | Story                                                                                                                                                                                        | How                                                                                                                                                                                 |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 10          | As a mobile user, I want the site to accommodate the device I am on so that the site is readable and can be browsed with minimal effort.                                                     | The sticky nav ensures that the navigation menu is always visible to the user, allowing them to browse the rest of the site with minimal effort, irrespective of the device in use. |
+| 12          | As a mobile user, I want a navigation menu that is appropriate to my device, so that I don't need to try to zoom and move around on the screen to tap links that may be otherwise too small. | The sticky nav ensures the user can always access the nav, without having to zoom or move around too much.                                                                          |
+
+## Hero Image
+
+The Hero image is displayed on most pages of the site, with the only exceptions being the response.html and 404.html pages. 
+It provides a picture of a busy night at the club, showing multiple members and tables, allowing the user to take in the space and how crowded it could become when busy. Its fully reponsive, with several smaller versions of the image available to use for smaller screens, which are preloaded on site access. This cuts down on initial wait time while the CSS is accessed, since the hero image is called in the CSS. It also means that mobile users don't need to wait for a larger file than needed to download. 
+
+| Story Point | Story                                                                                                                | How                                                                                                                                                                                                |
+| ----------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1           | As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit. | The Hero Image shows the inside of the club on a busy night, allowing visitors to understand what the experience could be like when visiting, for example if it could be too busy, or too crowded. |
+| 5           | As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like.     | The hero image being a picture of the club allows visitors to understand what the club can be like.                                                                                                |
 
 ## Footer
 
@@ -264,6 +285,10 @@ The footer provides constant access to key information concerning the location a
 <img src="docs/mobile-footer.png">
 </details>
 
+| Story point | Story                                                                                                                                                           | How                                                                                       |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| 19          | As a Club Owner, I want to signpost the location of any social channels we may have, so that visitors are aware of where else we can be interacted with online. | The footer contains links to the club's social channels, signposted by Font Awesome Icons |
+
 ## Modal
 
 The modal as previously mentioned provides a quick and easy way to find the club's address and opening hours. The base template for this was taken from an example provided by Bootstrap and features some amendments to styling and CSS of my own to make it fit the site more closely. There is also a clickable phone number, which will open your device's default phone system and auto-fill the number allowing a user to call the club with minimal effort.
@@ -274,6 +299,17 @@ The modal as previously mentioned provides a quick and easy way to find the club
 <img src="docs/mobile-modal.png">
 </details>
 
+| Story Point | Story                                                                                                                                                                                      | How                                                                                          |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| 3           | As a user, I want to know the location of the club, so I can visit the club if I want to.                                                                                                  | The modal gives the club's address, allowing the user to locate where the club is.           |
+| 6           | As a user, I want to know the club’s opening hours, so that I know if I can fit visiting into my schedule.                                                                                 | The club's opening hours are documented within the modal.                                    |
+| 8           | As a user, I want to be able to contact the club, so that I can ask any further questions I may have.                                                                                      | The modal contains a clickable contact number for the club, allowing visitors to call them.  |
+| 10          | As a mobile user, I want the site to accommodate the device I am on so that the site is readable and can be browsed with minimal effort.                                                   | The modal and its contents are fully responsive to the device the user is accessing it from. |
+| 11          | As a mobile user, I want the site to render correctly on my device so that I have a good user experience.                                                                                  | The modal has been tested and proven to render correctly on user's devices due to being designed to be responsive.    |
+| 13          | As a Club Owner, I want to provide basic information, such as location, opening hours, and cost to attend, so that I can cut down on the need for visitors to contact us to find this out. | The modal provides opening hours, which partly fulfils this user story.                      |
+| 15          | As a Club Owner, I want the users to be able to contact us, so that they may ask any questions or seek clarification.                                                                      | The modal provides a clickable contact number, allowing visitors to call the club.           |
+| 16          | As a Club Owner, I want visitors to know how to find us and what transport options there are, so that visitors can visit our club with minimal effort.                                     | The modal provides an address for the club, partly fulfilling this user story.               |
+
 ## Carousel
 
 Due to the index page becoming overly long when showing the list of games the group enjoys, the design was tweaked slightly to shift this list to the bottom of the main content and replace it with a carousel. The carousel was sourced from Bootstrap with some customisation being done to ensure it fit the site's designs, this meant using some fonts from FontAwesome to replace the left and right arrows since the default icons were proving difficult to format correctly. Grow from Hover.css is also used so that the images will zoom slightly on mouse over to show some interaction to the user when moving to tap/click on the image.
@@ -282,6 +318,11 @@ Due to the index page becoming overly long when showing the list of games the gr
 <summary>Carousel Image</summary>
 <img src="docs/carousel.gif">
 </details>
+
+| Story Point | Story                                                                                                                                    | How                                                                                                                                                          |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 4           | As a user, I want to know the games the club mostly plays, so that I can know if this matches my interests.                              | The carousel displays logos for games that the club regularly enjoys, allowing visitors to understand the games we play regularly. These also link to home pages for each game so the visitor can learn more about them.                           |
+| 10          | As a mobile user, I want the site to accommodate the device I am on so that the site is readable and can be browsed with minimal effort. | The carousel will only render when on smaller screens, allowing small devices to be better accommodated and have minimal need to scroll overly long content. |
 
 ## Home Page
 
@@ -303,6 +344,16 @@ Finally, much like on the carousel, the images will expand slightly thanks to Ho
 <img src="docs/hover.gif">
 </details>
 
+| Story Point | Story                                                                                                                                                                                                                             | How                                                                                                                                                                                     |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1           | As a user, I want to know more about the club, so that I can decide if it's the kind of place I might want to visit.                                                                                                              | The home page gives some information about the club and its history as well as how it came about, which should help inform a visitor if it may be suitable for them.                    |
+| 2           | As a user, I want to know more about what the club is about so that I can decide if it's something I’m interested in.                                                                                                             | The home page provides information about itself and the gaming hobby, as well as links to some games that the club enjoys so that visitors can learn more about the club and the hobby. |
+| 4           | As a user, I want to know the games the club mostly plays, so that I can know if this matches my interests.                                                                                                                       | The home page has a list of logos of games the club enjoys playing, these all link to websites for each respective game, allowing visitors to read more about them.                     |
+| 10          | As a mobile user, I want the site to accommodate the device I am on so that the site is readable and can be browsed with minimal effort.                                                                                          | The home page is fully responsive with a mobile first design.                                                                                                                           |
+| 11          | As a mobile user, I want the site to render correctly on my device so that I have a good user experience.                                                                                                                         | The home page has been tested on several devices and simulators to confirm it renders correctly.                                                                                        |
+| 17          | As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too. | The sites homepage outlines some of the benefits of involvement with tabletop gaming, around how it can help with creative writing, basic numeracy, mindfullness and socialising.       |
+| 18          | As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements.                                            | The homepage provides background as to how the club formed, which demonstrates its roots as an ASD specialist collages extra-curricular club.                                           |
+
 ## Club page
 
 This page provides more specific information on the club itself, concerning its gaming facilities and what food and drink options are available and some basic information regarding costs to access, again the hero image, showing the main room of the club is carried over. This page also features a list of club rules and also the address and phone number for the club, its opening hours and a Google map to aid people in visiting. Much like the home page this uses Bootstraps grid positioning system with various columns and rows and some nesting of these to help ensure a clean and responsive layout irrespective of the device that the site is accessed from. Much like with the modal, the opening times shift between horizontal and modal depending on the device screen size that the site is accessed from. Like in the modal, the phone number is clickable and will open the user's default calling application with the number pre-populated, or where none is configured, generate an OS-level dialogue box asking to select an application to use.
@@ -313,6 +364,21 @@ This page provides more specific information on the club itself, concerning its 
 <img src="docs/clubpage-mobile.png">
 <img src="docs/clubpage-mobile-bottom.png">
 </details>
+
+| Story Point | Story                                                                                                                                                                                      | How                                                                                                                                                                                                          |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 3           | As a user, I want to know the location of the club, so I can visit the club if I want to.                                                                                                  | The club page gives both the club's address and shows a Google map, which can be opened in a new tab or window, allowing the visitor to find the location from where they are.                               |
+| 5           | As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like.                                                                           | The two images on the club page are of some of the club's miniatures. It also shows the hero image, which shows the club to the user.                                                                        |
+| 6           | As a user, I want to know the club’s opening hours, so that I know if I can fit visiting into my schedule.                                                                                 | The clubs opening hours are at the bottom of the club page, below the google map. Allowing users to know the time the club opens.                                                                            |
+| 7           | As a user, I want to know if there are any costs so that I know what, if anything I need to pay.                                                                                           | The club page contains information on costs for access, both as a full member or for a single visit.                                                                                                         |
+| 8           | As a user, I want to be able to contact the club, so that I can ask any further questions I may have.                                                                                      | The club page has a contact number which is a working link, allowing them to click/tap to open their phone client and call the club.                                                                         |
+| 9           | As a user, I want to know if food and drink are available and if I can take my own so that I know if I should eat/drink before visiting or take my own if it's allowed.                    | This page states that the club does provide food and drink, as well as stating that visitors can bring their own.                                                                                            |
+| 10          | As a mobile user, I want the site to accommodate the device I am on so that the site is readable and can be browsed with minimal effort.                                                   | The club page is fully responsive and designed for mobile first.                                                                                                                                             |
+| 11          | As a mobile user, I want the site to render correctly on my device so that I have a good user experience.                                                                                  | The page has been tested over multiple resolutions and device types to ensure it will render correctly.                                                                                                      |
+| 13          | As a Club Owner, I want to provide basic information, such as location, opening hours, and cost to attend, so that I can cut down on the need for visitors to contact us to find this out. | The club page shows opening hours, location information and costs. Which allows visitors to find all of this out without needing to contact the club.                                                        |
+| 14          | As a Club Owner, I want visitors to know about the club's rules, so that visitors will know what standard of behaviour is expected while visiting us.                                      | The club page states the rules of the club, allowing visitors to find these quickly and understand what's expected of them.                                                                                  |
+| 15          | As a Club Owner, I want the users to be able to contact us, so that they may ask any questions or seek clarification.                                                                      | The club page contains a phone number for the club allowing users to contact them. As with all pages, it has a link in the nav bar to the contact page also.                                                 |
+| 16          | As a Club Owner, I want visitors to know how to find us and what transport options there are, so that visitors can visit our club with minimal effort.                                     | The club page contains basic information about parking and bus routes. This also has a Google map embedded in it, which will allow users to use map services to find bus routes and plan routes to the club. |
 
 ## Contact Page
 
@@ -326,6 +392,8 @@ All fields' borders highlight as they're clicked into to show the user which fie
 <img src="docs/contactpage-mobile.png">
 <img src="docs/contactpage-mobile-bottom.png">
 </details>
+
+
 
 ## Response Page
 
