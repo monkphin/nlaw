@@ -463,6 +463,9 @@ For some reason, the carousel controls aren't properly honouring the colours set
 This page has significantly less content than the rest of the site, so has a much shorter height as a result. Due to this and some issues with how the site is rendering the footer was showing issues where it would float part way up the page, rather than sticking to the bottom. To get around this I have had to apply the Bootstrap class min-vh-100 to the first div of the page, forcing it to take up 100% of the viewport height. I also tried using Bootstraps 'fixed-bottom' class to pin the footer to the bottom of the screen but this had the effect of letting it float in place, like the Navbar currently does, rather than scrolling with the rest of the content, which while not a bad solution would need replicating across the rest of the site to ensure cohesion and would cause it to take up additional screen space which is better used for displaying content on smaller screens such as mobile devices. 
 While it's unlikely to be a commonly seen issue across the site, I also modified all other pages to have the same change so that taller displays will always have the footer at the bottom of the screen, rather than have it float up on screens that are longer than the content of the site. Unfortunately, this does have the side effect of pushing the footer out of view on all pages where the content is not taking up the full page, causing the user to need to scroll to get to the bottom of the white space. 
 
+## !important flag in CSS. 
+Some issues were seen with bootstraps CSS where locally configured settings were not rendering. Adding the !important flag to these lines ensured that the local CSS would overide Bootstraps CSS.  
+
 # Technology.
 
 ## Languages
