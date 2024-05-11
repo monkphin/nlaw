@@ -393,7 +393,13 @@ All fields' borders highlight as they're clicked into to show the user which fie
 <img src="docs/contactpage-mobile-bottom.png">
 </details>
 
-
+| Story Point | Story                                                                                                                                    | How                                                                                                                  |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 5           | As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like.                         | While not a core feature of the contact page, the page includes both the hero image which shows the clubs game room. |
+| 8           | As a user, I want to be able to contact the club, so that I can ask any further questions I may have.                                    | The contact page includes a form to allow visitors to contact the club.                                              |
+| 10          | As a mobile user, I want the site to accommodate the device I am on so that the site is readable and can be browsed with minimal effort. | The contact page is designed to be mobile first and is fully responsive to varying screen sizes.                     |
+| 11          | As a mobile user, I want the site to render correctly on my device so that I have a good user experience. | The contact page has been tested on multiple virtual devices to ensure it renders correctly.                    |
+| 15          | As a Club Owner, I want the users to be able to contact us, so that they may ask any questions or seek clarification.                    | Site visitors can use the contact page to reach out to the club by email.                                            |
 
 ## Response Page
 
@@ -406,6 +412,14 @@ This page exists purely to provide feedback on submitting the form, rather than 
 <img src="docs/responsepage-mobile-bottom.png">
 </details>
 
+| Story Point | Story                                                                                                                 | How                                                                                                                                                                                  |
+| ----------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 5           | As a user, I want to see images of the club and their minis, so that I can get a feel for what the club is like.      | The response page shows both the hero image, which shows the inside of the cub and a picture of some of the club's scenery allowing the visitor to see the club and its minis        |
+| 8           | As a user, I want to be able to contact the club, so that I can ask any further questions I may have.                 | While the response page doesn't directly fulfil the requirement to contact the club, it shows that the email has been sent successfully so the user knows they will be responded to. |
+| 10          | As a mobile user, I want the site to accommodate the device I am on so that the site is readable and can be browsed with minimal effort.  | Like the rest of the site, the page has been built with a mobile first design and is fully responsive. |
+| 11          | As a mobile user, I want the site to render correctly on my device so that I have a good user experience. | The page has been tested on multiple virtual devices to ensure that it renders correctly. | 
+| 15          | As a Club Owner, I want the users to be able to contact us, so that they may ask any questions or seek clarification. | Much like the previous point, the fact a response page is loaded assures the user that a response to their questions will be given.                                                  |
+
 ## 404 Page
 
 A custom 404 error page was added, to keep the user on-site in the event of them somehow trying to load a non-existing page. This is built using the stock layout to allow users to easily navigate to any part of the site, rather than just leaving them with no route back or simply sending them back to the home page.
@@ -415,6 +429,11 @@ A custom 404 error page was added, to keep the user on-site in the event of them
 <img src="docs/404page-desktop.png">
 <img src="docs/404page-mobile.png">
 </details>
+
+| Story Point | Story                                                                                                                                    | How                                                                                                    |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| 10          | As a mobile user, I want the site to accommodate the device I am on so that the site is readable and can be browsed with minimal effort. | The 404 page, like the rest of the site, has been designed to be mobile first with full responiveness. |
+| 11          | As a mobile user, I want the site to render correctly on my device so that I have a good user experience.                                | This has been tested on multiple virtual devices.                                                      |
 
 ## Future features
 
