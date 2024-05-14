@@ -717,7 +717,7 @@ Comments included that the colour choice was calming and easy on the eye and tha
 
 | Feature      | Action                                                                                                                                                                         | Expected Result                                                                                                                                                                                                                                                                                                      | Actual Result     |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Contact Form | Navigate to the Contact Page of the website, and be presented with a contact form which can be filled in and then be presented with feedback advising the email has been sent. | On the contact page there is a form which has all fields required, including rejecting anything but an email address when entering it in the email field. This then opens the response page when the submit button is clicked, assuring the user that their message has been sent and someone will be in touch soon. | Works as expected |
+| Contact Form | Navigate to the Contact Page of the website, and be presented with a contact form which can be filled in and then be presented with feedback advising the email has been sent. | On the contact page, there is a form which has all fields required, including rejecting anything but an email address when entering it in the email field. This then opens the response page when the submit button is clicked, assuring the user that their message has been sent and someone will be in touch soon. | Works as expected |
 
 17. As a Club Owner, I want visitors to know the benefits of the tabletop gaming hobby and community, so that they know that there's more to the club than just playing games and how the hobby can help benefit them personally too.
 18. As a Club Owner, I want visitors to know the club's history, so that they’re aware we are welcoming to folk who have ASD diagnosis and can help cater to their needs and requirements.
@@ -794,7 +794,7 @@ The site has been tested on several physical devices specifically:
 - iPhone 14 Pro Max
 - Samsung Galaxy S24
 
-In Addition the following browsers have all been used in testing:
+In Addition, the following browsers have all been used in testing:
 
 - Chrome
 - Safari
@@ -1008,7 +1008,7 @@ Since I chose to work in Visual Studio Code, the contents of the newly created r
 
 
 1. In VSCode, I opened the Terminal window, by visiting the 'Terminal' menu in VSCode and selecting 'New Terminal'
-2. Within this terminal window I made sure I was in the correct folder for where I wanted to store my work, if this was not correct I would have used the bash command cd to navigate to the correct folder. In this case, ~/Code, which is a folder called 'Code' in my logged-in user Home Folder.
+2. Within this terminal window, I made sure I was in the correct folder for where I wanted to store my work, if this was not correct I would have used the bash command cd to navigate to the correct folder. In this case, ~/Code, which is a folder called 'Code' in my logged-in user Home Folder.
 3. In a web browser, I navigated to the GitHub repository for the project and clicked on the green '<> Code' button, this presented me with several options for cloning. I selected the 'HTTPS' option and copied the URL in the text field.
 4. In Visual Studio Code’s terminal, I typed git clone https://github.com/monkphin/nlaw.git and pressed enter, which cloned the repo to my local machine as shown by the below output.
  
@@ -1032,7 +1032,7 @@ Since I chose to work in Visual Studio Code, the contents of the newly created r
     ```
 6. I am now able to work on the project on my local machine.
 
-I used the ability to clone locally to allow me to work on several devices over the course of the creation of the website and its readme file. Its worth noting that at one point I was editing the site on a computer provided by my employer as part of our allocated "10% Time" where we're allowed to focus on studying and personal development. Sadly I did not realise that I was not signed into my personal Guthub account, so contributions made from this device show as ciming from my work account 'movonkphin', though my name is displayed next to both this user and my personal account. 
+I used the ability to clone locally to allow me to work on several devices over the course of the creation of the website and its readme file. Its worth noting that at one point I was editing the site on a computer provided by my employer as part of our allocated "10% Time" where we're allowed to focus on studying and personal development. Sadly I did not realise that I was not signed into my personal Guthub account, so contributions made from this device show as being made by my work account 'movonkphin', though my name is displayed next to both this user and my personal account. 
 
 
 All information from this point on will be instructions for performing these operations through the CLI unless otherwise stated.
@@ -1096,7 +1096,7 @@ Some minor changes were made via the GitHub website, where I was reading copy an
 2. At the top of the document click the 'pen' icon, to take you to edit mode.
 3. Make the required changes.
 4. At the top of the page press the green 'Commit Changes' button.
-5. As needed modify the title of the commit message and/or add a description as needed - for most of my web based commits I was using descriptions, rather than editing the title as I was doing for CLI based commits, since I was not initially aware that the title would be shown as the default commit message. 
+5. As needed modify the title of the commit message and/or add a description as needed - for most of my web-based commits, I was using descriptions, rather than editing the title as I was doing for CLI-based commits since I was not initially aware that the title would be shown as the default commit message. 
 
 ## Branching
 As mentioned there may be points where you are working on a significant change which could impact the functionality of the website you are working on. In situations like this it's beneficial to create a fork. This effectively creates a separate work stream which can be edited and tested without impacting the existing codebase.
