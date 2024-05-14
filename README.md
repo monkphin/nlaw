@@ -1099,7 +1099,7 @@ Some minor changes were made via the GitHub website, where I was reading copy an
 5. As needed modify the title of the commit message and/or add a description as needed - for most of my web-based commits, I was using descriptions, rather than editing the title as I was doing for CLI-based commits since I was not initially aware that the title would be shown as the default commit message. 
 
 ## Branching
-As mentioned there may be points where you are working on a significant change which could impact the functionality of the website you are working on. In situations like this it's beneficial to create a fork. This effectively creates a separate work stream which can be edited and tested without impacting the existing codebase.
+As mentioned there may be points where you are working on a significant change which could impact the functionality of the website you are working on. In situations like this it's beneficial to create a branch. This effectively creates a separate work stream which can be edited and tested without impacting the existing codebase.
 
 
 To branch a repository please follow the below steps:
